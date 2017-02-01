@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!-- THIS IS A TEMPLATE FILE WITH SAMPLE VALUES FILLED IN. PLEASE REVIEW AND UPDATE FOR YOUR INSTALLER -->
+  <!-- Its Schema is available here public/Common/xplat/schema/CSUManifest.xsd -->
+  <Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd" CSUVersion="1.0">    <UpdateID>7.5.3.333</UpdateID>
+
+    <OwningChannel><!-- Channel ID which owns this update -->AdobeInDesignCS5.5-7.5</OwningChannel>
+<!-- One for each locale to be displayed in CS Updater-->
+  <DisplayName default="en_US">
+          <en_US>Adobe® InDesign® CS5.5 7.5.3 update</en_US>
+		  <ko_KR>Adobe® InDesign® CS5.5 7.5.3 업데이트</ko_KR>
+<zh_CN>Adobe® InDesign® CS5.5 7.5.3 更新</zh_CN>
+<zh_TW>Adobe® InDesign® CS5.5 7.5.3 更新</zh_TW>
+<da_DK>Opdatering af Adobe® InDesign® CS5.5 7.5.3</da_DK>
+<fi_FI>Adobe® InDesign® CS5.5 7.5.3 -päivitys</fi_FI>
+<ja_JP>Adobe® InDesign® CS5.5 7.5.3 日本語版アップデート</ja_JP>
+<nb_NO>Adobe® InDesign® CS5.5 7.5.3-oppdatering</nb_NO>
+<sv_SE>Adobe® InDesign® CS5.5 7.5.3 uppdatering</sv_SE>
+<fr_FR>Mise à jour Adobe® InDesign® CS5.5 7.5.3</fr_FR>
+<it_IT>Aggiornamento Adobe® InDesign® CS5.5 7.5.3</it_IT>
+<de_DE>Adobe® InDesign® CS5.5 7.5.3-Update</de_DE>
+<es_ES>Actualización de Adobe® InDesign® CS5.5 7.5.3</es_ES>
+<nl_NL>Adobe® InDesign® CS5.5 7.5.3-update</nl_NL>
+<pt_BR>Atualização do Adobe® InDesign® CS5.5 7.5.3</pt_BR>
+<cs_CZ>Aktualizace Adobe® InDesign® CS5.5 7.5.3</cs_CZ>
+<hu_HU>Adobe® InDesign® CS5.5 7.5.3 frissítés </hu_HU>
+<pl_PL>Adobe® InDesign® CS5.5 — aktualizacja 7.5.3</pl_PL>
+<ru_RU>Обновление Adobe® InDesign® CS5.5 7.5.3 </ru_RU>
+<tr_TR>Adobe® InDesign® CS5.5 7.5.3 güncellemesi</tr_TR>
+<uk_UA>Оновлення Adobe® InDesign® CS5.5 7.5.3</uk_UA>
+        </DisplayName>
+  <!-- One for each locale to be displayed in CS Updater-->
+  <Description default="en_US">
+                   <en_US>This update provides fixes in performance when working in high quality display mode.  In addition, it addresses non-meaningful errors about missing plug-ins, instead displaying a clear indication that the file is from a newer version. There are also general fixes in PDF export, text, font handling and others. 
+
+For a full list of resolved issues, please see the Adobe InDesign CS5.5 7.5.3 Release Notes at http://www.adobe.com/support/documentation/en/indesign_incopy/releasenotes.html. </en_US>
+		  <ko_KR>이 업데이트는 고품질 모드 작업에서의 성능 수정 사항을 제공합니다.  또한 파일이 더 새로운 버전에서 만들어졌다는 것을 명료하게 표시하는 대신 누락된 플러그인에 대한 의미 없는 오류를 다룹니다. PDF 내보내기, 텍스트, 폰트 처리 등에 대한 일반적인 수정 사항도 있습니다. 
+
+해결된 문제에 대한 전체 목록을 보려면, http://www.adobe.com/support/documentation/kr/indesign_incopy/releasenotes.html에 있는 Adobe InDesign CS5.5 7.5.3 릴리스 정보를 참조하십시오. 
+</ko_KR>
+<zh_CN>此更新对高品质显示模式下工作时的性能问题进行了修复。此外，还处理了有关缺少增效工具的无意义错误，改为显示明确的说明，指出文件的版本较新。也有针对 PDF 导出、文本、字体处理及其他内容的常规修复。 
+
+有关已解决问题的完整列表，请参阅 Adobe InDesign CS5.5 7.5.3 发行说明，网址为：http://www.adobe.com/support/documentation/cn/indesign_incopy/releasenotes.html。 
+</zh_CN>
+<zh_TW>此項更新提供高品質顯示模式的執行效能修正，另外亦處理了遺失外掛程式的無意義錯誤訊息，改為顯示清楚說明，指出檔案的版本較新。也有針對 PDF 轉存、文字、字體處理及其他項目的一般修正。 
+
+如需已解決問題的完整清單，請參閱 Adobe InDesign CS5.5 7.5.3 版本資訊，網址為：http://www.adobe.com/support/documentation/en/indesign_incopy/releasenotes.html。 
+</zh_TW>
+<da_DK>Denne opdatering indeholder rettelser i forbindelse med ydelse, når man arbejder i højkvalitetsvisningstilstand. Den løser desuden fejl, der ikke har nogen mening, om manglende plug-ins og viser i stedet en klar indikation af, at filen er fra en nyere version. Desuden er der generelle rettelser til PDF-eksport, tekst, skrifthåndtering og andet. 
+
+Du kan se en komplet liste over alle programrettelser under Adobe InDesign CS5.5 7.5.3 Produktbemærkninger på http://www.adobe.com/support/documentation/dk/indesign_incopy/releasenotes.html. </da_DK>
+<fi_FI>Tämä päivitys ratkaisee laadukkaassa näyttötilassa työskenneltäessä ilmenevät suorituskykyongelmat. Tämän lisäksi se korjaa puuttuviin laajennuksiin liittyvät merkityksettömät virheet ja näyttää näytössä selkeän viestin, joka kertoo, että tiedosto on peräisin uudemmasta versiosta. Se sisältää myös muun muassa PDF-tiedostojen vientiin sekä tekstin ja kirjasimien käsittelyyn liittyviä yleisiä korjauksia. 
+
+Ratkaistujen ongelmien täydellinen luettelo on Adobe InDesign CS5.5.7.5.3:n julkaisutiedoissa osoitteessa http://www.adobe.com/support/documentation/fi/indesign_incopy/releasenotes.html.
+</fi_FI>
+<ja_JP>本アップデートには、高品質表示モードにおけるパフォーマンス低下に対する対処が含まれています。また、見つからないプラグインに関する不明瞭なエラー説明を修正しました。 さらに、PDF 書き出し、テキスト、フォントの取り扱いなど、その他の一般的な修正事項も含まれています。 
+
+解決された問題の一覧については、http://www.adobe.com/support/documentation/jp/indesign_incopy/releasenotes.htmlにある「Adobe InDesign CS5.5 7.5.3リリースノート」を参照してください。 
+</ja_JP>
+<nb_NO>Med denne oppdateringen forbedres ytelsen når du jobber i høye oppløsninger. I tillegg fjerner den forvirrende feilmeldinger angående tilleggsmoduler som mangler, og viser i stedet at filen er fra en nyere versjon. Den inneholder også generelle rettinger innen PDF-eksport, tekst, skrifthåndtering og annet. 
+
+Se produktmerknadene for Adobe InDesign CS5.5 7.5.3 på http://www.adobe.com/support/documentation/no/indesign_incopy/releasenotes.html for en fullstendig liste over løste problemer. 
+</nb_NO>
+<sv_SE>Den här uppdateringen innehåller prestandakorrigeringar för arbete i visningsläge med hög kvalitet.  Den innehåller även korrigeringar av informationslösa meddelanden om saknade plugin-program, så att ett tydligt meddelande om att filen hör till en senare version visas i stället. Det finns även allmänna korrigeringar av PDF-export, text, teckensnitthantering och annat. 
+
+Om du vill se en fullständig lista över korrigeringar kan du läsa versionsinformationen för Adobe InDesign CS 5.5 7.5.3 på http://www.adobe.com/support/documentation/se/indesign_incopy/releasenotes.html. 
+</sv_SE>
+<fr_FR>Cette mise à jour fournit des correctifs en matière de performances lors de l'utilisation du mode d'affichage haute qualité. En outre, elle corrige des erreurs mineures de modules externes manquants, remplacées par une indication claire que le fichier provient d'une version plus récente. La mise à jour inclut également des correctifs généraux liés à l'exportation au format PDF, au texte, à la gestion des polices, entre autres. 
+
+Pour obtenir la liste complète des problèmes résolus, veuillez consulter les Notes de mise à jour d'Adobe InDesign CS5.5 7.5.3 à l'adresse suivante : http://www.adobe.com/support/documentation/fr/indesign_incopy/releasenotes.html. 
+</fr_FR>
+<it_IT>Questo aggiornamento fornisce correzioni per la modalità di visualizzazione ad alta qualità. Inoltre, sono stati corretti alcuni messaggi di errore poco chiari su plug-in mancanti, indicando chiaramente che il file proviene da una versione più recente. Sono stati inoltre corretti alcuni errori generici di esportazione PDF, testo, gestione dei font e altri. 
+
+Per un elenco completo dei problemi risolti, consultate le Note sulla versione di Adobe InDesign CS5.5 7.5.3 all'indirizzo http://www.adobe.com/support/documentation/it/indesign_incopy/releasenotes.html. 
+</it_IT>
+<de_DE>Dieses Update behebt Probleme mit der Leistung beim Arbeiten im Modus "Anzeige mit hoher Qualität". Außerdem werden nicht aussagekräftige Fehlermeldungen zu fehlenden Zusatzmodulen korrigiert. Jetzt wird klar angezeigt, dass die Datei aus einer neueren Version stammt. Darüber hinaus wurden Fehler u. a. in den Bereichen PDF-Export sowie Text- und Schriftbearbeitung behoben. 
+
+Eine komplette Liste der behobenen Probleme finden Sie im Dokument "Versionshinweise zu Adobe InDesign CS5.5 7.5.3" unter http://www.adobe.com/support/documentation/de/indesign_incopy/releasenotes.html. 
+</de_DE>
+<es_ES>Esta actualización incluye correcciones en el rendimiento de la aplicación al trabajar en el modo de visualización de alta calidad. Además, se han solucionado algunos errores de menor gravedad, como plugins no disponibles (en lugar de indicar claramente que el archivo pertenece a una versión más reciente). También se han realizado correcciones generales en la exportación a PDF, opciones de texto, gestión de fuentes, etc. 
+
+Si desea ver una lista de todos los problemas solucionados, consulte las notas sobre la versión CS5.5 7.5.3 en http://www.adobe.com/support/documentation/es/indesign_incopy/releasenotes.html. 
+</es_ES>
+<nl_NL>Deze update bevat oplossingen voor de prestaties tijdens het werken in de weergavemodus met hoge kwaliteit. Tevens worden overbodige foutmeldingen met betrekking tot ontbrekende plug-ins niet meer weergegeven, in plaats daarvan wordt een duidelijke aanwijzing gegeven dat het bestand van een nieuwere versie komt. De update bevat ook algemene oplossingen voor het exporteren van PDF-bestanden, tekst, lettertypeverwerking enz. 
+
+Ga voor de volledige lijst met opgeloste problemen naar de opmerkingen bij de release van Adobe InDesign CS5.5 7.5.3 op http://www.adobe.com/support/documentation/nl/indesign_incopy/releasenotes.html. 
+</nl_NL>
+<pt_BR>Esta atualização fornece correções relacionadas a desempenho quando se trabalha em modo de exibição de alta qualidade. Além disso, soluciona erros não-significativos de plug-ins ausentes; agora, há uma indicação clara de que o arquivo é proveniente de uma versão mais recente. Além disso, há outras correções gerais em relação a exportações de PDF, textos e tratamentos de fontes, entre outras. 
+
+Para consultar a lista completa dos problemas corrigidos, consulte as Notas da Versão do Adobe InDesign CS5.5 7.5.3: http://www.adobe.com/support/documentation/br/indesign_incopy/releasenotes.html. 
+</pt_BR>
+<cs_CZ>Tato aktualizace obsahuje opravy chyb výkonu při práci v režimu zobrazení vysoké kvality.  Dále řeší méně významné chyby scházejících zásuvných modulů, namísto nichž se zobrazí informace o tom, že soubor pochází z novější verze. Součástí jsou také obecné opravy v oblasti exportu PDF, práce s textem, problémy písem a další. 
+
+Kompletní seznam vyřešených chyb najdete v dokumentu Adobe InDesign CS5.5 7.5.3 – Poznámky k verzi na adrese http://www.adobe.com/support/documentation/cz/indesign_incopy/releasenotes.html. 
+</cs_CZ>
+<hu_HU>A frissítés a kiváló minőségű megjelenítési mód teljesítményét növelő javításokat tartalmaz.  Emellett megszűntek a hiányzó bővítményekről szóló, jelentéstartalom nélküli hibák, és helyettük a rendszer pontosan jelzi, hogy a fájl újabb verzójú szoftverből származik. Általános javítások történtek a PDF-exportálásban, a szövegek és betűkészletek kezelésében stb. 
+
+A kijavított hibák teljes listáját az Adobe InDesign CS5.5 7.5.3 kibocsátási megjegyzései tartalmazzák: http://www.adobe.com/support/documentation/hu/indesign_incopy/releasenotes.html 
+</hu_HU>
+<pl_PL>Ta aktualizacja zawiera poprawki dotyczące wydajności podczas pracy w trybie wyświetlania wysokiej jakości. Dodatkowo zawiera poprawki mniej istotnych błędów dotyczących brakujących wtyczek — wyświetlany jest jasno sprecyzowany komunikat o tym, że plik pochodzi z nowszej wersji aplikacji. Aktualizacja zawiera także poprawki związane z eksportem do formatu PDF oraz obsługą tekstu, czcionek i innych elementów. 
+
+Pełną listę rozwiązanych problemów można znaleźć w informacjach o wydaniu aktualizacji 7.5.3 dla programu Adobe InDesign CS5.5 dostępnych pod adresem: http://www.adobe.com/support/documentation/pl/indesign_incopy/releasenotes.html. 
+</pl_PL>
+<ru_RU>В данное обновление включены важные исправления, связанные с производительностью при работе в режиме отображения высокого качества.  Кроме того, в нем исправлены незначительные ошибки, связанные с отсутствующими внешними модулями и приводящие к отображению информации о новой версии файла. Также в обновление включены общие исправления экспорта в PDF, обработки текста и шрифтов и пр. 
+
+Полный список решенных проблем см. в документе Adobe InDesign CS5.5 7.5.3 — Заметки о выпуске на странице http://www.adobe.com/support/documentation/ru/indesign_incopy/releasenotes.html. 
+</ru_RU>
+<tr_TR>Bu güncelleme yüksek kaliteli görüntüleme modunda çalışırken performans iyileştirmeleri sunmaktadır. Ayrıca, anlamsız eksik eklenti hatalarını ele alır ve dosyanın aslında daha yeni bir sürüme ait olduğunu belirten bir uyarı görüntüler. PDF dışa aktarma, metin, font işleme ve daha pek çok konudaki genel sorunlara da değinir. 
+
+Çözümlenen sorunların tam listesi için http://www.adobe.com/support/documentation/tr/indesign_incopy/releasenotes.html adresindeki Adobe InDesign CS5.5 7.5.3 Sürüm Notlarına göz atın.</tr_TR>
+<uk_UA>У цьому оновленні вирішено проблеми, пов'язані зі зниженням продуктивності під час роботи в режимі високоякісного відображення. Також виправлено незначні помилки, що стосуються відсутності зовнішніх модулів: наразі відображається чітке недвозначне повідомлення про те, що файл створено у більш новій версії програми. До того ж, вирішено загальні проблеми з експортом PDF, текстом, обробкою шрифтів тощо. 
+
+Повний перелік вирішених проблем можна знайти в примітках до випуску Adobe InDesign CS5.5 7.5.3 за адресою http://www.adobe.com/support/documentation/ua/indesign_incopy/releasenotes.html. 
+</uk_UA>
+        </Description>
+  <AffectedChannels>
+    <!--Channel IDs which could get affected by this update.-->
+    <ChannelID>AdobeInDesignCS5.5-7.5</ChannelID>
+  </AffectedChannels>
+  <InstallFiles>
+    <File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+      <Type>2</Type>
+      <ExecutableName>InDesignCS5.5-AdobeUpdate/AdobePatchInstaller.app</ExecutableName>
+      <Size>29436410</Size>
+    </File>
+  </InstallFiles>
+  <NeedsReboot>false</NeedsReboot>
+</Manifest>

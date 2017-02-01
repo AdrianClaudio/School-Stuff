@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codehinting_structure name="Drupal" subroot="$(SITEROOT)/" version="1.0" default="default">
+	<structure_entries>
+		<structure_entry type="folder" name="[SUBROOT]profiles" extensions=".inc.profile"  scan="on" recursive="recursive" filter="FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[SUBROOT]sites" extensions=".php"  scan="on" recursive="recursive" filter="FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[SUBROOT]modules" extensions=".inc"  scan="on" recursive="recursive" filter="FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[SUBROOT]includes" extensions=".inc"  scan="on" filter="FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[CONFIG]CodeHints/CMS/Drupal/"  scan="on"></structure_entry>
+	</structure_entries>
+</codehinting_structure>

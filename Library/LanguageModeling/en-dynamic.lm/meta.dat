@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptationVersion</key>
+	<string>2.0</string>
+	<key>creationTime</key>
+	<real>493583315.68648201</real>
+	<key>lastDecay</key>
+	<real>507669083.39635998</real>
+	<key>lastFlushTimeKey</key>
+	<real>507669083.39827001</real>
+	<key>lastOfflineAdaptationTime1</key>
+	<real>0.0</real>
+	<key>lastOfflineAdaptationTime2</key>
+	<real>0.0</real>
+	<key>wordsSinceLastDecay</key>
+	<integer>0</integer>
+</dict>
+</plist>

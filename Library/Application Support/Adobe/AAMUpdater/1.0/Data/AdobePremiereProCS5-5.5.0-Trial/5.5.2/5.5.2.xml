@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!-- THIS IS A TEMPLATE FILE WITH SAMPLE VALUES FILLED IN. PLEASE REVIEW AND UPDATE FOR YOUR INSTALLER -->
+  <!-- Its Schema is available here public/Common/xplat/schema/CSUManifest.xsd -->
+  <Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd" CSUVersion="1.0">    <UpdateID>5.5.2</UpdateID>
+
+    <OwningChannel><!-- Channel ID which owns this update -->AdobePremiereProCS5-5.5.0-Trial</OwningChannel>
+<!-- One for each locale to be displayed in CS Updater-->
+  <DisplayName default="en_US">
+          <en_US>Adobe Premiere Pro CS5.5 5.5.2</en_US>
+        </DisplayName>
+  <!-- One for each locale to be displayed in CS Updater-->
+            <Description default="en_US">
+         <en_US>The Adobe Premiere Pro CS5 5.5.2 update fixes issues which prevent the proper display of closed captions and the timecode effect, fixes the color picker on Mac OS X 10.7 (Lion) and an issue where the program monitor would go black when using trim preview and a 3rd party I/O card plugin. This update applies to electronic installations of Adobe Premiere Pro CS5.5 only.</en_US>
+		 <fr_FR>La mise à jour Adobe Premiere Pro CS5 5.5.2 corrige des problèmes qui empêchaient l’affichage correct des sous-titrages et de l’effet Code temporel, corrige le Sélecteur de couleurs sur Mac OS X 10.7 (Lion) et corrige un problème selon lequel le moniteur du programme devenait noir en cas d’utilisation de la fonction de prévisualisation de raccord et d’un module externe de carte d’E/S tiers. Cette mise à jour s’applique uniquement aux installations électroniques d’Adobe Premiere Pro CS5.5.</fr_FR>
+		 <fr_CA>La mise à jour Adobe Premiere Pro CS5 5.5.2 corrige des problèmes qui empêchaient l’affichage correct des sous-titrages et de l’effet Code temporel, corrige le Sélecteur de couleurs sur Mac OS X 10.7 (Lion) et corrige un problème selon lequel le moniteur du programme devenait noir en cas d’utilisation de la fonction de prévisualisation de raccord et d’un module externe de carte d’E/S tiers. Cette mise à jour s’applique uniquement aux installations électroniques d’Adobe Premiere Pro CS5.5.</fr_CA>
+		 <de_DE>Das Update 5.5.2 für Adobe Premiere Pro CS5 behebt Probleme, die die korrekte Anzeige von Untertiteln und des Timecode-Effekts verhindern, repariert die Farbauswahl unter Mac OS X 10.7 (Lion) und behebt ein Problem, das den Programmmonitor schwarz werden ließ, wenn die Zuschneidevorschau gemeinsam mit einem Drittanbieter-E/A-Karten-Plug-In verwendet wurde. Dieses Update gilt nur für elektronische Installationen von Adobe Premiere Pro CS5.5.</de_DE>
+		 <it_IT>L'aggiornamento Adobe Premiere Pro CS5 5.5.2 corregge alcuni problemi che impediscono la corretta visualizzazione di sottotitoli codificati e l'effetto Codice di tempo, corregge il selettore colore su Mac OS X 10.7 (Lion) e un problema che provocava l'oscuramento del monitor Programma durante l'utilizzo dell'anteprima di taglio e di un plug-in per scheda I/O di terze parti. Questo aggiornamento è applicabile solo alle installazioni elettroniche di Adobe Premiere Pro CS5.5.</it_IT>
+		 <es_ES>La actualización de Adobe Premiere Pro CS5 5.5.2 soluciona problemas que impedían visualizar correctamente los títulos cerrados y el efecto Código de tiempo, repara el Selector de color en Mac OS X 10.7 (Lion) y soluciona un problema en el que el monitor del programa se volvía negro al utilizar la previsualización de recorte con un plugin de tarjeta E/S de terceros. Esta actualización solo se aplica a las instalaciones electrónicas de Adobe Premiere Pro CS5.5.</es_ES>
+		 <es_MX>La actualización de Adobe Premiere Pro CS5 5.5.2 soluciona problemas que impedían visualizar correctamente los títulos cerrados y el efecto Código de tiempo, repara el Selector de color en Mac OS X 10.7 (Lion) y soluciona un problema en el que el monitor del programa se volvía negro al utilizar la previsualización de recorte con un plugin de tarjeta E/S de terceros. Esta actualización solo se aplica a las instalaciones electrónicas de Adobe Premiere Pro CS5.5.</es_MX>
+		 <ja_JP>Adobe Premiere Pro CS5 5.5.2 アップデートは、クローズドキャプションとタイムコードエフェクトが適切に表示されない問題を修正し、Mac OS X 10.7（Lion）でのカラーピッカー、およびトリミングのプレビューとサードパーティの I/O カードプラグインを使用するとプログラムモニターが黒くなる問題を修正します。このアップデートは Adobe Premiere Pro CS5.5 の電子インストールにのみ適用されます。</ja_JP>
+		 <ko_KR>Adobe Premiere Pro CS5 5.5.2 업데이트에서는 캡션 처리 및 시간 코드 효과가 제대로 표시되지 않는 문제와 Mac OS X 10.7(Lion)의 색상 선택기 문제가 해결되었으며, 트리밍 미리 보기와 타사 I/O 카드 플러그인을 사용할 때 프로그램 모니터가 검은색으로 변하는 문제도 해결되었습니다.</ko_KR>
+        </Description><AffectedChannels>
+    <!--Channel IDs which could get affected by this update.-->
+    <ChannelID>AdobePremiereProCS5-5.5.0-Trial</ChannelID>
+  </AffectedChannels>
+  <InstallFiles>
+    <File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+      <Type>2</Type>
+      <ExecutableName>AdobePatchInstaller.app</ExecutableName>
+      <Size>90749540</Size>
+    </File>
+  </InstallFiles>
+  <NeedsReboot>false</NeedsReboot>
+</Manifest>

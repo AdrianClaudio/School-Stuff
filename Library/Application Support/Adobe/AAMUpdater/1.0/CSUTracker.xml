@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Updates CSUVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUTracker.xsd">
+<UpdateRef Combo="0" ReFetch="0" RefID="FlashPro11.5/11.5.1" Viewed="0" WaitingForNewChannel="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>FlashPro11.5</ChannelID>
+<LEID>FlashPro-CS5.5-Mac-GM</LEID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>0</TargetBuildType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+<cs_CZ>Aktualizace Adobe Flash Professional CS5.5 11.5.1</cs_CZ>
+<da_DK>Adobe Flash Professional CS5.5 Update 11.5.1</da_DK>
+<de_DE>Adobe Flash Professional CS5.5 Update 11.5.1</de_DE>
+<en_US>Adobe Flash Professional CS5.5 Update 11.5.1</en_US>
+<en_GB>Adobe Flash Professional CS5.5 Update 11.5.1</en_GB>
+<en_XM>Adobe Flash Professional CS5.5 Update 11.5.1</en_XM>
+<es_ES>Actualización 11.5.1 de Adobe Flash Professional CS5.5</es_ES>
+<es_MX>Actualización 11.5.1 de Adobe Flash Professional CS5.5</es_MX>
+<fi_FI>Adobe Flash Professional CS5.5 Update 11.5.1</fi_FI>
+<fr_FR>Mise à jour 11.5.1 Adobe Flash Professional CS5.5</fr_FR>
+<fr_CA>Mise à jour 11.5.1 Adobe Flash Professional CS5.5</fr_CA>
+<fr_XM>Mise à jour 11.5.1 Adobe Flash Professional CS5.5</fr_XM>
+<hu_HU>Adobe Flash Professional CS5.5 Update 11.5.1</hu_HU>
+<it_IT>Adobe Flash Professional CS5.5 - Aggiornamento 11.5.1</it_IT>
+<ja_JP>Adobe Flash Professional CS5.5 11.5.1 アップデート</ja_JP>
+<ko_KR>Adobe Flash Professional CS5.5 업데이트 11.5.1</ko_KR>
+<nb_NO>Adobe Flash Professional CS5.5 Update 11.5.1</nb_NO>
+<nl_NL>Update 11.5.1 voor Adobe Flash Professional CS5.5</nl_NL>
+<pl_PL>Aktualizacja Adobe Flash Professional CS5.5 11.5.1</pl_PL>
+<pt_BR>Adobe Flash Professional CS5.5 – Atualização 11.5.1</pt_BR>
+<ro_RO>Adobe Flash Professional CS5.5 Update 11.5.1</ro_RO>
+<ru_RU>Обновление Adobe Flash Professional CS5.5 11.5.1</ru_RU>
+<sv_SE>Adobe Flash Professional CS5.5-uppdatering 11.5.1</sv_SE>
+<tr_TR>Adobe Flash Professional CS5.5 Güncellemesi 11.5.1</tr_TR>
+<uk_UA>Adobe Flash Professional CS5.5 Update 11.5.1</uk_UA>
+<zh_CN>Adobe Flash Professional CS5.5 更新 11.5.1</zh_CN>
+<zh_TW>Adobe Flash Professional CS5.5 更新 11.5.1</zh_TW>
+</DisplayName>
+<Description default="en_US">
+<cs_CZ>Tato aktualizace obsahuje opravy pro otevírání a ukládání některých souborů aplikace Flash Professional (FLA) ve verzi CS5.5 a další opravy chyb. Důrazně doporučujeme tuto opravu nainstalovat.</cs_CZ>
+<da_DK>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</da_DK>
+<de_DE>Dieses Update behebt Probleme beim Öffnen und Speichern bestimmter Flash Professional-Dateien (FLA-Dateien) in CS5.5 und enthält weitere Bug Fixes. Es wird dringend empfohlen, dieses Update zu installieren.</de_DE>
+<en_US>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</en_US>
+<en_GB>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</en_GB>
+<en_XM>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</en_XM>
+<es_ES>Esta actualización contiene soluciones para abrir y cerrar algunos archivos de Flash Professional (FLA) en CS5.5, así como otras mejoras para errores detectados. Se recomienda encarecidamente instalar esta actualización.</es_ES>
+<es_MX>Esta actualización contiene soluciones para abrir y cerrar algunos archivos de Flash Professional (FLA) en CS5.5, así como otras mejoras para errores detectados. Se recomienda encarecidamente instalar esta actualización.</es_MX>
+<fi_FI>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</fi_FI>
+<fr_FR>Cette mise à jour contient des solutions aux problèmes d’ouverture et d’enregistrement de certains fichiers FLA (Flash Professional) dans CS5.5, ainsi que d’autres correctifs. Il est fortement recommandé d’installer cette mise à jour.</fr_FR>
+<fr_CA>Cette mise à jour contient des solutions aux problèmes d’ouverture et d’enregistrement de certains fichiers FLA (Flash Professional) dans CS5.5, ainsi que d’autres correctifs. Il est fortement recommandé d’installer cette mise à jour.</fr_CA>
+<fr_XM>Cette mise à jour contient des solutions aux problèmes d’ouverture et d’enregistrement de certains fichiers FLA (Flash Professional) dans CS5.5, ainsi que d’autres correctifs. Il est fortement recommandé d’installer cette mise à jour.</fr_XM>
+<hu_HU>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</hu_HU>
+<it_IT>Questo aggiornamento contiene correzioni relative all&apos;apertura e al salvataggio di alcuni file di Flash Professional (FLA) in CS5.5, oltre ad altre correzioni di bug. Consigliamo vivamente di installare l&apos;aggiornamento.</it_IT>
+<ja_JP>このアップデートには、一部の Flash Professional ファイル (FLA) を CS5.5 で開き保存するための修正と、その他のバグ修正が含まれています。このアップデートをインストールすることを強くお勧めします。</ja_JP>
+<ko_KR>이 업데이트에서는 일부 Flash Professional 파일(FLA)을 CS5.5에서 열고 저장하는 문제와 기타 버그가 수정되었습니다. 이 업데이트를 설치하는 것이 좋습니다.</ko_KR>
+<nb_NO>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</nb_NO>
+<nl_NL>Deze update bevat oplossingen voor bugs bij het openen en opslaan van bepaalde Flash Professional-bestanden (FLA&apos;s) in CS5.5, en andere oplossingen. Het is sterk aan te raden deze update te installeren.</nl_NL>
+<pl_PL>Ta aktualizacja zawiera poprawki dotyczące otwierania i zapisywania niektórych plików programu Flash Professional (FLA) w pakiecie CS5.5 oraz usuwa pewne inne błędy. Zainstalowanie tej poprawki jest stanowczo zalecane.</pl_PL>
+<pt_BR>Esta atualização contém correções para abertura e salvamento de alguns arquivos do Flash Professional (FLAs) no CS5.5, além da correção de outros bugs. É altamente recomendável instalar esta atualização.</pt_BR>
+<ro_RO>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</ro_RO>
+<ru_RU>В этом обновлении содержатся исправления ошибок, возникающих при открытии и сохранении некоторых файлов Flash Professional (FLA) в CS5.5, и других ошибок. Настоятельно рекомендуется установить это обновление.</ru_RU>
+<sv_SE>Den här uppdateringen innehåller korrigeringar för att öppna och spara vissa Flash Professional-filer (FLA-filer) i CS5.5 samt andra felkorrigeringar. Vi rekommenderar att du installerar denna uppdatering.</sv_SE>
+<tr_TR>Bu güncelleme CS5.5&apos;te bazı Flash Professional dosyalarını (FLA&apos;lar) açmaya ve kaydetmeye yönelik düzeltmeleri ve diğer hata düzeltmelerini içerir. Bu güncellemeyi yüklemeniz kesinlikle önerilir.</tr_TR>
+<uk_UA>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</uk_UA>
+<zh_CN>此更新包含用于在 CS5.5 中打开和存储某些 Flash Professional 文件 (FLA) 的修正以及其他错误修正。强烈建议您安装此更新。</zh_CN>
+<zh_TW>這個更新包含適用於在 CS5.5 中開啟和儲存一些 Flash Professional 檔案 (FLA) 的修正及其他錯誤修正。強烈建議您安裝這個更新。</zh_TW>
+</Description>
+<AffectedChannels>
+    
+    <ChannelID>FlashPro11.5</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+<Type>2</Type>
+<ExecutableName>Adobe Flash Professional CS5.5 Update/AdobePatchInstaller.app</ExecutableName>
+<Size>17222129</Size>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+<UpdateRef Combo="0" ReFetch="0" RefID="AdobeMediaEncoderCS5.5-5.5/5.5.1" Viewed="0" WaitingForNewChannel="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>AdobeMediaEncoderCS5.5-5.5</ChannelID>
+<LEID>AdobeMediaEncoder-CS5.5-Mac-GM</LEID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>0</TargetBuildType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+          <en_US>Adobe Media Encoder CS5.5 5.5.1</en_US>
+<ko_KR>Adobe Media Encoder CS5.5 5.5.1</ko_KR>
+<zh_TW>Adobe Media Encoder CS5.5 5.5.1</zh_TW>
+<zh_CN>Adobe Media Encoder CS5.5 5.5.1</zh_CN>
+<de_DE>Adobe Media Encoder CS5.5 5.5.1</de_DE>
+<es_ES>Adobe Media Encoder CS5.5 5.5.1</es_ES>
+<fr_FR>Adobe Media Encoder CS5.5 5.5.1</fr_FR>
+<it_IT>Adobe Media Encoder CS5.5 5.5.1</it_IT>
+<nl_NL>Adobe Media Encoder CS5.5 5.5.1</nl_NL>
+<sv_SE>Adobe Media Encoder CS5.5 5.5.1</sv_SE>
+<cs_CZ>Adobe Media Encoder CS5.5 5.5.1</cs_CZ>
+<ja_JP>Adobe Media Encoder CS5.5 5.5.1</ja_JP>
+<pl_PL>Adobe Media Encoder CS5.5 5.5.1</pl_PL>
+<ru_RU>Adobe Media Encoder CS5.5 5.5.1</ru_RU>
+<pl_PL>Adobe Media Encoder CS5.5 5.5.1</pl_PL>
+<pt_BR>Adobe Media Encoder CS5.5 5.5.1</pt_BR>
+<tr_TR>Adobe Media Encoder CS5.5 5.5.1</tr_TR>
+</DisplayName>
+<Description default="en_US">
+          <en_US>Addresses watched folder processing problems in networked environments and a number of other issues.</en_US>
+<ko_KR>네트워크 환경에서 발생하는 감시 폴더 처리 문제와 기타 여러 문제를 해결합니다.</ko_KR>
+<zh_TW>解決監看資料夾在網路環境中的處理問題及其他一些問題。</zh_TW>
+<zh_CN>解决联网环境中的监视文件夹处理问题，以及一系列其他问题。</zh_CN>
+<de_DE>Behebt Probleme im Zusammenhang mit der Verarbeitung beobachteter Ordner in Netzwerkumgebungen sowie eine Reihe weiterer Probleme.</de_DE>
+<es_ES>Aborda los problemas de procesamiento de la carpeta inspeccionada en entornos de red y otros problemas.</es_ES>
+<fr_FR>Résout les problèmes de traitement des dossiers contrôlés dans les environnements en réseau, ainsi que certains autres problèmes.</fr_FR>
+<it_IT>Risolve problemi legati alle cartelle esaminate in ambienti di rete e alcuni altri problemi.</it_IT>
+<nl_NL>Behandelt problemen met de verwerking van gecontroleerde mappen in netwerkomgevingen en een aantal andere problemen.</nl_NL>
+<sv_SE>Korrigerar bearbetningsproblem för bevakade mappar i nätverksmiljöer och en del andra problem.</sv_SE>
+<cs_CZ>Řeší problémy se zpracováním sledovaných složek v síťových prostředích a řadu dalších problémů.</cs_CZ>
+<ja_JP>ネットワーク環境における監視フォルダーの処理に関する問題およびその他多数の問題に対応。</ja_JP>
+<pl_PL>Rozwiązuje problem dotyczący przetwarzania folderów obserwowanych w środowiskach sieciowych oraz kilka innych problemów.</pl_PL>
+<ru_RU>Устраняет проблемы, связанные с обработкой папок отслеживания в сетевых средах, и некоторые другие проблемы.</ru_RU>
+<pt_BR>Trata de problemas de processamento da pasta monitorada em ambientes de rede e de diversos outros problemas.</pt_BR>
+<tr_TR>Ağa bağlı ortamlarda izleme klasöründeki işleme sorunlarını ve daha pek çok sorunu düzeltir.</tr_TR>
+</Description>
+<AffectedChannels>
+    
+    <ChannelID>AdobeMediaEncoderCS5.5-5.5</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+<Type>2</Type>
+<ExecutableName>AdobePatchInstaller.app</ExecutableName>
+<Size>82967175</Size>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+<UpdateRef Combo="0" ReFetch="0" RefID="AdobePremiereProCS5-5.5.0-Trial/5.5.2" Viewed="0" WaitingForNewChannel="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>AdobePremiereProCS5-5.5.0-Trial</ChannelID>
+<LEID>PremiereProApp-CS5.5-Mac-GM</LEID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>0</TargetBuildType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+          <en_US>Adobe Premiere Pro CS5.5 5.5.2</en_US>
+</DisplayName>
+<Description default="en_US">
+         <en_US>The Adobe Premiere Pro CS5 5.5.2 update fixes issues which prevent the proper display of closed captions and the timecode effect, fixes the color picker on Mac OS X 10.7 (Lion) and an issue where the program monitor would go black when using trim preview and a 3rd party I/O card plugin. This update applies to electronic installations of Adobe Premiere Pro CS5.5 only.</en_US>
+<fr_FR>La mise à jour Adobe Premiere Pro CS5 5.5.2 corrige des problèmes qui empêchaient l’affichage correct des sous-titrages et de l’effet Code temporel, corrige le Sélecteur de couleurs sur Mac OS X 10.7 (Lion) et corrige un problème selon lequel le moniteur du programme devenait noir en cas d’utilisation de la fonction de prévisualisation de raccord et d’un module externe de carte d’E/S tiers. Cette mise à jour s’applique uniquement aux installations électroniques d’Adobe Premiere Pro CS5.5.</fr_FR>
+<fr_CA>La mise à jour Adobe Premiere Pro CS5 5.5.2 corrige des problèmes qui empêchaient l’affichage correct des sous-titrages et de l’effet Code temporel, corrige le Sélecteur de couleurs sur Mac OS X 10.7 (Lion) et corrige un problème selon lequel le moniteur du programme devenait noir en cas d’utilisation de la fonction de prévisualisation de raccord et d’un module externe de carte d’E/S tiers. Cette mise à jour s’applique uniquement aux installations électroniques d’Adobe Premiere Pro CS5.5.</fr_CA>
+<de_DE>Das Update 5.5.2 für Adobe Premiere Pro CS5 behebt Probleme, die die korrekte Anzeige von Untertiteln und des Timecode-Effekts verhindern, repariert die Farbauswahl unter Mac OS X 10.7 (Lion) und behebt ein Problem, das den Programmmonitor schwarz werden ließ, wenn die Zuschneidevorschau gemeinsam mit einem Drittanbieter-E/A-Karten-Plug-In verwendet wurde. Dieses Update gilt nur für elektronische Installationen von Adobe Premiere Pro CS5.5.</de_DE>
+<it_IT>L&apos;aggiornamento Adobe Premiere Pro CS5 5.5.2 corregge alcuni problemi che impediscono la corretta visualizzazione di sottotitoli codificati e l&apos;effetto Codice di tempo, corregge il selettore colore su Mac OS X 10.7 (Lion) e un problema che provocava l&apos;oscuramento del monitor Programma durante l&apos;utilizzo dell&apos;anteprima di taglio e di un plug-in per scheda I/O di terze parti. Questo aggiornamento è applicabile solo alle installazioni elettroniche di Adobe Premiere Pro CS5.5.</it_IT>
+<es_ES>La actualización de Adobe Premiere Pro CS5 5.5.2 soluciona problemas que impedían visualizar correctamente los títulos cerrados y el efecto Código de tiempo, repara el Selector de color en Mac OS X 10.7 (Lion) y soluciona un problema en el que el monitor del programa se volvía negro al utilizar la previsualización de recorte con un plugin de tarjeta E/S de terceros. Esta actualización solo se aplica a las instalaciones electrónicas de Adobe Premiere Pro CS5.5.</es_ES>
+<es_MX>La actualización de Adobe Premiere Pro CS5 5.5.2 soluciona problemas que impedían visualizar correctamente los títulos cerrados y el efecto Código de tiempo, repara el Selector de color en Mac OS X 10.7 (Lion) y soluciona un problema en el que el monitor del programa se volvía negro al utilizar la previsualización de recorte con un plugin de tarjeta E/S de terceros. Esta actualización solo se aplica a las instalaciones electrónicas de Adobe Premiere Pro CS5.5.</es_MX>
+<ja_JP>Adobe Premiere Pro CS5 5.5.2 アップデートは、クローズドキャプションとタイムコードエフェクトが適切に表示されない問題を修正し、Mac OS X 10.7（Lion）でのカラーピッカー、およびトリミングのプレビューとサードパーティの I/O カードプラグインを使用するとプログラムモニターが黒くなる問題を修正します。このアップデートは Adobe Premiere Pro CS5.5 の電子インストールにのみ適用されます。</ja_JP>
+<ko_KR>Adobe Premiere Pro CS5 5.5.2 업데이트에서는 캡션 처리 및 시간 코드 효과가 제대로 표시되지 않는 문제와 Mac OS X 10.7(Lion)의 색상 선택기 문제가 해결되었으며, 트리밍 미리 보기와 타사 I/O 카드 플러그인을 사용할 때 프로그램 모니터가 검은색으로 변하는 문제도 해결되었습니다.</ko_KR>
+</Description>
+<AffectedChannels>
+    
+    <ChannelID>AdobePremiereProCS5-5.5.0-Trial</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+<Type>2</Type>
+<ExecutableName>AdobePatchInstaller.app</ExecutableName>
+<Size>90749540</Size>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+<UpdateRef Combo="0" ReFetch="0" RefID="AdobeExtensionManagerCS5.5-5.5/5.5.3" Viewed="0" WaitingForNewChannel="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>AdobeExtensionManagerCS5.5-5.5</ChannelID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>0</TargetBuildType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+                    <en_US>Adobe Extension Manager CS5.5 Update</en_US>
+<cs_CZ>Aktualizace správce rozšíření Adobe Extension Manager CS5.5</cs_CZ>
+<da_DK>Adobe Extension Manager CS5.5 Opdatering</da_DK>
+<de_DE>Update für Adobe Extension Manager CS5.5</de_DE>
+<es_ES>Actualización de Adobe Extension Manager CS5.5</es_ES>
+<fi_FI>Adobe Extension Manager CS5.5 -päivitys</fi_FI>
+<fr_FR>Mise à jour d’Adobe Extension Manager CS5.5</fr_FR>
+<hu_HU>Adobe Extension Manager CS5.5 – frissítés</hu_HU>
+<it_IT>Aggiornamento di Adobe Extension Manager CS5.5</it_IT>
+<ja_JP>Adobe Extension Manager CS5.5 アップデート</ja_JP>
+<ko_KR>Adobe Extension Manager CS5.5 업데이트</ko_KR>
+<nb_NO>Adobe Extension Manager CS5.5-oppdatering</nb_NO>
+<nl_NL>Adobe Extension Manager CS5.5-update</nl_NL>
+<pl_PL>Aktualizacja programu Adobe Extension Manager CS5.5</pl_PL>
+<pt_BR>Atualização do Adobe Extension Manager CS5.5</pt_BR>
+<ro_RO>Actualizare Adobe Extension Manager CS5.5</ro_RO>
+<ru_RU>Обновление Adobe Extension Manager CS5.5</ru_RU>
+<sv_SE>Adobe Extension Manager CS5.5-uppdatering</sv_SE>
+<tr_TR>Adobe Extension Manager CS5.5 Güncelleştirmesi</tr_TR>
+<uk_UA>Оновлення Adobe Extension Manager CS5.5</uk_UA>
+<zh_CN>Adobe Extension Manager CS5.5 更新</zh_CN>
+<zh_TW>Adobe Extension Manager CS5.5 更新</zh_TW>
+</DisplayName>
+<Description default="en_US">
+                    <en_US>This update addresses a critical issue in Extension Manager that prevents InDesign extensions from being imported in OS X Mountain Lion (10.8).</en_US>
+<cs_CZ>Tato aktualizace opravuje závažnou chybu v aplikaci Extension Manager, která v systému OS X Mountain Lion (10.8) brání v importu rozšíření aplikace InDesign.</cs_CZ>
+<da_DK>Denne opdatering retter et kritisk problem i Extension Manager, som forhindrer InDesign-udvidelser i at blive importeret i OS X Mountain Lion (10.8).</da_DK>
+<de_DE>Dieses Update behebt das kritische Problem in Extension Manager, das unter OS X Mountain Lion (10.8) ein Importieren von InDesign-Erweiterungen verhindert.</de_DE>
+<es_ES>Esta actualización corrige un problema grave en Extension Manager que evita que las extensiones de InDesign se importen a OS X Mountain Lion (10.8).</es_ES>
+<fi_FI>Tämä päivitys ratkaisee Extension Managerissa ilmenevän kriittisen ongelman, joka estää InDesign-laajennusten tuonnin OS X Mountain Lioniin (10.8).</fi_FI>
+<fr_FR>Cette mise à jour est destinée à régler un problème majeur dans Extension Manager qui empêche l&apos;importation des extensions InDesign dans OS X Mountain Lion (10.8).</fr_FR>
+<hu_HU>Ez a frissítés egy kritikus hibát javít ki az Extension Manager programban, amely megakadályozza az InDesign-kiterjesztések importálását OS X Mountain Lion (10.8) rendszeren.</hu_HU>
+<it_IT>Questo aggiornamento risolve un problema critico di Extension Manager che impedisce l&apos;importazione delle estensioni di InDesign in OS X Mountain Lion (10.8).</it_IT>
+<ja_JP>このアップデートは、InDesign の拡張機能が OS X Mountain Lion (10.8) に読み込まれるという Extension Manager の重要な問題に対応します。</ja_JP>
+<ko_KR>이 업데이트는 Extension Manager에서 OS X Mountain Lion(10.8)으로 InDesign 확장을 가져오지 못하는 중요한 문제를 다룹니다.</ko_KR>
+<nb_NO>Denne oppdateringen retter en kritisk feil i Extension Manager som hindrer InDesign-tilleggsmoduler i å bli importert i OS X Mountain Lion (10.8).</nb_NO>
+<nl_NL>Deze update verhelpt een ernstig probleem in Extension Manager waardoor InDesign-extensies niet kunnen worden geïmporteerd in OS X Mountain Lion (10.8).</nl_NL>
+<pl_PL>Ta aktualizacja rozwiązuje problem o znaczeniu krytycznym w programie Extension Manager, uniemożliwiający importowanie rozszerzeń programu InDesign w systemie OS X Mountain Lion (10.8).</pl_PL>
+<pt_BR>Esta atualização corrige problemas críticos no Gerenciador de extensões que impedem a importação das extensões do InDesign para o X Mountain Lion (10.8).</pt_BR>
+<ro_RO>Această actualizare soluţionează o problemă critică din Extension Manager care împiedică importul extensiilor InDesign în Mountain Lion OS X (10.8).</ro_RO>
+<ru_RU>Данное обновление исправляет критическую неполадку Extension Manager, не позволяющую импортировать расширения InDesign в OS X Mountain Lion (10.8).</ru_RU>
+<sv_SE>Den här uppdateringen åtgärdar ett kritiskt problem i Extension Manager som förhindrar att InDesign-tillägg importeras i OS X Mountain Lion (10.8).</sv_SE>
+<tr_TR>Bu güncelleme Extension Manager&apos;da bulunan ve InDesign uzantılarının OS X Mountain Lion (10.8) işletim sisteminde içe aktarılmasını engelleyen önemli bir soruna yöneliktir.</tr_TR>
+<uk_UA>Це оновлення виправляє критичну помилку в Extension Manager, через яку неможливо імпортувати розширення InDesign в OS X Mountain Lion (10.8).</uk_UA>
+<zh_CN>此更新解决了 Extension Manager 中的一个严重问题，该问题会导致无法在 OS X Mountain Lion (10.8) 中导入 InDesign 扩展。</zh_CN>
+<zh_TW>此更新修正一個 Extension Manager 中的嚴重問題，這個問題會使 InDesign 擴充功能無法在 OS X Mountain Lion (10.8) 中匯入。</zh_TW>
+</Description>
+<AffectedChannels>
+    
+    <ChannelID>AdobeExtensionManagerCS5.5-5.5</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+<Type>2</Type>
+<ExecutableName>AdobePatchInstaller.app</ExecutableName>
+<Size>12822367</Size>
+<CompareType name="OSPlatformLookup">
+        <TargetValue>10.8.0</TargetValue>
+<Operator>GreaterOrEqual</Operator>
+</CompareType>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+<UpdateRef Combo="0" ReFetch="0" RefID="PhotoshopCameraRaw-6.0/6.7.040" Viewed="0" WaitingForNewChannel="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>PhotoshopCameraRaw-6.0</ChannelID>
+<LEID>Camera_Raw-6-MAC-PR</LEID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>2</TargetBuildType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+        <en_US>Photoshop Camera Raw 6.7 Update</en_US>
+<fr_FR>Mise à jour 6.7 de Photoshop Camera Raw</fr_FR>
+<de_DE>Photoshop Camera Raw 6.7-Update</de_DE>
+<it_IT>Aggiornamento di Photoshop Camera Raw 6.7</it_IT>
+<ja_JP>Photoshop Camera Raw 6.7 アップデート</ja_JP>
+<es_ES>Actualización Photoshop Camera Raw 6.7</es_ES>
+<sv_SE>Uppdatering till Photoshop Camera Raw 6.7</sv_SE>
+<zh_CN>Photoshop Camera Raw 6.7 更新</zh_CN>
+<zh_TW>Photoshop Camera Raw 6.7 更新</zh_TW>
+<nl_NL>Photoshop Camera Raw 6.7-update</nl_NL>
+<ko_KR>Photoshop Camera Raw 6.7 업데이트</ko_KR>
+<nb_NO>Oppdatering for Photoshop Camera Raw 6.7</nb_NO>
+<da_DK>Photoshop Camera Raw 6.7-opdatering</da_DK>
+<fi_FI>Photoshop Camera Raw 6.7 -päivitys</fi_FI>
+<pl_PL>Photoshop Camera Raw 6.7 – aktualizacja</pl_PL>
+<cs_CZ>Aktualizace Photoshop Camera Raw 6.7</cs_CZ>
+<ro_RO>Actualizare Photoshop Camera Raw 6.7</ro_RO>
+<hu_HU>Photoshop Camera Raw 6.7 frissítés</hu_HU>
+<ru_RU>Обновление Photoshop Camera Raw 6.7</ru_RU>
+<pt_BR>Atualização do Photoshop Camera Raw 6.7</pt_BR>
+<uk_UA>Оновлення Photoshop Camera Raw 6.7</uk_UA>
+<tr_TR>Photoshop Camera Raw 6.7 Güncellemesi</tr_TR>
+</DisplayName>
+<Description default="en_US">
+               <en_US>Update to the Camera Raw plug-in that ships with Photoshop CS5.Adds raw support for new camera models.</en_US>
+<fr_FR>Mise à jour du module externe Camera Raw fourni avec Photoshop CS5.  Ajoute la prise en charge des fichiers Raw pour les nouveaux modèles d&apos;appareils photo.</fr_FR>
+<de_DE>Update für das Camera Raw-Zusatzmodul, das im Lieferumfang von Photoshop CS5 enthalten ist.  Zusätzliche Unterstützung für Raw-Dateien aus neuen Kameramodellen</de_DE>
+<it_IT>Eseguite l&apos;aggiornamento del plug-in di Camera Raw in dotazione con Photoshop CS5.  Consente il supporto per i file raw per nuovi modelli di fotocamere</it_IT>
+<ja_JP>Photoshop CS5 に附属している Camera Raw プラグインを更新します。新しいカメラモデル用の Raw ファイル形式のサポートが追加されます。</ja_JP>
+<es_ES>Actualización para el plugin Camera Raw suministrado con Photoshop CS5.  Permite la compatibilidad con los archivos RAW de los nuevos modelos de cámara.</es_ES>
+<sv_SE>Uppdatera plugin-programmet Camera Raw som levereras med Photoshop CS5.  Lägger till stöd för raw-format för nya kameramodeller.</sv_SE>
+<zh_CN>Photoshop CS5 随附的 Camera Raw 插件的更新。针对新相机型号增加 raw 文件格式支持。</zh_CN>
+<zh_TW>更新 Photoshop CS5 隨附的 Camera Raw 增效模組。  新增對新相機機型的原生支援。</zh_TW>
+<nl_NL>Update voor de Camera Raw-plug-in die bij Photoshop CS5 wordt geleverd.  Voegt RAW-ondersteuning toe voor nieuwe cameramodellen</nl_NL>
+<cs_CZ>Aktualizace zásuvného modulu Camera Raw, dodávaného s aplikací Photoshop CS5.  Přidává podporu formátu raw u nových modelů fotoaparátů</cs_CZ>
+<nb_NO>Oppdatering for tilleggsmodulen Camera Raw som leveres med Photoshop CS5.  Legger til ekte støtte for nye kameramodeller</nb_NO>
+<da_DK>Opdatering til Camera Raw-ekstramodulet, der leveres sammen med Photoshop CS5.  Føjer Raw-understøttelse til nye kameramodeller</da_DK>
+<fi_FI>Photoshop CS5:n mukana toimitettavan Camera Raw -laajennuksen päivitys.  Lisää raw-tuen uusille kameramalleille.</fi_FI>
+<pl_PL>Aktualizacja wtyczki Camera Raw, która jest dołączona do programu Photoshop CS5.  Dodaje obsługę RAW dla nowych modeli aparatów</pl_PL>
+<ko_KR>Photoshop CS5와 함께 제공된 Camera Raw 플러그인을 업데이트합니다.  새 카메라 모델의 raw 파일 지원 추가</ko_KR>
+<ro_RO>Actualizaţi la plugin-ul Camera Raw livrat cu Photoshop CS5.  Acesta adaugă compatibilitate cu formate brute de la noi modele de camere foto</ro_RO>
+<hu_HU>A Photoshop CS5 verzióhoz tartozó Camera Raw bővítmény frissítése.  Biztosítja a raw-formátum támogatását újabb fényképezőgép-típusok esetében is</hu_HU>
+<ru_RU>Обновление внешнего модуля Camera Raw, который входит в комплект поставки Photoshop CS5.  Добавлена поддержка формата raw для новых моделей камер</ru_RU>
+<pt_BR>Atualização do plug-in do Camera Raw fornecido com o Photoshop CS5.  Inclusão de suporte adicional para novos modelos de câmeras</pt_BR>
+<uk_UA>Оновлення для модуля Camera Raw, що постачається з пакетом Photoshop CS5.  Додано підтримку формату raw для нових моделей фотокамер.</uk_UA>
+<tr_TR>Photoshop CS5 ile birlikte verilen Camera Raw eklentisine güncelleyin.  Yeni fotoğraf makinesi modelleri için raw desteği sağlar.</tr_TR>
+</Description>
+<AffectedChannels>
+    
+    <ChannelID>PhotoshopCameraRaw-6.0</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+<Type>2</Type>
+<ExecutableName>AdobePatchInstaller.app</ExecutableName>
+<Size>111573115</Size>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+<UpdateRef Combo="1" ReFetch="0" RefID="AdobeInDesignCS5.5-7.5/7.5.3.333" Viewed="0" WaitingForNewChannel="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>AdobeInDesignCS5.5-7.5</ChannelID>
+<UpdateID>7.5.3.333</UpdateID>
+<OwningID>AdobeInDesignCS5.5ApplicationLanguageFilesen_US-7.5</OwningID>
+<LEID>InDesign-CS5.5-Mac-GM</LEID>
+</Recommendation>
+<Recommendation>
+<ChannelID>AdobeInDesignCS5.5-7.5</ChannelID>
+<UpdateID>7.5.3.333</UpdateID>
+<OwningID>AdobeInDesignCS5.5ApplicationBaseFiles2-7.5</OwningID>
+<LEID>InDesign-CS5.5-Mac-GM</LEID>
+</Recommendation>
+<Recommendation>
+<ChannelID>AdobeInDesignCS5.5-7.5</ChannelID>
+<LEID>InDesign-CS5.5-Mac-GM</LEID>
+<UpdateID>7.5.3.333</UpdateID>
+<OwningID>AdobeInDesignCS5.5-7.5</OwningID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>0</TargetBuildType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+          <en_US>Adobe® InDesign® CS5.5 7.5.3 update</en_US>
+<ko_KR>Adobe® InDesign® CS5.5 7.5.3 업데이트</ko_KR>
+<zh_CN>Adobe® InDesign® CS5.5 7.5.3 更新</zh_CN>
+<zh_TW>Adobe® InDesign® CS5.5 7.5.3 更新</zh_TW>
+<da_DK>Opdatering af Adobe® InDesign® CS5.5 7.5.3</da_DK>
+<fi_FI>Adobe® InDesign® CS5.5 7.5.3 -päivitys</fi_FI>
+<ja_JP>Adobe® InDesign® CS5.5 7.5.3 日本語版アップデート</ja_JP>
+<nb_NO>Adobe® InDesign® CS5.5 7.5.3-oppdatering</nb_NO>
+<sv_SE>Adobe® InDesign® CS5.5 7.5.3 uppdatering</sv_SE>
+<fr_FR>Mise à jour Adobe® InDesign® CS5.5 7.5.3</fr_FR>
+<it_IT>Aggiornamento Adobe® InDesign® CS5.5 7.5.3</it_IT>
+<de_DE>Adobe® InDesign® CS5.5 7.5.3-Update</de_DE>
+<es_ES>Actualización de Adobe® InDesign® CS5.5 7.5.3</es_ES>
+<nl_NL>Adobe® InDesign® CS5.5 7.5.3-update</nl_NL>
+<pt_BR>Atualização do Adobe® InDesign® CS5.5 7.5.3</pt_BR>
+<cs_CZ>Aktualizace Adobe® InDesign® CS5.5 7.5.3</cs_CZ>
+<hu_HU>Adobe® InDesign® CS5.5 7.5.3 frissítés </hu_HU>
+<pl_PL>Adobe® InDesign® CS5.5 — aktualizacja 7.5.3</pl_PL>
+<ru_RU>Обновление Adobe® InDesign® CS5.5 7.5.3 </ru_RU>
+<tr_TR>Adobe® InDesign® CS5.5 7.5.3 güncellemesi</tr_TR>
+<uk_UA>Оновлення Adobe® InDesign® CS5.5 7.5.3</uk_UA>
+</DisplayName>
+<Description default="en_US">
+                   <en_US>This update provides fixes in performance when working in high quality display mode.  In addition, it addresses non-meaningful errors about missing plug-ins, instead displaying a clear indication that the file is from a newer version. There are also general fixes in PDF export, text, font handling and others. 
+
+For a full list of resolved issues, please see the Adobe InDesign CS5.5 7.5.3 Release Notes at http://www.adobe.com/support/documentation/en/indesign_incopy/releasenotes.html. </en_US>
+<ko_KR>이 업데이트는 고품질 모드 작업에서의 성능 수정 사항을 제공합니다.  또한 파일이 더 새로운 버전에서 만들어졌다는 것을 명료하게 표시하는 대신 누락된 플러그인에 대한 의미 없는 오류를 다룹니다. PDF 내보내기, 텍스트, 폰트 처리 등에 대한 일반적인 수정 사항도 있습니다. 
+
+해결된 문제에 대한 전체 목록을 보려면, http://www.adobe.com/support/documentation/kr/indesign_incopy/releasenotes.html에 있는 Adobe InDesign CS5.5 7.5.3 릴리스 정보를 참조하십시오. 
+</ko_KR>
+<zh_CN>此更新对高品质显示模式下工作时的性能问题进行了修复。此外，还处理了有关缺少增效工具的无意义错误，改为显示明确的说明，指出文件的版本较新。也有针对 PDF 导出、文本、字体处理及其他内容的常规修复。 
+
+有关已解决问题的完整列表，请参阅 Adobe InDesign CS5.5 7.5.3 发行说明，网址为：http://www.adobe.com/support/documentation/cn/indesign_incopy/releasenotes.html。 
+</zh_CN>
+<zh_TW>此項更新提供高品質顯示模式的執行效能修正，另外亦處理了遺失外掛程式的無意義錯誤訊息，改為顯示清楚說明，指出檔案的版本較新。也有針對 PDF 轉存、文字、字體處理及其他項目的一般修正。 
+
+如需已解決問題的完整清單，請參閱 Adobe InDesign CS5.5 7.5.3 版本資訊，網址為：http://www.adobe.com/support/documentation/en/indesign_incopy/releasenotes.html。 
+</zh_TW>
+<da_DK>Denne opdatering indeholder rettelser i forbindelse med ydelse, når man arbejder i højkvalitetsvisningstilstand. Den løser desuden fejl, der ikke har nogen mening, om manglende plug-ins og viser i stedet en klar indikation af, at filen er fra en nyere version. Desuden er der generelle rettelser til PDF-eksport, tekst, skrifthåndtering og andet. 
+
+Du kan se en komplet liste over alle programrettelser under Adobe InDesign CS5.5 7.5.3 Produktbemærkninger på http://www.adobe.com/support/documentation/dk/indesign_incopy/releasenotes.html. </da_DK>
+<fi_FI>Tämä päivitys ratkaisee laadukkaassa näyttötilassa työskenneltäessä ilmenevät suorituskykyongelmat. Tämän lisäksi se korjaa puuttuviin laajennuksiin liittyvät merkityksettömät virheet ja näyttää näytössä selkeän viestin, joka kertoo, että tiedosto on peräisin uudemmasta versiosta. Se sisältää myös muun muassa PDF-tiedostojen vientiin sekä tekstin ja kirjasimien käsittelyyn liittyviä yleisiä korjauksia. 
+
+Ratkaistujen ongelmien täydellinen luettelo on Adobe InDesign CS5.5.7.5.3:n julkaisutiedoissa osoitteessa http://www.adobe.com/support/documentation/fi/indesign_incopy/releasenotes.html.
+</fi_FI>
+<ja_JP>本アップデートには、高品質表示モードにおけるパフォーマンス低下に対する対処が含まれています。また、見つからないプラグインに関する不明瞭なエラー説明を修正しました。 さらに、PDF 書き出し、テキスト、フォントの取り扱いなど、その他の一般的な修正事項も含まれています。 
+
+解決された問題の一覧については、http://www.adobe.com/support/documentation/jp/indesign_incopy/releasenotes.htmlにある「Adobe InDesign CS5.5 7.5.3リリースノート」を参照してください。 
+</ja_JP>
+<nb_NO>Med denne oppdateringen forbedres ytelsen når du jobber i høye oppløsninger. I tillegg fjerner den forvirrende feilmeldinger angående tilleggsmoduler som mangler, og viser i stedet at filen er fra en nyere versjon. Den inneholder også generelle rettinger innen PDF-eksport, tekst, skrifthåndtering og annet. 
+
+Se produktmerknadene for Adobe InDesign CS5.5 7.5.3 på http://www.adobe.com/support/documentation/no/indesign_incopy/releasenotes.html for en fullstendig liste over løste problemer. 
+</nb_NO>
+<sv_SE>Den här uppdateringen innehåller prestandakorrigeringar för arbete i visningsläge med hög kvalitet.  Den innehåller även korrigeringar av informationslösa meddelanden om saknade plugin-program, så att ett tydligt meddelande om att filen hör till en senare version visas i stället. Det finns även allmänna korrigeringar av PDF-export, text, teckensnitthantering och annat. 
+
+Om du vill se en fullständig lista över korrigeringar kan du läsa versionsinformationen för Adobe InDesign CS 5.5 7.5.3 på http://www.adobe.com/support/documentation/se/indesign_incopy/releasenotes.html. 
+</sv_SE>
+<fr_FR>Cette mise à jour fournit des correctifs en matière de performances lors de l&apos;utilisation du mode d&apos;affichage haute qualité. En outre, elle corrige des erreurs mineures de modules externes manquants, remplacées par une indication claire que le fichier provient d&apos;une version plus récente. La mise à jour inclut également des correctifs généraux liés à l&apos;exportation au format PDF, au texte, à la gestion des polices, entre autres. 
+
+Pour obtenir la liste complète des problèmes résolus, veuillez consulter les Notes de mise à jour d&apos;Adobe InDesign CS5.5 7.5.3 à l&apos;adresse suivante : http://www.adobe.com/support/documentation/fr/indesign_incopy/releasenotes.html. 
+</fr_FR>
+<it_IT>Questo aggiornamento fornisce correzioni per la modalità di visualizzazione ad alta qualità. Inoltre, sono stati corretti alcuni messaggi di errore poco chiari su plug-in mancanti, indicando chiaramente che il file proviene da una versione più recente. Sono stati inoltre corretti alcuni errori generici di esportazione PDF, testo, gestione dei font e altri. 
+
+Per un elenco completo dei problemi risolti, consultate le Note sulla versione di Adobe InDesign CS5.5 7.5.3 all&apos;indirizzo http://www.adobe.com/support/documentation/it/indesign_incopy/releasenotes.html. 
+</it_IT>
+<de_DE>Dieses Update behebt Probleme mit der Leistung beim Arbeiten im Modus &quot;Anzeige mit hoher Qualität&quot;. Außerdem werden nicht aussagekräftige Fehlermeldungen zu fehlenden Zusatzmodulen korrigiert. Jetzt wird klar angezeigt, dass die Datei aus einer neueren Version stammt. Darüber hinaus wurden Fehler u. a. in den Bereichen PDF-Export sowie Text- und Schriftbearbeitung behoben. 
+
+Eine komplette Liste der behobenen Probleme finden Sie im Dokument &quot;Versionshinweise zu Adobe InDesign CS5.5 7.5.3&quot; unter http://www.adobe.com/support/documentation/de/indesign_incopy/releasenotes.html. 
+</de_DE>
+<es_ES>Esta actualización incluye correcciones en el rendimiento de la aplicación al trabajar en el modo de visualización de alta calidad. Además, se han solucionado algunos errores de menor gravedad, como plugins no disponibles (en lugar de indicar claramente que el archivo pertenece a una versión más reciente). También se han realizado correcciones generales en la exportación a PDF, opciones de texto, gestión de fuentes, etc. 
+
+Si desea ver una lista de todos los problemas solucionados, consulte las notas sobre la versión CS5.5 7.5.3 en http://www.adobe.com/support/documentation/es/indesign_incopy/releasenotes.html. 
+</es_ES>
+<nl_NL>Deze update bevat oplossingen voor de prestaties tijdens het werken in de weergavemodus met hoge kwaliteit. Tevens worden overbodige foutmeldingen met betrekking tot ontbrekende plug-ins niet meer weergegeven, in plaats daarvan wordt een duidelijke aanwijzing gegeven dat het bestand van een nieuwere versie komt. De update bevat ook algemene oplossingen voor het exporteren van PDF-bestanden, tekst, lettertypeverwerking enz. 
+
+Ga voor de volledige lijst met opgeloste problemen naar de opmerkingen bij de release van Adobe InDesign CS5.5 7.5.3 op http://www.adobe.com/support/documentation/nl/indesign_incopy/releasenotes.html. 
+</nl_NL>
+<pt_BR>Esta atualização fornece correções relacionadas a desempenho quando se trabalha em modo de exibição de alta qualidade. Além disso, soluciona erros não-significativos de plug-ins ausentes; agora, há uma indicação clara de que o arquivo é proveniente de uma versão mais recente. Além disso, há outras correções gerais em relação a exportações de PDF, textos e tratamentos de fontes, entre outras. 
+
+Para consultar a lista completa dos problemas corrigidos, consulte as Notas da Versão do Adobe InDesign CS5.5 7.5.3: http://www.adobe.com/support/documentation/br/indesign_incopy/releasenotes.html. 
+</pt_BR>
+<cs_CZ>Tato aktualizace obsahuje opravy chyb výkonu při práci v režimu zobrazení vysoké kvality.  Dále řeší méně významné chyby scházejících zásuvných modulů, namísto nichž se zobrazí informace o tom, že soubor pochází z novější verze. Součástí jsou také obecné opravy v oblasti exportu PDF, práce s textem, problémy písem a další. 
+
+Kompletní seznam vyřešených chyb najdete v dokumentu Adobe InDesign CS5.5 7.5.3 – Poznámky k verzi na adrese http://www.adobe.com/support/documentation/cz/indesign_incopy/releasenotes.html. 
+</cs_CZ>
+<hu_HU>A frissítés a kiváló minőségű megjelenítési mód teljesítményét növelő javításokat tartalmaz.  Emellett megszűntek a hiányzó bővítményekről szóló, jelentéstartalom nélküli hibák, és helyettük a rendszer pontosan jelzi, hogy a fájl újabb verzójú szoftverből származik. Általános javítások történtek a PDF-exportálásban, a szövegek és betűkészletek kezelésében stb. 
+
+A kijavított hibák teljes listáját az Adobe InDesign CS5.5 7.5.3 kibocsátási megjegyzései tartalmazzák: http://www.adobe.com/support/documentation/hu/indesign_incopy/releasenotes.html 
+</hu_HU>
+<pl_PL>Ta aktualizacja zawiera poprawki dotyczące wydajności podczas pracy w trybie wyświetlania wysokiej jakości. Dodatkowo zawiera poprawki mniej istotnych błędów dotyczących brakujących wtyczek — wyświetlany jest jasno sprecyzowany komunikat o tym, że plik pochodzi z nowszej wersji aplikacji. Aktualizacja zawiera także poprawki związane z eksportem do formatu PDF oraz obsługą tekstu, czcionek i innych elementów. 
+
+Pełną listę rozwiązanych problemów można znaleźć w informacjach o wydaniu aktualizacji 7.5.3 dla programu Adobe InDesign CS5.5 dostępnych pod adresem: http://www.adobe.com/support/documentation/pl/indesign_incopy/releasenotes.html. 
+</pl_PL>
+<ru_RU>В данное обновление включены важные исправления, связанные с производительностью при работе в режиме отображения высокого качества.  Кроме того, в нем исправлены незначительные ошибки, связанные с отсутствующими внешними модулями и приводящие к отображению информации о новой версии файла. Также в обновление включены общие исправления экспорта в PDF, обработки текста и шрифтов и пр. 
+
+Полный список решенных проблем см. в документе Adobe InDesign CS5.5 7.5.3 — Заметки о выпуске на странице http://www.adobe.com/support/documentation/ru/indesign_incopy/releasenotes.html. 
+</ru_RU>
+<tr_TR>Bu güncelleme yüksek kaliteli görüntüleme modunda çalışırken performans iyileştirmeleri sunmaktadır. Ayrıca, anlamsız eksik eklenti hatalarını ele alır ve dosyanın aslında daha yeni bir sürüme ait olduğunu belirten bir uyarı görüntüler. PDF dışa aktarma, metin, font işleme ve daha pek çok konudaki genel sorunlara da değinir. 
+
+Çözümlenen sorunların tam listesi için http://www.adobe.com/support/documentation/tr/indesign_incopy/releasenotes.html adresindeki Adobe InDesign CS5.5 7.5.3 Sürüm Notlarına göz atın.</tr_TR>
+<uk_UA>У цьому оновленні вирішено проблеми, пов&apos;язані зі зниженням продуктивності під час роботи в режимі високоякісного відображення. Також виправлено незначні помилки, що стосуються відсутності зовнішніх модулів: наразі відображається чітке недвозначне повідомлення про те, що файл створено у більш новій версії програми. До того ж, вирішено загальні проблеми з експортом PDF, текстом, обробкою шрифтів тощо. 
+
+Повний перелік вирішених проблем можна знайти в примітках до випуску Adobe InDesign CS5.5 7.5.3 за адресою http://www.adobe.com/support/documentation/ua/indesign_incopy/releasenotes.html. 
+</uk_UA>
+</Description>
+<AffectedChannels>
+    
+    <ChannelID>AdobeInDesignCS5.5-7.5</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+<Type>2</Type>
+<ExecutableName>InDesignCS5.5-AdobeUpdate/AdobePatchInstaller.app</ExecutableName>
+<Size>29436410</Size>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+<UpdateRef Combo="0" ReFetch="0" RefID="AdobeDreamweaverCS5.5-11.5/11.5.3" Viewed="0" WaitingForNewChannel="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>AdobeDreamweaverCS5.5-11.5</ChannelID>
+<LEID>Dreamweaver-CS5.5-Mac-GM</LEID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>0</TargetBuildType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+          <en_US>Dreamweaver CS5.5 11.5.3 Updater</en_US>
+<cs_CZ>Aktualizace aplikace Dreamweaver CS5.5 11.5.3</cs_CZ>
+<de_DE>Dreamweaver CS5.5 11.5.3-Updater</de_DE>
+<es_ES>Archivo de actualización Dreamweaver CS5.5 11.5.3</es_ES>
+<es_MX>Archivo de actualización Dreamweaver CS5.5 11.5.3</es_MX>
+<fr_FR>Programme de mise à jour de Dreamweaver CS5.5 11.5.3</fr_FR>
+<fr_CA>Programme de mise à jour de Dreamweaver CS5.5 11.5.3</fr_CA>
+<fr_XM>Programme de mise à jour de Dreamweaver CS5.5 11.5.3</fr_XM>
+<it_IT>Aggiornamento Dreamweaver CS5.5 11.5.3</it_IT>
+<ja_JP>Dreamweaver CS5.5 11.5.3 アップデーター</ja_JP>
+<ko_KR>Dreamweaver CS5.5 11.5.3 업데이트 프로그램</ko_KR>
+<nl_NL>Dreamweaver CS5.5 11.5.3 Updater</nl_NL>
+<pl_PL>Aktualizator programu Dreamweaver CS5.5 11.5.3</pl_PL>
+<pt_BR>Atualizador do Dreamweaver CS5.5 11.5.3</pt_BR>
+<ru_RU>Программа обновления Dreamweaver CS5.5 11.5.3</ru_RU>
+<sv_SE>Dreamweaver CS5.5 11.5.3 Updater</sv_SE>
+<tr_TR>Dreamweaver CS5.5 11.5.3 Updater</tr_TR>
+<zh_CN>Dreamweaver CS5.5 11.5.3 Updater</zh_CN>
+<zh_TW>Dreamweaver CS5.5 11.5.3 Updater</zh_TW>
+</DisplayName>
+<Description default="en_US">
+          <en_US>This update addresses errors in Dreamweaver CS5.5 that result from attempting to perform the Easy Install for Android devices. The Easy Install option appears in the Configure Application Framework dialog box (Site &gt; Mobile Applications &gt; Configure Application Framework). Please restart your computer after installing the update.</en_US>
+<cs_CZ>Tato aplikace řeší chyby v aplikaci Dreamweaver CS5.5, které jsou výsledkem pokusu o provedení snadné instalace na zařízeních Android. Možnost Snadná instalace je zobrazena v dialogovém okně Konfigurace rozhraní aplikace (Web &gt; Mobilní aplikace &gt; Konfigurace rozhraní aplikace). Po instalaci aktualizace restartujte počítač.</cs_CZ>
+<de_DE>Diese Aktualisierung korrigiert Fehler in Dreamweaver CS5.5, die beim Versuch entstehen, die einfache Installation für Android-Geräte durchzuführen. Die Option „Einfache Installation“ befindet sich im Dialogfeld „Anwendungs-Framework konfigurieren“ („Site“ &gt; „Mobile-Anwendungen“ &gt; „Anwendungs-Framework konfigurieren“). Führen Sie nach der Installation der Aktualisierung einen Neustart durch.</de_DE>
+<es_ES>Esta actualización resuelve errores existentes en Dreamweaver CS5.5 como resultado del intento de realizar la Instalación sencilla para dispositivos Android. La opción Instalación sencilla aparece en el cuadro de diálogo Configurar framework de aplicación (Sitio &gt; Aplicaciones móviles &gt; Configurar framework de aplicación). Reinicie su equipo tras instalar la actualización.</es_ES>
+<es_MX>Esta actualización resuelve errores existentes en Dreamweaver CS5.5 como resultado del intento de realizar la Instalación sencilla para dispositivos Android. La opción Instalación sencilla aparece en el cuadro de diálogo Configurar framework de aplicación (Sitio &gt; Aplicaciones móviles &gt; Configurar framework de aplicación). Reinicie su equipo tras instalar la actualización.</es_MX>
+<fr_FR>Cette mise à niveau corrige des erreurs dans Dreamweaver CS5.5 qui résultent d&apos;une tentative d&apos;exécution de la procédure Easy Install pour les périphériques Android. L&apos;option Easy Install se trouve dans la boîte de dialogue Configuration du cadre applicatif (Site &gt; Applications mobiles &gt; Configuration du cadre applicatif). Redémarrez votre ordinateur après avoir installé la mise à niveau.</fr_FR>
+<fr_CA>Cette mise à niveau corrige des erreurs dans Dreamweaver CS5.5 qui résultent d&apos;une tentative d&apos;exécution de la procédure Easy Install pour les périphériques Android. L&apos;option Easy Install se trouve dans la boîte de dialogue Configuration du cadre applicatif (Site &gt; Applications mobiles &gt; Configuration du cadre applicatif). Redémarrez votre ordinateur après avoir installé la mise à niveau.</fr_CA>
+<fr_XM>Cette mise à niveau corrige des erreurs dans Dreamweaver CS5.5 qui résultent d&apos;une tentative d&apos;exécution de la procédure Easy Install pour les périphériques Android. L&apos;option Easy Install se trouve dans la boîte de dialogue Configuration du cadre applicatif (Site &gt; Applications mobiles &gt; Configuration du cadre applicatif). Redémarrez votre ordinateur après avoir installé la mise à niveau.</fr_XM>
+<it_IT>Questo aggiornamento risolve degli errori presenti in Dreamweaver CS5.5 che si verificano dopo un tentativo di utilizzare l&apos;opzione Easy Install su dispositivi Android. L&apos;opzione Easy Install è disponibile nella finestra di dialogo Configura Application Framework  (Sito &gt; Applicazioni mobili &gt; Configura Application Framework). Riavviate il computer dopo l&apos;installazione dell&apos;aggiornamento.</it_IT>
+<ja_JP>本アップデートは、Android の簡易インストールの実行により発生した Dreamweaver CS5.5 でのエラーを解消します。簡易インストールオプションは、「アプリケーションフレームワークの設定」ダイアログボックス（サイト／モバイルアプリケーション／アプリケーションフレームワークの設定）に表示されます。 アップデートをインストール後、コンピュータを再起動してください。</ja_JP>
+<ko_KR>이 업데이트에서는 Dreamweaver CS5.5에서 Android 장치용 쉬운 설치 수행 중 발생하는 오류에 대해 다루고 있습니다. 쉬운 설치 옵션은 구성 응용 프로그램 프레임워크 대화 상자에 표시됩니다(사이트 &gt; 모바일 응용 프로그램 &gt; 구성 응용 프로그램 프레임워크). 업데이트 설치 후 컴퓨터를 다시 시작하십시오.</ko_KR>
+<nl_NL>Deze update verhelpt fouten in Dreamweaver CS5.5 die optreden als u Eenvoudig installeren voor Android-apparaten probeert uit te voeren. De optie Eenvoudig installeren is beschikbaar in het dialoogvenster Toepassingsframework configureren (Site &gt; Mobiele toepassingen &gt; Toepassingsframework configureren). Start uw computer opnieuw op nadat u de update hebt geïnstalleerd.</nl_NL>
+<pl_PL>Ta aktualizacja usuwa błędy w programie Dreamweaver CS5.5 związane z próbą przeprowadzenia łatwej instalacji dla urządzeń z systemem Android. Opcja Łatwa instalacja jest dostępna w oknie dialogowym Konfiguracja struktury aplikacji (Witryna &gt; Aplikacje na urządzenia przenośne &gt; Konfiguracja struktury aplikacji). Po zainstalowaniu aktualizacji uruchom ponownie komputer.</pl_PL>
+<pt_BR>Esta atualização trata de erros no Dreamweaver CS5.5 ao tentar executar a Instalação fácil para dispositivos Android. A opção Instalação fácil é exibida na caixa de diálogo Configurar estrutura de aplicativo (Site &gt; Aplicativos móveis &gt; Configurar estrutura de aplicativo). Reinicie seu computador após instalar a atualização.</pt_BR>
+<ru_RU>В данном обновлении исправлены ошибки в Dreamweaver CS5.5, возникающие при попытке запустить Easy Install для устройств Android. Параметр Easy Install выводится в диалоговом окне &quot;Настройка среды разработки приложений&quot; (&quot;Сайт&quot; &gt; &quot;Мобильные приложения&quot; &gt; &quot;Настройка среды разработки приложений&quot;). После установки обновления перезагрузите компьютер.</ru_RU>
+<sv_SE>Den här uppdateringen korrigerar fel i Dreamweaver CS5.5 som uppstår när Enkel installation av Android-enheter körs. Alternativet Enkel installation visas i dialogrutan Konfigurera programramverk (Plats &gt; Mobilprogram &gt; Konfigurera programramverk). Starta om datorn när uppdateringen är installerad.</sv_SE>
+<tr_TR>Bu güncelleme, Android cihazları için Kolay Yükleme gerçekleştirmeye çalışma sonucu Dreamweaver CS5.5&apos;te ortaya çıkan hatalara yöneliktir. Kolay Yükleme seçeneği, Uygulama Çerçevesini Yapılandır iletişim kutusunda (Site &gt; Mobil Uygulamalar &gt; Uygulama Çerçevesini Yapılandır) görünür. Güncellemeyi yükledikten sonra bilgisayarınızı yeniden başlatın.</tr_TR>
+<zh_CN>此更新解决了尝试为 Android 设备执行简易安装时所产生的 Dreamweaver CS5.5 错误。“简易安装”选项显示在“配置应用程序框架”对话框（“站点”&gt;“移动应用程序”&gt;“配置应用程序框架”）中。 安装更新后，请重新启动计算机。</zh_CN>
+<zh_TW>此更新可解決在嘗試執行適用於 Android 裝置的「輕鬆安裝」時所引起的 Dreamweaver CS5.5 中的錯誤。「輕鬆安裝」選項會顯示在「設定應用程式架構」對話方塊中 (「網站 &gt; 行動應用程式 &gt; 設定應用程式架構」)。 請在安裝此更新後重新啟動您的電腦。</zh_TW>
+</Description>
+<AffectedChannels>
+    
+    <ChannelID>AdobeDreamweaverCS5.5-11.5</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+<Type>2</Type>
+<ExecutableName>AdobeDreamweaver-11.5-All-Update/AdobePatchInstaller.app</ExecutableName>
+<Size>67013341</Size>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>1</NeedsReboot>
+</UpdateRef>
+<UpdateRef Combo="0" ReFetch="0" RefID="AdobeApplicationManager-1.0/update14" Viewed="0" WaitingForNewChannel="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>AdobeApplicationManager-1.0</ChannelID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>2</TargetBuildType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+<ar_AE>Adobe Application Manager</ar_AE>
+<bg_BG>Adobe Application Manager</bg_BG>
+<cs_CZ>Adobe Application Manager</cs_CZ>
+<da_DK>Adobe Application Manager</da_DK>
+<de_DE>Adobe Application Manager</de_DE>
+<el_GR>Adobe Application Manager</el_GR>
+<en_US>Adobe Application Manager</en_US>
+<es_ES>Adobe Application Manager</es_ES>
+<et_EE>Adobe Application Manager</et_EE>
+<fi_FI>Adobe Application Manager</fi_FI>
+<fr_FR>Adobe Application Manager</fr_FR>
+<he_IL>Adobe Application Manager</he_IL>
+<hr_HR>Adobe Application Manager</hr_HR>
+<hu_HU>Adobe Application Manager</hu_HU>
+<it_IT>Adobe Application Manager</it_IT>
+<ja_JP>Adobe Application Manager</ja_JP>
+<ko_KR>Adobe Application Manager</ko_KR>
+<lt_LT>Adobe Application Manager</lt_LT>
+<lv_LV>Adobe Application Manager</lv_LV>
+<nb_NO>Adobe Application Manager</nb_NO>
+<nl_NL>Adobe Application Manager</nl_NL>
+<pl_PL>Adobe Application Manager</pl_PL>
+<pt_BR>Adobe Application Manager</pt_BR>
+<ro_RO>Adobe Application Manager</ro_RO>
+<ru_RU>Adobe Application Manager</ru_RU>
+<sk_SK>Adobe Application Manager</sk_SK>
+<sl_SI>Adobe Application Manager</sl_SI>
+<sv_SE>Adobe Application Manager</sv_SE>
+<tr_TR>Adobe Application Manager</tr_TR>
+<uk_UA>Adobe Application Manager</uk_UA>
+<zh_CN>Adobe Application Manager</zh_CN>
+<zh_TW>Adobe Application Manager</zh_TW>
+</DisplayName>
+<Description default="en_US">
+<en_US>Required to keep Adobe applications up to date, includes Adobe Software Integrity Service</en_US>
+<cs_CZ>Nezbytný nástroj k zajištění aktualizací pro aplikace Adobe. Součástí je služba Adobe Software Integrity Service</cs_CZ>
+<da_DK>Påkrævet for at holde Adobe-programmer opdateret, omfatter Adobe Software Integrity Service</da_DK>
+<de_DE>Erforderlich, um Adobe-Applikationen auf dem neuesten Stand zu halten. Umfasst Adobe Software Integrity Service</de_DE>
+<es_ES>Necesario para mantener las aplicaciones de Adobe actualizadas. Incluye Adobe Software Integrity Service.</es_ES>
+<es_MX>Necesario para mantener las aplicaciones de Adobe actualizadas. Incluye Adobe Software Integrity Service.</es_MX>
+<fi_FI>Tarvitaan Adoben sovellusten pitämiseksi ajan tasalla, sisältää Adobe Software Integrity Servicen</fi_FI>
+<fr_FR>Nécessaire pour garder les applications Adobe à jour, y compris Adobe Software Integrity Service</fr_FR>
+<fr_CA>Nécessaire pour garder les applications Adobe à jour, y compris Adobe Software Integrity Service</fr_CA>
+<it_IT>Richiesto per mantenere le applicazioni Adobe aggiornate. Comprende Adobe Software Integrity Service</it_IT>
+<ja_JP>Adobe Software Integrity Service を含むアドビアプリケーションを最新の状態に保つ必要があります</ja_JP>
+<ko_KR>Adobe 응용 프로그램을 최신 상태로 유지하기 위해 필요하며, Adobe Software Integrity Service를 포함합니다</ko_KR>
+<nb_NO>Nødvendig for å holde Adobe-applikasjoner oppdatert, inkludert Adobe Software Integrity Service</nb_NO>
+<nl_NL>Vereist om Adobe-toepassingen up-to-date te houden. Bevat Adobe Software Integrity Service</nl_NL>
+<pl_PL>Wymagany do aktualizacji aplikacji Adobe. Zawiera usługę Adobe Software Integrity Service</pl_PL>
+<pt_BR>Necessário para manter os aplicativos da Adobe atualizados, inclui o Adobe Software Integrity Service</pt_BR>
+<ru_RU>Необходим для поддержки актуальности приложений Adobe. Включает службу Adobe Software Integrity Service.</ru_RU>
+<sv_SE>Krävs för att hålla Adobe-program uppdaterade, inklusive Adobe Software Integrity Service</sv_SE>
+<tr_TR>Adobe uygulamalarının güncel tutulması için gereklidir, Adobe Software Integrity Service&apos;ı içerir</tr_TR>
+<zh_CN>需要始终将 Adobe 应用程序保持为最新版本，包括 Adobe Software Integrity Service</zh_CN>
+<zh_TW>必須讓 Adobe 應用程式保持最新狀態，包含 Adobe Software Integrity Service</zh_TW>
+</Description>
+<AffectedChannels>
+<ChannelID>AdobeApplicationManager-1.0</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File>
+<Name>setup.dmg</Name>
+<Type>2</Type>
+<ExecutableName>Install.app/Contents/MacOS/Install</ExecutableName>
+<SilentExecutableArgs>--action=update</SilentExecutableArgs>
+<Size>76826629</Size>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+</Updates>

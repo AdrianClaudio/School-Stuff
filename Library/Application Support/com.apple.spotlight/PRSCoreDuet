@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<array>
+		<string>APPLICATIONS</string>
+		<string>MENU_SPOTLIGHT_SUGGESTIONS</string>
+		<string>MENU_CONVERSION</string>
+		<string>MENU_EXPRESSION</string>
+		<string>MENU_DEFINITION</string>
+		<string>SYSTEM_PREFS</string>
+		<string>DOCUMENTS</string>
+		<string>DIRECTORIES</string>
+		<string>PRESENTATIONS</string>
+		<string>SPREADSHEETS</string>
+		<string>PDF</string>
+		<string>MESSAGES</string>
+		<string>CONTACT</string>
+		<string>EVENT_TODO</string>
+		<string>IMAGES</string>
+		<string>BOOKMARKS</string>
+		<string>MUSIC</string>
+		<string>MOVIES</string>
+		<string>FONTS</string>
+		<string>OTHER</string>
+		<string>SOURCE</string>
+		<string>MENU_WEBSEARCH</string>
+	</array>
+	<key>1</key>
+	<integer>0</integer>
+	<key>APPLICATIONS</key>
+	<integer>6</integer>
+	<key>PDF</key>
+	<integer>1</integer>
+</dict>
+</plist>

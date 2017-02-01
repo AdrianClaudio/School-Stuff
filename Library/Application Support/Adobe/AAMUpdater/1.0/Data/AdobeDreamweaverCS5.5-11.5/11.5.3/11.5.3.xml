@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!-- THIS IS A TEMPLATE FILE WITH SAMPLE VALUES FILLED IN. PLEASE REVIEW AND UPDATE FOR YOUR INSTALLER -->
+  <!-- Its Schema is available here public/Common/xplat/schema/CSUManifest.xsd -->
+  <Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd" CSUVersion="1.0">    <UpdateID>11.5.3</UpdateID>
+
+    <OwningChannel><!-- Channel ID which owns this update -->AdobeDreamweaverCS5.5-11.5</OwningChannel>
+<!-- One for each locale to be displayed in CS Updater-->
+  <DisplayName default="en_US">
+          <en_US>Dreamweaver CS5.5 11.5.3 Updater</en_US>
+          <cs_CZ>Aktualizace aplikace Dreamweaver CS5.5 11.5.3</cs_CZ>
+          <de_DE>Dreamweaver CS5.5 11.5.3-Updater</de_DE>
+          <es_ES>Archivo de actualización Dreamweaver CS5.5 11.5.3</es_ES>
+          <es_MX>Archivo de actualización Dreamweaver CS5.5 11.5.3</es_MX>
+          <fr_FR>Programme de mise à jour de Dreamweaver CS5.5 11.5.3</fr_FR>
+          <fr_CA>Programme de mise à jour de Dreamweaver CS5.5 11.5.3</fr_CA>
+          <fr_XM>Programme de mise à jour de Dreamweaver CS5.5 11.5.3</fr_XM>
+          <it_IT>Aggiornamento Dreamweaver CS5.5 11.5.3</it_IT>
+          <ja_JP>Dreamweaver CS5.5 11.5.3 アップデーター</ja_JP>
+          <ko_KR>Dreamweaver CS5.5 11.5.3 업데이트 프로그램</ko_KR>
+          <nl_NL>Dreamweaver CS5.5 11.5.3 Updater</nl_NL>
+          <pl_PL>Aktualizator programu Dreamweaver CS5.5 11.5.3</pl_PL>
+          <pt_BR>Atualizador do Dreamweaver CS5.5 11.5.3</pt_BR>
+          <ru_RU>Программа обновления Dreamweaver CS5.5 11.5.3</ru_RU>
+          <sv_SE>Dreamweaver CS5.5 11.5.3 Updater</sv_SE>
+          <tr_TR>Dreamweaver CS5.5 11.5.3 Updater</tr_TR>
+          <zh_CN>Dreamweaver CS5.5 11.5.3 Updater</zh_CN>
+          <zh_TW>Dreamweaver CS5.5 11.5.3 Updater</zh_TW>
+        </DisplayName>
+  <!-- One for each locale to be displayed in CS Updater-->
+  <Description default="en_US">
+          <en_US>This update addresses errors in Dreamweaver CS5.5 that result from attempting to perform the Easy Install for Android devices. The Easy Install option appears in the Configure Application Framework dialog box (Site &gt; Mobile Applications &gt; Configure Application Framework). Please restart your computer after installing the update.</en_US>
+          <cs_CZ>Tato aplikace řeší chyby v aplikaci Dreamweaver CS5.5, které jsou výsledkem pokusu o provedení snadné instalace na zařízeních Android. Možnost Snadná instalace je zobrazena v dialogovém okně Konfigurace rozhraní aplikace (Web &gt; Mobilní aplikace &gt; Konfigurace rozhraní aplikace). Po instalaci aktualizace restartujte počítač.</cs_CZ>
+          <de_DE>Diese Aktualisierung korrigiert Fehler in Dreamweaver CS5.5, die beim Versuch entstehen, die einfache Installation für Android-Geräte durchzuführen. Die Option „Einfache Installation“ befindet sich im Dialogfeld „Anwendungs-Framework konfigurieren“ („Site“ &gt; „Mobile-Anwendungen“ &gt; „Anwendungs-Framework konfigurieren“). Führen Sie nach der Installation der Aktualisierung einen Neustart durch.</de_DE>
+          <es_ES>Esta actualización resuelve errores existentes en Dreamweaver CS5.5 como resultado del intento de realizar la Instalación sencilla para dispositivos Android. La opción Instalación sencilla aparece en el cuadro de diálogo Configurar framework de aplicación (Sitio &gt; Aplicaciones móviles &gt; Configurar framework de aplicación). Reinicie su equipo tras instalar la actualización.</es_ES>
+          <es_MX>Esta actualización resuelve errores existentes en Dreamweaver CS5.5 como resultado del intento de realizar la Instalación sencilla para dispositivos Android. La opción Instalación sencilla aparece en el cuadro de diálogo Configurar framework de aplicación (Sitio &gt; Aplicaciones móviles &gt; Configurar framework de aplicación). Reinicie su equipo tras instalar la actualización.</es_MX>
+          <fr_FR>Cette mise à niveau corrige des erreurs dans Dreamweaver CS5.5 qui résultent d'une tentative d'exécution de la procédure Easy Install pour les périphériques Android. L'option Easy Install se trouve dans la boîte de dialogue Configuration du cadre applicatif (Site &gt; Applications mobiles &gt; Configuration du cadre applicatif). Redémarrez votre ordinateur après avoir installé la mise à niveau.</fr_FR>
+          <fr_CA>Cette mise à niveau corrige des erreurs dans Dreamweaver CS5.5 qui résultent d'une tentative d'exécution de la procédure Easy Install pour les périphériques Android. L'option Easy Install se trouve dans la boîte de dialogue Configuration du cadre applicatif (Site &gt; Applications mobiles &gt; Configuration du cadre applicatif). Redémarrez votre ordinateur après avoir installé la mise à niveau.</fr_CA>
+          <fr_XM>Cette mise à niveau corrige des erreurs dans Dreamweaver CS5.5 qui résultent d'une tentative d'exécution de la procédure Easy Install pour les périphériques Android. L'option Easy Install se trouve dans la boîte de dialogue Configuration du cadre applicatif (Site &gt; Applications mobiles &gt; Configuration du cadre applicatif). Redémarrez votre ordinateur après avoir installé la mise à niveau.</fr_XM>
+          <it_IT>Questo aggiornamento risolve degli errori presenti in Dreamweaver CS5.5 che si verificano dopo un tentativo di utilizzare l'opzione Easy Install su dispositivi Android. L'opzione Easy Install è disponibile nella finestra di dialogo Configura Application Framework  (Sito &gt; Applicazioni mobili &gt; Configura Application Framework). Riavviate il computer dopo l'installazione dell'aggiornamento.</it_IT>
+          <ja_JP>本アップデートは、Android の簡易インストールの実行により発生した Dreamweaver CS5.5 でのエラーを解消します。簡易インストールオプションは、「アプリケーションフレームワークの設定」ダイアログボックス（サイト／モバイルアプリケーション／アプリケーションフレームワークの設定）に表示されます。 アップデートをインストール後、コンピュータを再起動してください。</ja_JP>
+          <ko_KR>이 업데이트에서는 Dreamweaver CS5.5에서 Android 장치용 쉬운 설치 수행 중 발생하는 오류에 대해 다루고 있습니다. 쉬운 설치 옵션은 구성 응용 프로그램 프레임워크 대화 상자에 표시됩니다(사이트 &gt; 모바일 응용 프로그램 &gt; 구성 응용 프로그램 프레임워크). 업데이트 설치 후 컴퓨터를 다시 시작하십시오.</ko_KR>
+          <nl_NL>Deze update verhelpt fouten in Dreamweaver CS5.5 die optreden als u Eenvoudig installeren voor Android-apparaten probeert uit te voeren. De optie Eenvoudig installeren is beschikbaar in het dialoogvenster Toepassingsframework configureren (Site &gt; Mobiele toepassingen &gt; Toepassingsframework configureren). Start uw computer opnieuw op nadat u de update hebt geïnstalleerd.</nl_NL>
+          <pl_PL>Ta aktualizacja usuwa błędy w programie Dreamweaver CS5.5 związane z próbą przeprowadzenia łatwej instalacji dla urządzeń z systemem Android. Opcja Łatwa instalacja jest dostępna w oknie dialogowym Konfiguracja struktury aplikacji (Witryna &gt; Aplikacje na urządzenia przenośne &gt; Konfiguracja struktury aplikacji). Po zainstalowaniu aktualizacji uruchom ponownie komputer.</pl_PL>
+          <pt_BR>Esta atualização trata de erros no Dreamweaver CS5.5 ao tentar executar a Instalação fácil para dispositivos Android. A opção Instalação fácil é exibida na caixa de diálogo Configurar estrutura de aplicativo (Site &gt; Aplicativos móveis &gt; Configurar estrutura de aplicativo). Reinicie seu computador após instalar a atualização.</pt_BR>
+          <ru_RU>В данном обновлении исправлены ошибки в Dreamweaver CS5.5, возникающие при попытке запустить Easy Install для устройств Android. Параметр Easy Install выводится в диалоговом окне "Настройка среды разработки приложений" ("Сайт" &gt; "Мобильные приложения" &gt; "Настройка среды разработки приложений"). После установки обновления перезагрузите компьютер.</ru_RU>
+          <sv_SE>Den här uppdateringen korrigerar fel i Dreamweaver CS5.5 som uppstår när Enkel installation av Android-enheter körs. Alternativet Enkel installation visas i dialogrutan Konfigurera programramverk (Plats &gt; Mobilprogram &gt; Konfigurera programramverk). Starta om datorn när uppdateringen är installerad.</sv_SE>
+          <tr_TR>Bu güncelleme, Android cihazları için Kolay Yükleme gerçekleştirmeye çalışma sonucu Dreamweaver CS5.5'te ortaya çıkan hatalara yöneliktir. Kolay Yükleme seçeneği, Uygulama Çerçevesini Yapılandır iletişim kutusunda (Site &gt; Mobil Uygulamalar &gt; Uygulama Çerçevesini Yapılandır) görünür. Güncellemeyi yükledikten sonra bilgisayarınızı yeniden başlatın.</tr_TR>
+          <zh_CN>此更新解决了尝试为 Android 设备执行简易安装时所产生的 Dreamweaver CS5.5 错误。“简易安装”选项显示在“配置应用程序框架”对话框（“站点”&gt;“移动应用程序”&gt;“配置应用程序框架”）中。 安装更新后，请重新启动计算机。</zh_CN>
+          <zh_TW>此更新可解決在嘗試執行適用於 Android 裝置的「輕鬆安裝」時所引起的 Dreamweaver CS5.5 中的錯誤。「輕鬆安裝」選項會顯示在「設定應用程式架構」對話方塊中 (「網站 &gt; 行動應用程式 &gt; 設定應用程式架構」)。 請在安裝此更新後重新啟動您的電腦。</zh_TW>
+        </Description>
+  <AffectedChannels>
+    <!--Channel IDs which could get affected by this update.-->
+    <ChannelID>AdobeDreamweaverCS5.5-11.5</ChannelID>
+  </AffectedChannels>
+  <InstallFiles>
+    <File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+      <Type>2</Type>
+      <ExecutableName>AdobeDreamweaver-11.5-All-Update/AdobePatchInstaller.app</ExecutableName>
+      <Size>67013341</Size>
+    </File>
+  </InstallFiles>
+  <NeedsReboot>true</NeedsReboot>
+</Manifest>

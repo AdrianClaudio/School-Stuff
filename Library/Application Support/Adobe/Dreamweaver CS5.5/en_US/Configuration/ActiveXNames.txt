@@ -1,0 +1,11 @@
+# Common ActiveX Class IDs
+#
+# This file contains a list of nicknames for common ActiveX classes, as well as their class IDs.
+# Each line is of the form "Nickname/clsid:ClassID".
+# You can add your own nicknames to the file, and Dreamweaver will show them in the ActiveX Property Inspector.
+# Or you can just type new nicknames or class IDs into the ActiveX Property Inspector,
+# and they'll get automatically written out to this file.
+
+RealPlayer/clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA
+Shockwave for Director 6/clsid:166B1BCA-3F9C-11CF-8075-444553540000
+Shockwave for Flash/clsid:D27CDB6E-AE6D-11cf-96B8-444553540000

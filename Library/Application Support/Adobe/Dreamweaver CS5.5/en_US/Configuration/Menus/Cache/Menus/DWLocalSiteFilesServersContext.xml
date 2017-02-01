@@ -1,0 +1,1 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/"><menuitem name="Add _FTP Server..." command="site.configureServerNew('ftp')" enabled="true" id="DWLocalSiteFilesServersOptions_ConfigureServerNewFTP" /><menuitem name="Add _RDS Server..." command="site.configureServerNew('rds')" enabled="true" id="DWLocalSiteFilesServersOptions_ConfigureServerNewRDS" />

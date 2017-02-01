@@ -1,0 +1,19 @@
+﻿2016-11-02 11:45:44 : ERROR vcfoundation::system::VCSysError: send() failed <32: Broken pipe>
+Trace: 0   CS5.5ServiceManager                 0x0000f975 _ZN12vcfoundation4base11VCExceptionC2EPNS_4data9IVCStringE + 71
+1   CS5.5ServiceManager                 0x000166d6 _ZN12vcfoundation6system10VCSysErrorC2EPNS_4data9IVCStringEPKci + 36
+2   CS5.5ServiceManager                 0x0001905e _ZN12vcfoundation6system10PosixError5ThrowEPNS_4data9IVCStringEi + 92
+3   CS5.5ServiceManager                 0x00019277 _ZN12vcfoundation6system10PosixError5ThrowEPKci + 111
+4   CS5.5ServiceManager                 0x000192aa _ZN12vcfoundation6system10PosixError5ThrowEiPKcz + 0
+5   CS5.5ServiceManager                 0x00021b3c _ZN12vcfoundation3net3Bsd4SendEiPKvii + 64
+6   CS5.5ServiceManager                 0x00020236 _ZN12vcfoundation2io12BSDNamedPipe5WriteEPKvm + 48
+7   CS5.5ServiceManager                 0x0001e205 _ZN12vcfoundation2io14BufferedWriter11FlushBufferEv + 39
+8   CS5.5ServiceManager                 0x0001e244 _ZN12vcfoundation2io14BufferedWriter5FlushEv + 50
+9   CS5.5ServiceManager                 0x0001ec32 _ZN12vcfoundation5ncomm6NCHost6Worker13HandleRequestEv + 202
+10  CS5.5ServiceManager                 0x0001ed06 _ZN12vcfoundation5ncomm6NCHost6Worker3RunEv + 54
+11  CS5.5ServiceManager                 0x0001d5f5 _ZN12vcfoundation6thread14AbstractThread3RunEv + 53
+12  CS5.5ServiceManager                 0x000216ff _ZN12vcfoundation6thread6Thread10ThreadProcEPv + 17
+13  libsystem_pthread.dylib             0x97f99c25 _pthread_body + 138
+14  libsystem_pthread.dylib             0x97f99b9b _pthread_body + 0
+15  libsystem_pthread.dylib             0x97f96e32 thread_start + 34
+
+2016-11-02 11:49:43 : ERROR not logged in

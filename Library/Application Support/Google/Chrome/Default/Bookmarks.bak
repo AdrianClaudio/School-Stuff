@@ -1,0 +1,36 @@
+{
+   "checksum": "b15d38bc5b79fd40a66cdcb9f78e95dd",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13122582928267939",
+            "id": "6",
+            "name": "lu",
+            "type": "url",
+            "url": "chrome://newtab/"
+         } ],
+         "date_added": "13122582865887114",
+         "date_modified": "13122582928267939",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13122582865887129",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13122582865887130",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

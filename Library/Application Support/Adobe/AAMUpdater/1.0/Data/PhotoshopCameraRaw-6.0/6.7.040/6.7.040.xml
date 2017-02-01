@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!-- THIS IS A TEMPLATE FILE WITH SAMPLE VALUES FILLED IN. PLEASE REVIEW AND UPDATE FOR YOUR INSTALLER -->
+  <!-- Its Schema is available here public/Common/xplat/schema/CSUManifest.xsd -->
+  <Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd" CSUVersion="1.0">    <UpdateID>6.7.040</UpdateID>
+
+    <OwningChannel><!-- Channel ID which owns this update -->PhotoshopCameraRaw-6.0</OwningChannel>
+<!-- One for each locale to be displayed in CS Updater-->
+   <DisplayName default="en_US">
+        <en_US>Photoshop Camera Raw 6.7 Update</en_US>
+		<fr_FR>Mise à jour 6.7 de Photoshop Camera Raw</fr_FR>
+		<de_DE>Photoshop Camera Raw 6.7-Update</de_DE>
+		<it_IT>Aggiornamento di Photoshop Camera Raw 6.7</it_IT>
+		<ja_JP>Photoshop Camera Raw 6.7 アップデート</ja_JP>
+		<es_ES>Actualización Photoshop Camera Raw 6.7</es_ES>
+		<sv_SE>Uppdatering till Photoshop Camera Raw 6.7</sv_SE>
+		<zh_CN>Photoshop Camera Raw 6.7 更新</zh_CN>
+		<zh_TW>Photoshop Camera Raw 6.7 更新</zh_TW>
+		<nl_NL>Photoshop Camera Raw 6.7-update</nl_NL>
+		<ko_KR>Photoshop Camera Raw 6.7 업데이트</ko_KR>
+		<nb_NO>Oppdatering for Photoshop Camera Raw 6.7</nb_NO>
+		<da_DK>Photoshop Camera Raw 6.7-opdatering</da_DK>
+		<fi_FI>Photoshop Camera Raw 6.7 -päivitys</fi_FI>
+		<pl_PL>Photoshop Camera Raw 6.7 – aktualizacja</pl_PL>
+		<cs_CZ>Aktualizace Photoshop Camera Raw 6.7</cs_CZ>
+		<ro_RO>Actualizare Photoshop Camera Raw 6.7</ro_RO>
+		<hu_HU>Photoshop Camera Raw 6.7 frissítés</hu_HU>
+		<ru_RU>Обновление Photoshop Camera Raw 6.7</ru_RU>
+		<pt_BR>Atualização do Photoshop Camera Raw 6.7</pt_BR>
+		<uk_UA>Оновлення Photoshop Camera Raw 6.7</uk_UA>
+		<tr_TR>Photoshop Camera Raw 6.7 Güncellemesi</tr_TR>
+             </DisplayName>
+  <!-- One for each locale to be displayed in CS Updater-->
+  <Description default="en_US">
+               <en_US>Update to the Camera Raw plug-in that ships with Photoshop CS5.Adds raw support for new camera models.</en_US>
+			   <fr_FR>Mise à jour du module externe Camera Raw fourni avec Photoshop CS5.  Ajoute la prise en charge des fichiers Raw pour les nouveaux modèles d'appareils photo.</fr_FR>
+			   <de_DE>Update für das Camera Raw-Zusatzmodul, das im Lieferumfang von Photoshop CS5 enthalten ist.  Zusätzliche Unterstützung für Raw-Dateien aus neuen Kameramodellen</de_DE>
+			   <it_IT>Eseguite l'aggiornamento del plug-in di Camera Raw in dotazione con Photoshop CS5.  Consente il supporto per i file raw per nuovi modelli di fotocamere</it_IT>
+			   <ja_JP>Photoshop CS5 に附属している Camera Raw プラグインを更新します。新しいカメラモデル用の Raw ファイル形式のサポートが追加されます。</ja_JP>
+			   <es_ES>Actualización para el plugin Camera Raw suministrado con Photoshop CS5.  Permite la compatibilidad con los archivos RAW de los nuevos modelos de cámara.</es_ES>
+			   <sv_SE>Uppdatera plugin-programmet Camera Raw som levereras med Photoshop CS5.  Lägger till stöd för raw-format för nya kameramodeller.</sv_SE>
+			   <zh_CN>Photoshop CS5 随附的 Camera Raw 插件的更新。针对新相机型号增加 raw 文件格式支持。</zh_CN>
+			   <zh_TW>更新 Photoshop CS5 隨附的 Camera Raw 增效模組。  新增對新相機機型的原生支援。</zh_TW>
+			   <nl_NL>Update voor de Camera Raw-plug-in die bij Photoshop CS5 wordt geleverd.  Voegt RAW-ondersteuning toe voor nieuwe cameramodellen</nl_NL>
+			   <cs_CZ>Aktualizace zásuvného modulu Camera Raw, dodávaného s aplikací Photoshop CS5.  Přidává podporu formátu raw u nových modelů fotoaparátů</cs_CZ>
+			   <nb_NO>Oppdatering for tilleggsmodulen Camera Raw som leveres med Photoshop CS5.  Legger til ekte støtte for nye kameramodeller</nb_NO>
+			   <da_DK>Opdatering til Camera Raw-ekstramodulet, der leveres sammen med Photoshop CS5.  Føjer Raw-understøttelse til nye kameramodeller</da_DK>
+			   <fi_FI>Photoshop CS5:n mukana toimitettavan Camera Raw -laajennuksen päivitys.  Lisää raw-tuen uusille kameramalleille.</fi_FI>
+			   <pl_PL>Aktualizacja wtyczki Camera Raw, która jest dołączona do programu Photoshop CS5.  Dodaje obsługę RAW dla nowych modeli aparatów</pl_PL>
+			   <ko_KR>Photoshop CS5와 함께 제공된 Camera Raw 플러그인을 업데이트합니다.  새 카메라 모델의 raw 파일 지원 추가</ko_KR>
+			   <ro_RO>Actualizaţi la plugin-ul Camera Raw livrat cu Photoshop CS5.  Acesta adaugă compatibilitate cu formate brute de la noi modele de camere foto</ro_RO>
+			   <hu_HU>A Photoshop CS5 verzióhoz tartozó Camera Raw bővítmény frissítése.  Biztosítja a raw-formátum támogatását újabb fényképezőgép-típusok esetében is</hu_HU>
+			   <ru_RU>Обновление внешнего модуля Camera Raw, который входит в комплект поставки Photoshop CS5.  Добавлена поддержка формата raw для новых моделей камер</ru_RU>
+			   <pt_BR>Atualização do plug-in do Camera Raw fornecido com o Photoshop CS5.  Inclusão de suporte adicional para novos modelos de câmeras</pt_BR>
+			   <uk_UA>Оновлення для модуля Camera Raw, що постачається з пакетом Photoshop CS5.  Додано підтримку формату raw для нових моделей фотокамер.</uk_UA>
+			   <tr_TR>Photoshop CS5 ile birlikte verilen Camera Raw eklentisine güncelleyin.  Yeni fotoğraf makinesi modelleri için raw desteği sağlar.</tr_TR>
+    </Description>
+  <AffectedChannels>
+    <!--Channel IDs which could get affected by this update.-->
+    <ChannelID>PhotoshopCameraRaw-6.0</ChannelID>
+  </AffectedChannels>
+<TargetBuildType>2</TargetBuildType>
+  <InstallFiles>
+    <File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+      <Type>2</Type>
+      <ExecutableName>AdobePatchInstaller.app</ExecutableName>
+      <Size>111573115</Size>
+    </File>
+  </InstallFiles>
+  <NeedsReboot>false</NeedsReboot>
+</Manifest>

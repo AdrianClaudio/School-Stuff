@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>/Users/P4/Library/Containers/com.apple.appstore/Data/Library/Caches/com.apple.appstore/Featured-10.10</string>
+	<string>/Users/P4/Library/Containers/com.apple.appstore/Data/Library/Caches/com.apple.appstore/Top Charts-10.10</string>
+	<string>/Users/P4/Library/Containers/com.apple.appstore/Data/Library/Caches/com.apple.appstore/Categories-10.10</string>
+	<string>/Users/P4/Library/Containers/com.apple.appstore/Data/Library/Caches/com.apple.appstore/Purchased-10.10</string>
+	<string>/Users/P4/Library/Containers/com.apple.appstore/Data/Library/Caches/com.apple.appstore/Updates-10.10</string>
+</array>
+</plist>

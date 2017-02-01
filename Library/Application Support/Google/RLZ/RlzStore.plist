@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>C</key>
+	<dict>
+		<key>pingTime</key>
+		<integer>14858045690947880</integer>
+		<key>productEvents</key>
+		<dict/>
+		<key>statefulEvents</key>
+		<dict>
+			<key>C5F</key>
+			<true/>
+			<key>C5I</key>
+			<true/>
+			<key>C6I</key>
+			<true/>
+			<key>C8I</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>accessPoints</key>
+	<dict>
+		<key>C5</key>
+		<string>1C5CHFA_enUS707US707</string>
+		<key>C6</key>
+		<string>1C6CHFA_enUS707</string>
+		<key>C8</key>
+		<string>1C8CHFA_enUS707</string>
+	</dict>
+</dict>
+</plist>

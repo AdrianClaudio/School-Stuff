@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>last used max id</key>
+	<integer>8</integer>
+	<key>located dictionaries</key>
+	<array>
+		<dict>
+			<key>access method</key>
+			<string>DAM:Apple Backward Trie Access Method</string>
+			<key>id</key>
+			<integer>1</integer>
+			<key>package</key>
+			<true/>
+			<key>path</key>
+			<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_Basic.dict</string>
+		</dict>
+		<dict>
+			<key>access method</key>
+			<string>DAM:Apple Backward Trie Access Method</string>
+			<key>id</key>
+			<integer>2</integer>
+			<key>package</key>
+			<true/>
+			<key>path</key>
+			<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_Basic_mini.dict</string>
+		</dict>
+		<dict>
+			<key>access method</key>
+			<string>DAM:Apple Backward Trie Access Method</string>
+			<key>id</key>
+			<integer>3</integer>
+			<key>package</key>
+			<true/>
+			<key>path</key>
+			<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_Character.dict</string>
+		</dict>
+		<dict>
+			<key>access method</key>
+			<string>com.apple.DictionaryAccessMethod.Colloquial</string>
+			<key>id</key>
+			<integer>4</integer>
+			<key>package</key>
+			<true/>
+			<key>path</key>
+			<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_Colloquial.dict</string>
+		</dict>
+		<dict>
+			<key>access method</key>
+			<string>com.apple.DictionaryAccessMethod.LastResort</string>
+			<key>id</key>
+			<integer>5</integer>
+			<key>package</key>
+			<true/>
+			<key>path</key>
+			<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_LastResort.dict</string>
+		</dict>
+		<dict>
+			<key>access method</key>
+			<string>com.apple.DictionaryAccessMethod.Numeral</string>
+			<key>id</key>
+			<integer>6</integer>
+			<key>package</key>
+			<false/>
+			<key>path</key>
+			<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_Numeral.dict</string>
+		</dict>
+		<dict>
+			<key>access method</key>
+			<string>DAM:Apple Backward Trie Access Method</string>
+			<key>id</key>
+			<integer>7</integer>
+			<key>package</key>
+			<true/>
+			<key>path</key>
+			<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/OsakaDialect.dict</string>
+		</dict>
+		<dict>
+			<key>access method</key>
+			<string>com.apple.DictionaryAccessMethod.LSM</string>
+			<key>id</key>
+			<integer>8</integer>
+			<key>package</key>
+			<true/>
+			<key>path</key>
+			<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/Search Similar Kanji</string>
+		</dict>
+	</array>
+	<key>registered dictionaries</key>
+	<array/>
+	<key>search paths modified</key>
+	<array>
+		<integer>3554767497</integer>
+		<integer>3550620905</integer>
+		<integer>0</integer>
+		<integer>3550621003</integer>
+	</array>
+	<key>version</key>
+	<integer>4</integer>
+</dict>
+</plist>

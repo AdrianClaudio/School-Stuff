@@ -1,0 +1,13 @@
+2016-11-02T18:44:41: >>> Adobe Updater Log Begin >>>
+2016-11-02T18:44:41: Application Version: 2.0.0.15
+2016-11-02T18:44:41: cmdline option: -logFile = /Users/P4/Library/Application Support/Adobe/AAMUpdater/1.0/aamun.log
+2016-11-02T18:44:41: cmdline option: -logLevel = 2
+2016-11-02T18:44:41: UpdaterNotifications : Stepped into << UpdaterNotificationsGetLEIDList >> call.
+2016-11-02T18:44:41: UpdaterNotifications : Updater task is not present. Creating new task for daily scheduled checks
+2016-11-02T18:44:41: UpdaterNotifications : Stepped into << AddUpdaterSchedulerTask >> call.
+2016-11-02T18:44:41: UpdaterNotifications : Adding scheduled task for csupdater.
+2016-11-02T18:44:41: UpdaterNotifications : Successfully returning from  << AddUpdaterSchedulerTask >> call.
+2016-11-02T18:44:41: UpdaterNotifications : Successfully returning from << UpdaterNotificationsGetLEIDList >> call.
+2016-11-02T18:45:09: <<< Adobe Updater Log End <<<
+
+

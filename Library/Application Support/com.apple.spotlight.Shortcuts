@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>terminal</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Terminal</string>
+		<key>LAST_USED</key>
+		<date>2016-09-14T18:17:47Z</date>
+		<key>URL</key>
+		<string>file:///Applications/Utilities/Terminal.app/</string>
+	</dict>
+	<key>text</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>TextEdit</string>
+		<key>LAST_USED</key>
+		<date>2016-09-14T18:43:57Z</date>
+		<key>URL</key>
+		<string>file:///Applications/TextEdit.app/</string>
+	</dict>
+	<key>text edit</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>TextEdit</string>
+		<key>LAST_USED</key>
+		<date>2016-08-22T18:25:26Z</date>
+		<key>URL</key>
+		<string>file:///Applications/TextEdit.app/</string>
+	</dict>
+	<key>text ei</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>LegalNotices.pdf</string>
+		<key>LAST_USED</key>
+		<date>2016-09-14T18:43:18Z</date>
+		<key>URL</key>
+		<string>file:///Applications/Adobe%20InDesign%20CS5.5/Legal/LegalNotices.pdf</string>
+	</dict>
+</dict>
+</plist>

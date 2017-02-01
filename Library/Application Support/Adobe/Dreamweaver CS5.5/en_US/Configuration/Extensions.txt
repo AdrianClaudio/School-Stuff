@@ -1,0 +1,28 @@
+HTM,HTML,SHTM,SHTML,HTA,HTC,XHTML,STM,SSI,JS,JSON,AS,ASC,ASR,XML,XSL,XSD,DTD,XSLT,RSS,RDF,LBI,DWT,ASP,ASA,ASPX,ASCX,ASMX,CONFIG,CS,CSS,CFM,CFML,CFC,TLD,TXT,PHP,PHP3,PHP4,PHP5,PHP-DIST,PHTML,JSP,WML,TPL,LASSO,JSF,VB,VBS,VTM,VTML,INC,SQL,JAVA,EDML,MASTER,INFO,INSTALL,THEME,CONFIG,MODULE,PROFILE,ENGINE,SVG:All Documents
+HTM,HTML,HTA,HTC,XHTML:HTML Documents
+SHTM,SHTML,STM,SSI,INC:Server-Side Includes
+JS,JSON:JavaScript Documents
+XML,DTD,XSD,XSL,XSLT,RSS,RDF:XML Files
+LBI:Library Files
+DWT:Template Files
+CSS:Style Sheets
+ASP,ASA:Active Server Pages
+ASPX,ASCX,ASMX,CS,VB,CONFIG,MASTER:Active Server Plus Pages
+CFM,CFML,CFC:ColdFusion Templates
+AS:ActionScript Files
+ASC:ActionScript Communication Files
+ASR:ActionScript Remote Files
+TXT:Text Files
+PHP,PHP3,PHP4,PHP5,TPL,PHP-DIST,PHTML:PHP Files
+LASSO:Lasso Files
+JSP,JST:Java Server Pages
+JSF:Fireworks Script
+TLD:Tag Library Descriptor Files
+JAVA:Java Files
+SQL:SQL Files
+ASX:Windows Media Advanced Stream Redirector
+WML:WML Files
+EDML:EDML Files
+VBS:VBScript Files
+VTM,VTML:VTML Files
+SVG:Scalable Vector Graphics Files

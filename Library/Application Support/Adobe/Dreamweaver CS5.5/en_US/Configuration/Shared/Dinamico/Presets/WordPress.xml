@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codehinting_structure name="Wordpress" subroot="$(SITEROOT)/" version="1.0" default="default">
+	<structure_entries>
+		<structure_entry type="folder" name="[SUBROOT]wp-content/plugins" extensions=".php"  scan="on" recursive="recursive" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[SUBROOT]wp-content/themes" extensions=".php"  scan="on"  recursive="recursive" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[SUBROOT]wp-admin" extensions=".php"  scan="on"  recursive="recursive" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[SUBROOT]wp-includes" extensions=".php"  scan="on" recursive="recursive" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="file" name="[SUBROOT]wp-trackback.php"  scan="on" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="file" name="[SUBROOT]wp-config.php"  scan="on" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="file" name="[SUBROOT]wp-settings.php"  scan="on" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+	</structure_entries>
+</codehinting_structure>

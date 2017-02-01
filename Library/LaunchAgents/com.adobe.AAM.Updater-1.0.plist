@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+ <dict>
+  <key>Label</key>
+  <string>com.adobe.AAM.Scheduler-1.0</string>
+  <key>Program</key>
+  <string>/Library/Application Support/Adobe/OOBE/PDApp/UWA/UpdaterStartupUtility</string>
+  <key>ProgramArguments</key>
+  <array>
+     <string>/Library/Application Support/Adobe/OOBE/PDApp/UWA/UpdaterStartupUtility</string>
+     <string>-mode=scheduled</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Minute</key>
+    <integer>0</integer>
+    <key>Hour</key>
+    <integer>2</integer>
+  </dict>
+ </dict>
+</plist>

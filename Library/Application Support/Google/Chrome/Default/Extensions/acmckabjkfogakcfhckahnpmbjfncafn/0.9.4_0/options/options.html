@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Slither Friends Options</title>
+	<style>
+	input[type="text"], select {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	div {
+		margin-bottom: 7px;
+	}
+	.success {
+		color: #159934;
+	}
+	.error {
+		color: #D12C3C;
+	}
+	.disabled {
+		color: #A8A8A8;
+	}
+	</style>
+</head>
+
+<body>
+
+	<h3>Skin Designer</h3>
+	<p id="skindesigner-response" style="display:none;"></p>
+	<div id="skindesigner-activation" style="display:none;">
+		<p>Design your own skins for Slither.io by getting your own access token <a href="http://slitherfriends.pw/skindesigner">here</a>.</p>
+		<label for="skindesigner-token">Skin Designer Token:</label>
+		<input id="skindesigner-token" type="text" placeholder="Insert your token for the skin designer here" maxlength="64">
+		<button id="skindesigner-validatetoken" value="CheckToken" style="display:none;" disabled>Check Token</button>
+	</div>
+	<div id="skindesigner-form" style="display:none;">
+		<p id="amtfreeskins"></p>
+		<p>
+			<span style="color:#696969;">Every week on Friday you are rewarded 1 skin.</span><br/>
+			<span style="color:#DB6300;">Purchasing add-ons and extra skins is coming in a later update.</span>
+		</p>
+	</div>
+	<hr>
+	
+	<h3>Group Play for Streamers</h3>
+	<p id="grouptags-response" style="display:none;"></p>
+	<div id="grouptags-activation" style="display:none;">
+		<p>Are you a well-known streamer or YouTuber? Get your own token so that you can have your own group tag(s) by registering <a href="http://slitherfriends.pw/streamsolution">here</a>.</p>
+		<label for="grouptags-token">Stream Token:</label>
+		<input id="grouptags-token" type="text" placeholder="Insert your token for group tags here" maxlength="64">
+		<button id="grouptags-validatetoken" value="CheckToken" style="display:none;" disabled>Check Token</button>
+	</div>
+	<div id="grouptags-form" style="display:none;">
+		<div>
+			<label for="grouptags">Your group tags:</label><br/>
+			<select id="grouptags" size="3" disabled></select>
+			<button id="deletetag" value="DeleteTag" disabled>Remove Tag</button>
+			<button id="toggletag" value="ToggleTag" disabled>Disable Tag</button>
+			<div id="grouptags-deleteconfirmation" style="display:none;"></div>
+		</div>
+		<div style="margin-top:15px;">
+			<label for="newtag">Request Alt Group Tag:</label>
+			<input id="newtag" type="text" placeholder="Type in a group tag (without 'gt:' prefix)" maxlength="64" disabled>
+			<button id="addtag" type="submit" value="AddTag" disabled>Request Tag</button>
+		</div>
+	</div>
+	
+	<div style="margin-top:15px;text-align:right;">
+		<button id="closebtn">Close</button>
+	</div>
+	
+	<script src="../jquery-1.11.3.min.js"></script>
+	<script src="jquery.confirm.min.js"></script>
+	<script src="options.js"></script>
+</body>
+
+</html>

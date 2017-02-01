@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appUpdates</key>
+	<dict>
+		<key>682658836</key>
+		<dict>
+			<key>abortAppName</key>
+			<string>GarageBand</string>
+			<key>abortCode</key>
+			<integer>6</integer>
+			<key>abortReason</key>
+			<string>MZFinance.NoAccount_message</string>
+			<key>itemIdentifier</key>
+			<string>682658836</string>
+			<key>shouldInstall</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>runDate</key>
+	<date>2016-11-16T19:06:32Z</date>
+</dict>
+</plist>

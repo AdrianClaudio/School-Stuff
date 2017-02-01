@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<documenttypes xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+	<documenttype id="HTML" internaltype="HTML" winfileextension="html,htm,shtml,shtm,stm,tpl,lasso,xhtml" macfileextension="html,htm,shtml,shtm,tpl,lasso,xhtml,ssi" file="Default.html" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_0" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_1" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype> 
+	<documenttype id="ASP-JS" servermodel="ASP JavaScript" internaltype="Dynamic" winfileextension="asp" macfileextension="asp" file="Default_js.asp" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_4" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_5" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype> 
+	<documenttype id="ASP-VB" servermodel="ASP VBScript" internaltype="Dynamic" winfileextension="asp" macfileextension="asp" file="Default_vb.asp" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_2" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_3" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="ColdFusion" servermodel="ColdFusion" internaltype="Dynamic" winfileextension="cfm,cfml" macfileextension="cfm,cfml" file="Default.cfm" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_6" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_7" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="CFC" servermodel="ColdFusion" internaltype="Dynamic" winfileextension="cfc" macfileextension="cfc" file="Default.cfc" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_56" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_57" />
+		</description>
+		<dtdcontext>none</dtdcontext>
+	</documenttype>
+	<documenttype id="JSP" servermodel="JSP" internaltype="Dynamic" winfileextension="jsp,jst" macfileextension="jsp,jst" file="Default.jsp" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_8" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_9" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="ASP.NET_VB" servermodel="ASP.NET VB" internaltype="Dynamic" winfileextension="aspx,ascx,asmx" macfileextension="aspx,ascx" file="Default_vb.aspx" writebyteordermark="true" newdocumentname="WebForm" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_12" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_13" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="ASP.NET_CSharp" servermodel="ASP.NET C#" internaltype="Dynamic" winfileextension="aspx,ascx,asmx" macfileextension="aspx,ascx" file="Default_cs.aspx" writebyteordermark="true" newdocumentname="WebForm" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_10" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_11" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="PHP_MySQL" servermodel="PHP MySQL" internaltype="Dynamic" winfileextension="php,php3,php4,php5,phtml" macfileextension="php,php3,php4,php5,phtml" file="Default.php" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_14" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_15" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="JavaScript" internaltype="Text" winfileextension="js,json" macfileextension="js,json" file="Default.js" writebyteordermark="false" mimetype="text/javascript">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_16" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_17" />
+		</description>
+	</documenttype>
+	<documenttype id="VBScript" internaltype="Text" winfileextension="vbs" macfileextension="vbs" file="Default.vbs" writebyteordermark="false" mimetype="text/vbscript">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_18" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_19" />
+		</description>
+	</documenttype>
+	<documenttype id="Csharp" internaltype="Text" winfileextension="cs" macfileextension="cs" file="Default.cs" writebyteordermark="false" mimetype="text/cs">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_20" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_21" />
+		</description>
+	</documenttype>
+	<documenttype id="VB" internaltype="Text" winfileextension="vb" macfileextension="vb" file="Default.vb" writebyteordermark="false" mimetype="text/vb">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_22" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_23" />
+		</description>
+	</documenttype>
+	<documenttype id="Java" internaltype="Text" winfileextension="java" macfileextension="java" file="Default.java" writebyteordermark="false" mimetype="text/java">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_24" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_25" />
+		</description>
+	</documenttype>
+	<documenttype id="DWTemplate" internaltype="DWTemplate" winfileextension="dwt" macfileextension="dwt" file="Default.dwt" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_26" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_27" /> 
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="EDML" internaltype="XML" winfileextension="edml,edm" macfileextension="edml,edm" file="Default.edml" writebyteordermark="false" mimetype="text/xml" >
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_28" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_29" />
+		</description>
+		<dtdcontext>none</dtdcontext>
+	</documenttype>
+	<documenttype id="CSS" internaltype="Text" winfileextension="css" macfileextension="css" file="Default.css" writebyteordermark="false" mimetype="text/css" >
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_30" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_31" />
+		</description>
+	</documenttype>
+	<documenttype id="XML" internaltype="XML" winfileextension="xml,xsd,rss,rdf,dtd,vtm,vtml,csn,config,mxi" macfileextension="xml,xsd,rss,rdf,dtd,vtm,vtml,csn,config,mxi" file="Default.xml" writebyteordermark="false" mimetype="text/xml" >
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_32" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_33" />
+		</description>
+		<dtdcontext>xml</dtdcontext>
+	</documenttype>
+  <documenttype id="Actionscript" internaltype="Text" winfileextension="as" macfileextension="as" file="Default.as" writebyteordermark="false" mimetype="text/as" >
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_34" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_35" />
+		</description>
+	</documenttype>
+	<documenttype id="Text" internaltype="Text" winfileextension="txt" macfileextension="txt" file="Default.txt" writebyteordermark="false" mimetype="text/plain" >
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_36" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_37" />
+		</description>
+	</documenttype>
+	<documenttype id="WML" internaltype="XML" winfileextension="wml" macfileextension="wml" file="Default.wml" writebyteordermark="false" mimetype="text/xml">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_38" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_39" />
+		</description>
+		<dtdcontext>wml</dtdcontext>
+		<dtdcontext>required</dtdcontext>
+	</documenttype>
+	<documenttype id="TLD" internaltype="XML" winfileextension="tld" macfileextension="tld" file="Default.tld" writebyteordermark="false" mimetype="text/xml">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_58" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_59" />
+		</description>
+		<dtdcontext>jsp_tag_library</dtdcontext>
+		<dtdcontext>required</dtdcontext>
+	</documenttype>
+	<documenttype id="LibraryItem" internaltype="HTML" winfileextension="lbi" macfileextension="lbi" file="Default.lbi" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_40" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_41" />
+		</description>
+		<dtdcontext>none</dtdcontext>
+	</documenttype>
+	<documenttype id="DWTemplate_ASPVB" internaltype="DWTemplate" dynamicid="ASP-VB" winfileextension="dwt.asp" macfileextension="dwt.asp" file="Default_vb.dwt.asp" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_42" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_43" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="DWTemplate_ASPJS" internaltype="DWTemplate" dynamicid="ASP-JS" winfileextension="dwt.asp" macfileextension="dwt.asp" file="Default_js.dwt.asp" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_44" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_45" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="DWTemplate_CF" internaltype="DWTemplate" dynamicid="ColdFusion" winfileextension="dwt.cfm" macfileextension="dwt.cfm" file="Default.dwt.cfm" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_46" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_47" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="DWTemplate_JSP" internaltype="DWTemplate" dynamicid="JSP" winfileextension="dwt.jsp" macfileextension="dwt.jsp" file="Default.dwt.jsp" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_48" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_49" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="DWTemplate_AXCS" internaltype="DWTemplate" dynamicid="ASP.NET_CSharp" winfileextension="dwt.aspx" macfileextension="dwt.aspx" file="Default_cs.dwt.aspx" writebyteordermark="true" newdocumentname="WebForm" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_50" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_51" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="DWTemplate_AXVB" internaltype="DWTemplate" dynamicid="ASP.NET_VB" winfileextension="dwt.aspx" macfileextension="dwt.aspx" file="Default_vb.dwt.aspx" writebyteordermark="true" newdocumentname="WebForm" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_52" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_53" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="DWTemplate_PHP" internaltype="DWTemplate" dynamicid="PHP_MySQL" winfileextension="dwt.php" macfileextension="dwt.php" file="Default.dwt.php" writebyteordermark="false" mimetype="text/html">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_54" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_55" />
+		</description>
+		<dtdcontext>html</dtdcontext>
+	</documenttype>
+	<documenttype id="ASComm" internaltype="Text" winfileextension="asc" macfileextension="asc" file="Default.asc" writebyteordermark="false" mimetype="text/asc">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_60" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_61" /> 
+		</description>
+	</documenttype>
+	<documenttype id="ASRemote" internaltype="Text" winfileextension="asr" macfileextension="asr" file="Default.asr" writebyteordermark="false" mimetype="text/asr">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_62" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_63" />
+		</description>
+	</documenttype>
+	<documenttype id="XSLT" servermodel="XSLT" internaltype="XSLT" dynamicid="XSLT" winfileextension="xsl,xslt" macfileextension="xsl,xslt" file="Default.xsl" writebyteordermark="false" mimetype="text/xsl">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_66" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_67" />
+		</description>
+		<dtdcontext>xslt</dtdcontext>
+		<dtdcontext>required</dtdcontext>
+	</documenttype>
+	<documenttype id="XSLT-fragment" servermodel="XSLT" internaltype="XSLT" dynamicid="XSLT" winfileextension="xsl,xslt" macfileextension="xsl,xslt" file="Default-fragment.xsl" writebyteordermark="false" mimetype="text/xsl">
+		<TITLE>
+			<MMString:loadString id="mmdocumenttypes_68" />
+		</TITLE>
+		<description>
+			<MMString:loadString id="mmdocumenttypes_69" />
+		</description>
+		<dtdcontext>none</dtdcontext>
+		<dtdcontext>required</dtdcontext>
+	</documenttype>
+  <documenttype id="SVG" internaltype="XML" winfileextension="svg" macfileextension="svg" file="Default.svg" writebyteordermark="false" mimetype="text/xml" >
+    <TITLE>
+      <MMString:loadString id="mmdocumenttypes_72" />
+    </TITLE>
+    <description>
+      <MMString:loadString id="mmdocumenttypes_73" />
+    </description>
+    <dtdcontext>svg</dtdcontext>
+    <dtdcontext>required</dtdcontext>
+  </documenttype>  
+</documenttypes>

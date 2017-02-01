@@ -1,0 +1,23 @@
+2016/11/16-10:34:22.831 44291 Reusing MANIFEST /Users/P4/Library/Application Support/Google/Chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2016/11/16-10:34:22.831 44291 Recovering log #139
+2016/11/16-10:34:22.894 44291 Reusing old log /Users/P4/Library/Application Support/Google/Chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000139.log 
+2016/11/16-10:34:23.237 44291 Current memtable full; waiting...
+2016/11/16-10:34:23.237 148223 Level-0 table #143: started
+2016/11/16-10:34:23.288 148223 Level-0 table #143: 4073958 bytes OK
+2016/11/16-10:34:23.289 148223 Delete type=0 #139
+2016/11/16-10:34:23.290 148223 Level-0 table #145: started
+2016/11/16-10:34:23.290 148223 Level-0 table #145: 0 bytes OK
+2016/11/16-10:34:23.290 148223 Delete type=0 #142
+2016/11/16-10:34:23.290 148223 Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x01\x02\x01\x19\x001\x002\x001\x000\x008\x002\x003\x004\x000\x007\x002\x005\x006\x000\x003\x003\x006\x002\x008\x009\x00_\x001\x00_\x00u\x00p' @ 2140 : 0
+2016/11/16-10:34:23.290 148223 Compacting 3@0 + 1@1 files
+2016/11/16-10:34:23.409 148223 Generated table #146@0: 37 keys, 1009928 bytes
+2016/11/16-10:34:23.409 148223 Compacted 3@0 + 1@1 files => 1009928 bytes
+2016/11/16-10:34:23.414 148223 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/11/16-10:34:23.415 148223 Delete type=2 #136
+2016/11/16-10:34:23.425 148223 Delete type=2 #138
+2016/11/16-10:34:23.425 148223 Delete type=2 #140
+2016/11/16-10:34:23.426 148223 Delete type=2 #143
+2016/11/16-10:34:23.426 148223 Manual compaction at level-0 from '\x00\x02\x01\x02\x01\x19\x001\x002\x001\x000\x008\x002\x003\x004\x000\x007\x002\x005\x006\x000\x003\x003\x006\x002\x008\x009\x00_\x001\x00_\x00u\x00p' @ 2140 : 0 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2016/11/16-10:53:56.303 148223 Level-0 table #148: started
+2016/11/16-10:53:56.364 148223 Level-0 table #148: 5078476 bytes OK
+2016/11/16-10:53:56.365 148223 Delete type=0 #144

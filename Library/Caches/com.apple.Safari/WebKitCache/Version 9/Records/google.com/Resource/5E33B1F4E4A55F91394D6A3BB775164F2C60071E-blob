@@ -1,0 +1,1592 @@
+{
+ "kind": "drive#appList",
+ "items": [
+  {
+   "kind": "drive#app",
+   "id": "619683526622",
+   "name": "Google Docs",
+   "type": "WEB_ONLY",
+   "shortDescription": "Create and edit documents ",
+   "longDescription": "",
+   "supportsCreate": true,
+   "supportsImport": true,
+   "supportsMultiOpen": false,
+   "supportsOfflineCreate": true,
+   "supportsMobileBrowser": true,
+   "installed": true,
+   "authorized": false,
+   "driveBranded": false,
+   "removable": false,
+   "hasDriveWideScope": false,
+   "useByDefault": true,
+   "productUrl": "https://chrome.google.com/webstore/detail/aohghmighlieiainnegkcijnfilokake",
+   "productId": "aohghmighlieiainnegkcijnfilokake",
+   "openUrlTemplate": "https://docs.google.com/a/slvusd.org/document/d/{ids}/edit?usp=drive_web",
+   "createUrl": "https://docs.google.com/a/slvusd.org/document/create?usp=drive_web",
+   "createInFolderTemplate": "https://docs.google.com/a/slvusd.org/document/create?usp=drive_web&folder={folderId}",
+   "primaryMimeTypes": [
+    "application/vnd.google-apps.document"
+   ],
+   "icons": [
+    {
+     "category": "application",
+     "size": 10,
+     "iconUrl": "https://lh5.googleusercontent.com/-pdIpKp_jg0Y/UPX2QfKmpmI/AAAAAAAAA4M/xn2cjhf_ah8/s10-c-k/docs-16.png"
+    },
+    {
+     "category": "application",
+     "size": 16,
+     "iconUrl": "https://lh5.googleusercontent.com/-pdIpKp_jg0Y/UPX2QfKmpmI/AAAAAAAAA4M/xn2cjhf_ah8/s16-c-k/docs-16.png"
+    },
+    {
+     "category": "application",
+     "size": 32,
+     "iconUrl": "https://lh4.googleusercontent.com/-5LK7fKfJbro/UPV9afwFJoI/AAAAAAAAA0E/tPkqmw0JEQU/s32-c-k/docs-32.png"
+    },
+    {
+     "category": "application",
+     "size": 48,
+     "iconUrl": "https://lh5.googleusercontent.com/-sExaefYZOlc/USUx8r8x41I/AAAAAAAACPk/fNS8IBQh8iw/s48-c-k/docs-64.png"
+    },
+    {
+     "category": "application",
+     "size": 64,
+     "iconUrl": "https://lh5.googleusercontent.com/-sExaefYZOlc/USUx8r8x41I/AAAAAAAACPk/fNS8IBQh8iw/s64-c-k/docs-64.png"
+    },
+    {
+     "category": "application",
+     "size": 128,
+     "iconUrl": "https://lh5.googleusercontent.com/-eWRjAI0Nycc/USUyA2sw5NI/AAAAAAAACPw/bi7D-xwiclw/s128-c-k/docs-128.png"
+    },
+    {
+     "category": "application",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-eWRjAI0Nycc/USUyA2sw5NI/AAAAAAAACPw/bi7D-xwiclw/s256-c-k/docs-128.png"
+    },
+    {
+     "category": "document",
+     "size": 10,
+     "iconUrl": "https://lh5.googleusercontent.com/-sCg4gG_WAnM/UNS3_JRkvVI/AAAAAAAAAyk/8OT1wOmSC30/s10-c-k/icon_11_document_list.png"
+    },
+    {
+     "category": "document",
+     "size": 16,
+     "iconUrl": "https://lh5.googleusercontent.com/-sCg4gG_WAnM/UNS3_JRkvVI/AAAAAAAAAyk/8OT1wOmSC30/s16-c-k/icon_11_document_list.png"
+    },
+    {
+     "category": "document",
+     "size": 32,
+     "iconUrl": "https://lh5.googleusercontent.com/-3axM_M62Z3A/UNS4DVFflnI/AAAAAAAAAy0/FzgNcnQg9tM/s32-c-k/icon_11_document_email.png"
+    },
+    {
+     "category": "document",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s48-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s64-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s128-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s256-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 10,
+     "iconUrl": "https://lh5.googleusercontent.com/-sCg4gG_WAnM/UNS3_JRkvVI/AAAAAAAAAyk/8OT1wOmSC30/s10-c-k/icon_11_document_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 16,
+     "iconUrl": "https://lh5.googleusercontent.com/-sCg4gG_WAnM/UNS3_JRkvVI/AAAAAAAAAyk/8OT1wOmSC30/s16-c-k/icon_11_document_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 32,
+     "iconUrl": "https://lh5.googleusercontent.com/-3axM_M62Z3A/UNS4DVFflnI/AAAAAAAAAy0/FzgNcnQg9tM/s32-c-k/icon_11_document_email.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s48-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s64-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s128-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s256-c-k/icon_11_document_xl128.png"
+    }
+   ],
+   "chromeExtensionIds": [
+    "aohghmighlieiainnegkcijnfilokake"
+   ],
+   "requiresAuthorizationBeforeOpenWith": true,
+   "supportsTeamDrives": true
+  },
+  {
+   "kind": "drive#app",
+   "id": "1083656409722",
+   "name": "Google Sheets",
+   "type": "WEB_ONLY",
+   "shortDescription": "Create and edit spreadsheets",
+   "longDescription": "",
+   "supportsCreate": true,
+   "supportsImport": true,
+   "supportsMultiOpen": false,
+   "supportsOfflineCreate": true,
+   "supportsMobileBrowser": true,
+   "installed": true,
+   "authorized": false,
+   "driveBranded": false,
+   "removable": false,
+   "hasDriveWideScope": false,
+   "useByDefault": true,
+   "productUrl": "https://chrome.google.com/webstore/detail/felcaaldnbdncclmgdcncolpebgiejap",
+   "productId": "felcaaldnbdncclmgdcncolpebgiejap",
+   "openUrlTemplate": "https://docs.google.com/a/slvusd.org/spreadsheets/d/{ids}/edit?usp=drive_web",
+   "createUrl": "https://docs.google.com/a/slvusd.org/spreadsheets/create?usp=drive_web",
+   "createInFolderTemplate": "https://docs.google.com/a/slvusd.org/spreadsheets/create?usp=drive_web&folder={folderId}",
+   "primaryMimeTypes": [
+    "application/vnd.google-apps.spreadsheet"
+   ],
+   "icons": [
+    {
+     "category": "application",
+     "size": 10,
+     "iconUrl": "https://lh5.googleusercontent.com/-CWmXwwguBYg/UnsFvbgwzsI/AAAAAAAADpc/trQz3sklWL8/s10-c-k/spreadsheets-16.png"
+    },
+    {
+     "category": "application",
+     "size": 16,
+     "iconUrl": "https://lh5.googleusercontent.com/-CWmXwwguBYg/UnsFvbgwzsI/AAAAAAAADpc/trQz3sklWL8/s16-c-k/spreadsheets-16.png"
+    },
+    {
+     "category": "application",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-iqCqIsJH-Kw/UnsGia72GkI/AAAAAAAADp8/lst3dIIb-A8/s32-c-k/spreadsheets-32.png"
+    },
+    {
+     "category": "application",
+     "size": 48,
+     "iconUrl": "https://lh4.googleusercontent.com/-kPcOXqDs0cI/UnsGlv4SY6I/AAAAAAAADqM/tXpq378kr-Y/s48-c-k/spreadsheets-64.png"
+    },
+    {
+     "category": "application",
+     "size": 64,
+     "iconUrl": "https://lh4.googleusercontent.com/-kPcOXqDs0cI/UnsGlv4SY6I/AAAAAAAADqM/tXpq378kr-Y/s64-c-k/spreadsheets-64.png"
+    },
+    {
+     "category": "application",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-2x3lCAAylPY/UnsGodlWzoI/AAAAAAAADqY/QM4jf_jICgk/s128-c-k/spreadsheets-128.png"
+    },
+    {
+     "category": "application",
+     "size": 256,
+     "iconUrl": "https://lh6.googleusercontent.com/-GDzOqEHrElE/UnsGrnREsFI/AAAAAAAADqs/Z-tpwCnIts4/s256-c-k/spreadsheets-128.png"
+    },
+    {
+     "category": "document",
+     "size": 10,
+     "iconUrl": "https://lh6.googleusercontent.com/-Q-44EkHWJ7U/UnsHNhOIgcI/AAAAAAAADq8/dpyH72iw1Yw/s10-c-k/icon_11_spreadsheet_list.png"
+    },
+    {
+     "category": "document",
+     "size": 16,
+     "iconUrl": "https://lh6.googleusercontent.com/-Q-44EkHWJ7U/UnsHNhOIgcI/AAAAAAAADq8/dpyH72iw1Yw/s16-c-k/icon_11_spreadsheet_list.png"
+    },
+    {
+     "category": "document",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-LB7ZLogv6zI/UnsHPhTlI9I/AAAAAAAADrI/aaSoa2Uu1HY/s32-c-k/icon_11_spreadsheet_email.png"
+    },
+    {
+     "category": "document",
+     "size": 48,
+     "iconUrl": "https://lh4.googleusercontent.com/-ZnPMfjcgzZE/UnsHSKyMhRI/AAAAAAAADrU/vsnR-Xxx9Lo/s48-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 64,
+     "iconUrl": "https://lh4.googleusercontent.com/-ZnPMfjcgzZE/UnsHSKyMhRI/AAAAAAAADrU/vsnR-Xxx9Lo/s64-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 128,
+     "iconUrl": "https://lh6.googleusercontent.com/-rxJN30D3xzY/UnsHUGXG9UI/AAAAAAAADrg/l5RMBQQdMjk/s128-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-si_COtL6iGQ/UnsHVjJvYwI/AAAAAAAADrs/WA_eC6UmbDo/s256-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 10,
+     "iconUrl": "https://lh6.googleusercontent.com/-Q-44EkHWJ7U/UnsHNhOIgcI/AAAAAAAADq8/dpyH72iw1Yw/s10-c-k/icon_11_spreadsheet_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 16,
+     "iconUrl": "https://lh6.googleusercontent.com/-Q-44EkHWJ7U/UnsHNhOIgcI/AAAAAAAADq8/dpyH72iw1Yw/s16-c-k/icon_11_spreadsheet_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-LB7ZLogv6zI/UnsHPhTlI9I/AAAAAAAADrI/aaSoa2Uu1HY/s32-c-k/icon_11_spreadsheet_email.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 48,
+     "iconUrl": "https://lh4.googleusercontent.com/-ZnPMfjcgzZE/UnsHSKyMhRI/AAAAAAAADrU/vsnR-Xxx9Lo/s48-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 64,
+     "iconUrl": "https://lh4.googleusercontent.com/-ZnPMfjcgzZE/UnsHSKyMhRI/AAAAAAAADrU/vsnR-Xxx9Lo/s64-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 128,
+     "iconUrl": "https://lh6.googleusercontent.com/-rxJN30D3xzY/UnsHUGXG9UI/AAAAAAAADrg/l5RMBQQdMjk/s128-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-si_COtL6iGQ/UnsHVjJvYwI/AAAAAAAADrs/WA_eC6UmbDo/s256-c-k/icon_11_spreadsheet_xl128.png"
+    }
+   ],
+   "chromeExtensionIds": [
+    "felcaaldnbdncclmgdcncolpebgiejap"
+   ],
+   "requiresAuthorizationBeforeOpenWith": true,
+   "supportsTeamDrives": true
+  },
+  {
+   "kind": "drive#app",
+   "id": "889782162350",
+   "name": "Google Slides",
+   "type": "WEB_ONLY",
+   "shortDescription": "Create and edit presentations ",
+   "longDescription": "",
+   "supportsCreate": true,
+   "supportsImport": true,
+   "supportsMultiOpen": false,
+   "supportsOfflineCreate": true,
+   "supportsMobileBrowser": true,
+   "installed": true,
+   "authorized": false,
+   "driveBranded": false,
+   "removable": false,
+   "hasDriveWideScope": false,
+   "useByDefault": true,
+   "productUrl": "https://chrome.google.com/webstore/detail/aapocclcgogkmnckokdopfmhonfmgoek",
+   "productId": "aapocclcgogkmnckokdopfmhonfmgoek",
+   "openUrlTemplate": "https://docs.google.com/a/slvusd.org/presentation/d/{ids}/edit?usp=drive_web",
+   "createUrl": "https://docs.google.com/a/slvusd.org/presentation/create?usp=drive_web",
+   "createInFolderTemplate": "https://docs.google.com/a/slvusd.org/presentation/create?usp=drive_web&folder={folderId}",
+   "primaryMimeTypes": [
+    "application/vnd.google-apps.presentation"
+   ],
+   "icons": [
+    {
+     "category": "application",
+     "size": 10,
+     "iconUrl": "https://lh3.googleusercontent.com/-mOc1Fjz3_DU/UPX2DFPpg5I/AAAAAAAAA3c/gI5OzDIEjsI/s10-c-k/presentations-16.png"
+    },
+    {
+     "category": "application",
+     "size": 16,
+     "iconUrl": "https://lh3.googleusercontent.com/-mOc1Fjz3_DU/UPX2DFPpg5I/AAAAAAAAA3c/gI5OzDIEjsI/s16-c-k/presentations-16.png"
+    },
+    {
+     "category": "application",
+     "size": 32,
+     "iconUrl": "https://lh5.googleusercontent.com/-I1ZBP63Dt5g/UPV-ELejL4I/AAAAAAAAA1Y/Zdx1R9kPH3c/s32-c-k/presentations-32.png"
+    },
+    {
+     "category": "application",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-nHWmaNzw2M4/USUysKupmPI/AAAAAAAACRc/HlRyfbqByrs/s48-c-k/presentations-64.png"
+    },
+    {
+     "category": "application",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-nHWmaNzw2M4/USUysKupmPI/AAAAAAAACRc/HlRyfbqByrs/s64-c-k/presentations-64.png"
+    },
+    {
+     "category": "application",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-9iQTRcgM5OM/USUyuRWwTgI/AAAAAAAACRo/k9RYEWE8SK0/s128-c-k/presentations-128.png"
+    },
+    {
+     "category": "application",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-9iQTRcgM5OM/USUyuRWwTgI/AAAAAAAACRo/k9RYEWE8SK0/s256-c-k/presentations-128.png"
+    },
+    {
+     "category": "document",
+     "size": 10,
+     "iconUrl": "https://lh4.googleusercontent.com/-6bLACjFNhS0/UNS9A-Q4LRI/AAAAAAAAA28/qM4eZV1xMb0/s10-c-k/icon_11_presentation_list.png"
+    },
+    {
+     "category": "document",
+     "size": 16,
+     "iconUrl": "https://lh4.googleusercontent.com/-6bLACjFNhS0/UNS9A-Q4LRI/AAAAAAAAA28/qM4eZV1xMb0/s16-c-k/icon_11_presentation_list.png"
+    },
+    {
+     "category": "document",
+     "size": 32,
+     "iconUrl": "https://lh4.googleusercontent.com/-ErUZynuh6yI/UNS9EnB9UxI/AAAAAAAAA3I/iG7EyEIENsw/s32-c-k/icon_11_presentation_email.png"
+    },
+    {
+     "category": "document",
+     "size": 48,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s48-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 64,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s64-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 128,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s128-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s256-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 10,
+     "iconUrl": "https://lh4.googleusercontent.com/-6bLACjFNhS0/UNS9A-Q4LRI/AAAAAAAAA28/qM4eZV1xMb0/s10-c-k/icon_11_presentation_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 16,
+     "iconUrl": "https://lh4.googleusercontent.com/-6bLACjFNhS0/UNS9A-Q4LRI/AAAAAAAAA28/qM4eZV1xMb0/s16-c-k/icon_11_presentation_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 32,
+     "iconUrl": "https://lh4.googleusercontent.com/-ErUZynuh6yI/UNS9EnB9UxI/AAAAAAAAA3I/iG7EyEIENsw/s32-c-k/icon_11_presentation_email.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 48,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s48-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 64,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s64-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 128,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s128-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s256-c-k/icon_11_presentation_xl128.png"
+    }
+   ],
+   "chromeExtensionIds": [
+    "aapocclcgogkmnckokdopfmhonfmgoek"
+   ],
+   "requiresAuthorizationBeforeOpenWith": true,
+   "supportsTeamDrives": true
+  },
+  {
+   "kind": "drive#app",
+   "id": "196802322321",
+   "name": "Google Forms",
+   "type": "WEB_ONLY",
+   "shortDescription": "Create online forms and surveys",
+   "longDescription": "",
+   "supportsCreate": true,
+   "supportsImport": true,
+   "supportsMultiOpen": false,
+   "supportsOfflineCreate": false,
+   "supportsMobileBrowser": false,
+   "installed": true,
+   "authorized": false,
+   "driveBranded": false,
+   "removable": false,
+   "hasDriveWideScope": false,
+   "useByDefault": true,
+   "productUrl": "https://chrome.google.com/webstore/detail/jhknlonaankphkkbnmjdlpehkinifeeg",
+   "productId": "jhknlonaankphkkbnmjdlpehkinifeeg",
+   "openUrlTemplate": "https://docs.google.com/a/slvusd.org/forms/d/{ids}/edit?usp=drive_web",
+   "createUrl": "https://docs.google.com/a/slvusd.org/forms/create?usp=drive_web",
+   "createInFolderTemplate": "https://docs.google.com/a/slvusd.org/forms/create?usp=drive_web&folder={folderId}",
+   "primaryMimeTypes": [
+    "application/vnd.google-apps.form"
+   ],
+   "icons": [
+    {
+     "category": "application",
+     "size": 10,
+     "iconUrl": "https://lh3.googleusercontent.com/-abxQ36-blQU/VkYWP8Vyv2I/AAAAAAAASpk/zJ8taeGtI-I/s10-c-k/icon_2_form_x16.png"
+    },
+    {
+     "category": "application",
+     "size": 16,
+     "iconUrl": "https://lh3.googleusercontent.com/-abxQ36-blQU/VkYWP8Vyv2I/AAAAAAAASpk/zJ8taeGtI-I/s16-c-k/icon_2_form_x16.png"
+    },
+    {
+     "category": "application",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-pYb9ppdq_kY/VfA4xxj8zWI/AAAAAAAARfQ/z6tRTKDp7XM/s32-c-k/forms-app-32.png"
+    },
+    {
+     "category": "application",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-NR_POR9N4Zo/VfA4u-G2pTI/AAAAAAAARe8/xoZIP1KwYkg/s48-c-k/forms-app-64.png"
+    },
+    {
+     "category": "application",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-NR_POR9N4Zo/VfA4u-G2pTI/AAAAAAAARe8/xoZIP1KwYkg/s64-c-k/forms-app-64.png"
+    },
+    {
+     "category": "application",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-MABhjYvqX1Q/VfA4qe6wm-I/AAAAAAAARes/cpzgM8-v66o/s128-c-k/forms-app-128.png"
+    },
+    {
+     "category": "application",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-MABhjYvqX1Q/VfA4qe6wm-I/AAAAAAAARes/cpzgM8-v66o/s256-c-k/forms-app-128.png"
+    },
+    {
+     "category": "document",
+     "size": 10,
+     "iconUrl": "https://lh3.googleusercontent.com/-saVIwhBrvkM/VkYWWbIXozI/AAAAAAAASp4/2JfrVqoUYDE/s10-c-k/icon_2_form_x16.png"
+    },
+    {
+     "category": "document",
+     "size": 16,
+     "iconUrl": "https://lh3.googleusercontent.com/-saVIwhBrvkM/VkYWWbIXozI/AAAAAAAASp4/2JfrVqoUYDE/s16-c-k/icon_2_form_x16.png"
+    },
+    {
+     "category": "document",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-uEY-N5z6CXw/VfA5AT1fKDI/AAAAAAAARgY/OrH6n3Mn6PY/s32-c-k/forms-doc-32.png"
+    },
+    {
+     "category": "document",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-q1LNEg-_Yy4/VfA49iDmTzI/AAAAAAAARgE/KGs8pd9Q7pc/s48-c-k/forms-doc-64.png"
+    },
+    {
+     "category": "document",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-q1LNEg-_Yy4/VfA49iDmTzI/AAAAAAAARgE/KGs8pd9Q7pc/s64-c-k/forms-doc-64.png"
+    },
+    {
+     "category": "document",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-gfmqglbiRas/VfA454v6kvI/AAAAAAAARf4/awk7dD8pETc/s128-c-k/forms-doc-128.png"
+    },
+    {
+     "category": "document",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-gfmqglbiRas/VfA454v6kvI/AAAAAAAARf4/awk7dD8pETc/s256-c-k/forms-doc-128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 10,
+     "iconUrl": "https://lh3.googleusercontent.com/-saVIwhBrvkM/VkYWWbIXozI/AAAAAAAASp4/2JfrVqoUYDE/s10-c-k/icon_2_form_x16.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 16,
+     "iconUrl": "https://lh3.googleusercontent.com/-saVIwhBrvkM/VkYWWbIXozI/AAAAAAAASp4/2JfrVqoUYDE/s16-c-k/icon_2_form_x16.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-uEY-N5z6CXw/VfA5AT1fKDI/AAAAAAAARgY/OrH6n3Mn6PY/s32-c-k/forms-doc-32.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-q1LNEg-_Yy4/VfA49iDmTzI/AAAAAAAARgE/KGs8pd9Q7pc/s48-c-k/forms-doc-64.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-q1LNEg-_Yy4/VfA49iDmTzI/AAAAAAAARgE/KGs8pd9Q7pc/s64-c-k/forms-doc-64.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-gfmqglbiRas/VfA454v6kvI/AAAAAAAARf4/awk7dD8pETc/s128-c-k/forms-doc-128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-gfmqglbiRas/VfA454v6kvI/AAAAAAAARf4/awk7dD8pETc/s256-c-k/forms-doc-128.png"
+    }
+   ],
+   "chromeExtensionIds": [
+    "jhknlonaankphkkbnmjdlpehkinifeeg"
+   ],
+   "requiresAuthorizationBeforeOpenWith": true,
+   "supportsTeamDrives": true
+  },
+  {
+   "kind": "drive#app",
+   "id": "952342923413",
+   "name": "Google Drawings",
+   "type": "WEB_ONLY",
+   "shortDescription": "Create shapes and diagrams",
+   "longDescription": "",
+   "supportsCreate": true,
+   "supportsImport": false,
+   "supportsMultiOpen": false,
+   "supportsOfflineCreate": true,
+   "supportsMobileBrowser": false,
+   "installed": true,
+   "authorized": false,
+   "driveBranded": false,
+   "removable": false,
+   "hasDriveWideScope": false,
+   "useByDefault": true,
+   "productUrl": "https://chrome.google.com/webstore/detail/mkaakpdehdafacodkgkpghoibnmamcme",
+   "productId": "mkaakpdehdafacodkgkpghoibnmamcme",
+   "openUrlTemplate": "https://docs.google.com/a/slvusd.org/drawings/d/{ids}/edit?usp=drive_web",
+   "createUrl": "https://docs.google.com/a/slvusd.org/drawings/create?usp=drive_web",
+   "createInFolderTemplate": "https://docs.google.com/a/slvusd.org/drawings/create?usp=drive_web&folder={folderId}",
+   "primaryMimeTypes": [
+    "application/vnd.google-apps.drawing"
+   ],
+   "icons": [
+    {
+     "category": "application",
+     "size": 10,
+     "iconUrl": "https://lh4.googleusercontent.com/-TTH2WASWSkM/UPX2NYtdTxI/AAAAAAAAA4A/gzvp_RAFBq0/s10-c-k/drawings-16.png"
+    },
+    {
+     "category": "application",
+     "size": 16,
+     "iconUrl": "https://lh4.googleusercontent.com/-TTH2WASWSkM/UPX2NYtdTxI/AAAAAAAAA4A/gzvp_RAFBq0/s16-c-k/drawings-16.png"
+    },
+    {
+     "category": "application",
+     "size": 32,
+     "iconUrl": "https://lh5.googleusercontent.com/-BE-MQVmwIzA/UPV9hKwHzUI/AAAAAAAAA0Q/vqLnNAoC7gk/s32-c-k/drawings-32.png"
+    },
+    {
+     "category": "application",
+     "size": 48,
+     "iconUrl": "https://lh6.googleusercontent.com/-tXo-pGhSF10/USUyIgYWbAI/AAAAAAAACP8/-HGvd2QlisE/s48-c-k/drawings-64.png"
+    },
+    {
+     "category": "application",
+     "size": 64,
+     "iconUrl": "https://lh6.googleusercontent.com/-tXo-pGhSF10/USUyIgYWbAI/AAAAAAAACP8/-HGvd2QlisE/s64-c-k/drawings-64.png"
+    },
+    {
+     "category": "application",
+     "size": 128,
+     "iconUrl": "https://lh5.googleusercontent.com/-GM2RE2pdxU4/USUyK8CYNtI/AAAAAAAACQI/ePdxc2E4veY/s128-c-k/drawings-128.png"
+    },
+    {
+     "category": "application",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-GM2RE2pdxU4/USUyK8CYNtI/AAAAAAAACQI/ePdxc2E4veY/s256-c-k/drawings-128.png"
+    },
+    {
+     "category": "document",
+     "size": 10,
+     "iconUrl": "https://lh6.googleusercontent.com/-S8yAoKXLZB8/UNSsSn3HxXI/AAAAAAAAAwM/G-iUPJMAKkE/s10-c-k/icon_11_drawing_list.png"
+    },
+    {
+     "category": "document",
+     "size": 16,
+     "iconUrl": "https://lh6.googleusercontent.com/-S8yAoKXLZB8/UNSsSn3HxXI/AAAAAAAAAwM/G-iUPJMAKkE/s16-c-k/icon_11_drawing_list.png"
+    },
+    {
+     "category": "document",
+     "size": 32,
+     "iconUrl": "https://lh5.googleusercontent.com/-frwVAg4R1YY/UNSsVhnK9BI/AAAAAAAAAwY/dEVqySDUP0I/s32-c-k/icon_11_drawing_email.png"
+    },
+    {
+     "category": "document",
+     "size": 48,
+     "iconUrl": "https://lh5.googleusercontent.com/-u9Rz7gYnVcs/UNSsZ-O9sGI/AAAAAAAAAwk/ZQXrgfA3l2w/s48-c-k/icon_11_drawing_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 64,
+     "iconUrl": "https://lh5.googleusercontent.com/-u9Rz7gYnVcs/UNSsZ-O9sGI/AAAAAAAAAwk/ZQXrgfA3l2w/s64-c-k/icon_11_drawing_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 128,
+     "iconUrl": "https://lh5.googleusercontent.com/-u9Rz7gYnVcs/UNSsZ-O9sGI/AAAAAAAAAwk/ZQXrgfA3l2w/s128-c-k/icon_11_drawing_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-u9Rz7gYnVcs/UNSsZ-O9sGI/AAAAAAAAAwk/ZQXrgfA3l2w/s256-c-k/icon_11_drawing_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 10,
+     "iconUrl": "https://lh6.googleusercontent.com/-S8yAoKXLZB8/UNSsSn3HxXI/AAAAAAAAAwM/G-iUPJMAKkE/s10-c-k/icon_11_drawing_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 16,
+     "iconUrl": "https://lh6.googleusercontent.com/-S8yAoKXLZB8/UNSsSn3HxXI/AAAAAAAAAwM/G-iUPJMAKkE/s16-c-k/icon_11_drawing_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 32,
+     "iconUrl": "https://lh5.googleusercontent.com/-frwVAg4R1YY/UNSsVhnK9BI/AAAAAAAAAwY/dEVqySDUP0I/s32-c-k/icon_11_drawing_email.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 48,
+     "iconUrl": "https://lh5.googleusercontent.com/-u9Rz7gYnVcs/UNSsZ-O9sGI/AAAAAAAAAwk/ZQXrgfA3l2w/s48-c-k/icon_11_drawing_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 64,
+     "iconUrl": "https://lh5.googleusercontent.com/-u9Rz7gYnVcs/UNSsZ-O9sGI/AAAAAAAAAwk/ZQXrgfA3l2w/s64-c-k/icon_11_drawing_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 128,
+     "iconUrl": "https://lh5.googleusercontent.com/-u9Rz7gYnVcs/UNSsZ-O9sGI/AAAAAAAAAwk/ZQXrgfA3l2w/s128-c-k/icon_11_drawing_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-u9Rz7gYnVcs/UNSsZ-O9sGI/AAAAAAAAAwk/ZQXrgfA3l2w/s256-c-k/icon_11_drawing_xl128.png"
+    }
+   ],
+   "chromeExtensionIds": [
+    "mkaakpdehdafacodkgkpghoibnmamcme"
+   ],
+   "requiresAuthorizationBeforeOpenWith": true,
+   "supportsTeamDrives": true
+  },
+  {
+   "kind": "drive#app",
+   "id": "796396377186",
+   "name": "Google My Maps",
+   "type": "WEB_ONLY",
+   "objectType": "Map",
+   "shortDescription": "My Maps makes it easy to create and share maps online.",
+   "longDescription": "",
+   "supportsCreate": true,
+   "supportsImport": false,
+   "supportsMultiOpen": false,
+   "supportsOfflineCreate": false,
+   "supportsMobileBrowser": true,
+   "installed": true,
+   "authorized": false,
+   "driveBranded": false,
+   "removable": false,
+   "hasDriveWideScope": false,
+   "useByDefault": true,
+   "productUrl": "https://chrome.google.com/webstore/detail/gfjopeiccnhblaglanknocmapkihggho",
+   "productId": "gfjopeiccnhblaglanknocmapkihggho",
+   "openUrlTemplate": "https://www.google.com/maps/d/drive?state=%7B%22ids%22:%5B%22{ids}%22%5D,%22exportIds%22:%5B%22{exportIds}%22%5D,%22action%22:%22open%22,%22userId%22:%22101973748451364245012%22%7D",
+   "createUrl": "https://www.google.com/maps/d/drive?state=%7B%22action%22:%22create%22,%22userId%22:%22101973748451364245012%22%7D",
+   "createInFolderTemplate": "https://www.google.com/maps/d/drive?state=%7B%22folderId%22:%22{folderId}%22,%22action%22:%22create%22,%22userId%22:%22101973748451364245012%22%7D",
+   "primaryMimeTypes": [
+    "application/vnd.google-apps.map"
+   ],
+   "icons": [
+    {
+     "category": "application",
+     "size": 10,
+     "iconUrl": "https://lh3.googleusercontent.com/-U6qYFgH4Imk/VlUHaAeMrWI/AAAAAAAAAvw/-mBMGKaF-VM/s10-c-k/logo_my_maps_16x16.png"
+    },
+    {
+     "category": "application",
+     "size": 16,
+     "iconUrl": "https://lh3.googleusercontent.com/-U6qYFgH4Imk/VlUHaAeMrWI/AAAAAAAAAvw/-mBMGKaF-VM/s16-c-k/logo_my_maps_16x16.png"
+    },
+    {
+     "category": "application",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-JEBcTCIbF50/VlUHW27XFMI/AAAAAAAAAvk/adPEcse7hJ0/s32-c-k/logo_my_maps_32x32.png"
+    },
+    {
+     "category": "application",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-ckyOauH4M9A/VlUHVHSWvqI/AAAAAAAAAvY/CXnAz8U9WhU/s48-c-k/logo_my_maps_64x64.png"
+    },
+    {
+     "category": "application",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-ckyOauH4M9A/VlUHVHSWvqI/AAAAAAAAAvY/CXnAz8U9WhU/s64-c-k/logo_my_maps_64x64.png"
+    },
+    {
+     "category": "application",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-kZRe8KeuIGc/VlUHTSGLAlI/AAAAAAAAAvM/3xa-993gMKo/s128-c-k/logo_my_maps_128x128.png"
+    },
+    {
+     "category": "application",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-7zYjFcK-aU8/VlUHRB6FfLI/AAAAAAAAAvA/_A2m5V6nUaE/s256-c-k/logo_my_maps_256x256.png"
+    },
+    {
+     "category": "document",
+     "size": 10,
+     "iconUrl": "https://lh3.googleusercontent.com/-U6qYFgH4Imk/VlUHaAeMrWI/AAAAAAAAAv0/0ov2jLyRvpk/s10-c-k/logo_my_maps_16x16.png"
+    },
+    {
+     "category": "document",
+     "size": 16,
+     "iconUrl": "https://lh3.googleusercontent.com/-U6qYFgH4Imk/VlUHaAeMrWI/AAAAAAAAAv0/0ov2jLyRvpk/s16-c-k/logo_my_maps_16x16.png"
+    },
+    {
+     "category": "document",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-JEBcTCIbF50/VlUHW27XFMI/AAAAAAAAAvo/j_4Miyj-3HI/s32-c-k/logo_my_maps_32x32.png"
+    },
+    {
+     "category": "document",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-ckyOauH4M9A/VlUHVHSWvqI/AAAAAAAAAvc/4UdLTBqfjvk/s48-c-k/logo_my_maps_64x64.png"
+    },
+    {
+     "category": "document",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-ckyOauH4M9A/VlUHVHSWvqI/AAAAAAAAAvc/4UdLTBqfjvk/s64-c-k/logo_my_maps_64x64.png"
+    },
+    {
+     "category": "document",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-kZRe8KeuIGc/VlUHTSGLAlI/AAAAAAAAAvQ/WCgW4w1G7ZQ/s128-c-k/logo_my_maps_128x128.png"
+    },
+    {
+     "category": "document",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-7zYjFcK-aU8/VlUHRB6FfLI/AAAAAAAAAvE/46-m4PRGQlM/s256-c-k/logo_my_maps_256x256.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 10,
+     "iconUrl": "https://lh3.googleusercontent.com/-U6qYFgH4Imk/VlUHaAeMrWI/AAAAAAAAAv0/0ov2jLyRvpk/s10-c-k/logo_my_maps_16x16.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 16,
+     "iconUrl": "https://lh3.googleusercontent.com/-U6qYFgH4Imk/VlUHaAeMrWI/AAAAAAAAAv0/0ov2jLyRvpk/s16-c-k/logo_my_maps_16x16.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-JEBcTCIbF50/VlUHW27XFMI/AAAAAAAAAvo/j_4Miyj-3HI/s32-c-k/logo_my_maps_32x32.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-ckyOauH4M9A/VlUHVHSWvqI/AAAAAAAAAvc/4UdLTBqfjvk/s48-c-k/logo_my_maps_64x64.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-ckyOauH4M9A/VlUHVHSWvqI/AAAAAAAAAvc/4UdLTBqfjvk/s64-c-k/logo_my_maps_64x64.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-kZRe8KeuIGc/VlUHTSGLAlI/AAAAAAAAAvQ/WCgW4w1G7ZQ/s128-c-k/logo_my_maps_128x128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-7zYjFcK-aU8/VlUHRB6FfLI/AAAAAAAAAvE/46-m4PRGQlM/s256-c-k/logo_my_maps_256x256.png"
+    }
+   ],
+   "chromeExtensionIds": [
+    "gfjopeiccnhblaglanknocmapkihggho"
+   ],
+   "requiresAuthorizationBeforeOpenWith": true,
+   "supportsTeamDrives": false
+  },
+  {
+   "kind": "drive#app",
+   "id": "897606708560",
+   "name": "Google Sites",
+   "type": "WEB_ONLY",
+   "objectType": "Untitled Site",
+   "shortDescription": "Create and edit sites",
+   "longDescription": "",
+   "supportsCreate": true,
+   "supportsImport": false,
+   "supportsMultiOpen": false,
+   "supportsOfflineCreate": false,
+   "supportsMobileBrowser": true,
+   "installed": true,
+   "authorized": false,
+   "driveBranded": false,
+   "removable": false,
+   "hasDriveWideScope": false,
+   "useByDefault": true,
+   "openUrlTemplate": "https://sites.google.com/s/{ids}/edit?userId=101973748451364245012",
+   "createUrl": "https://sites.google.com/create?usp=drive_web&state=%7B%22action%22:%22create%22,%22userId%22:%22101973748451364245012%22%7D",
+   "createInFolderTemplate": "https://sites.google.com/create?usp=drive_web&state=%7B%22folderId%22:%22{folderId}%22,%22action%22:%22create%22,%22userId%22:%22101973748451364245012%22%7D",
+   "primaryMimeTypes": [
+    "application/vnd.google-apps.site",
+    "application/google-sites-page"
+   ],
+   "icons": [
+    {
+     "category": "application",
+     "size": 10,
+     "iconUrl": "https://lh3.googleusercontent.com/-XxNNZiYT1TE/V3veLyYN7HI/AAAAAAAACJk/3wS5SqzlcBMfCOgUMbV1merdfRuDW5S9ACLcB/s10-c-k/Atari_ICN_16.png"
+    },
+    {
+     "category": "application",
+     "size": 16,
+     "iconUrl": "https://lh3.googleusercontent.com/-XxNNZiYT1TE/V3veLyYN7HI/AAAAAAAACJk/3wS5SqzlcBMfCOgUMbV1merdfRuDW5S9ACLcB/s16-c-k/Atari_ICN_16.png"
+    },
+    {
+     "category": "application",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-w69jf1XcgOA/V3veJ_0_fKI/AAAAAAAACJc/PKcdMJHH9UoVo6NGPzdwXmZP0B2WDFWBQCLcB/s32-c-k/Atari_ICN_32%2Bcopy.png"
+    },
+    {
+     "category": "application",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-3z5nnyR5uKs/V3veH57wJSI/AAAAAAAACJU/m03hytGvSREhHujkX9ZFqAIGQAG2cbJggCLcB/s48-c-k/Atari_ICN_64.png"
+    },
+    {
+     "category": "application",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-3z5nnyR5uKs/V3veH57wJSI/AAAAAAAACJU/m03hytGvSREhHujkX9ZFqAIGQAG2cbJggCLcB/s64-c-k/Atari_ICN_64.png"
+    },
+    {
+     "category": "application",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-9Tuhv9X9Qcs/V3veFK9uyJI/AAAAAAAACJM/I7CXACKTOSAUx3a351edES6LuluXVF02ACLcB/s128-c-k/Atari_ICN_128.png"
+    },
+    {
+     "category": "application",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-Smo2WXnCBzQ/V3veC-FkOuI/AAAAAAAACJE/KBdgbuu_UzgREVVspheSaD5iibFghvB8wCLcB/s256-c-k/Atari_ICN_256.png"
+    },
+    {
+     "category": "document",
+     "size": 10,
+     "iconUrl": "https://lh3.googleusercontent.com/-3IJJGEnZKCE/V3veYM26CbI/AAAAAAAACKM/FcHoaxs_UB8U_DmzopL4PzfFV_Udsop0wCLcB/s10-c-k/Atari_ICN_16.png"
+    },
+    {
+     "category": "document",
+     "size": 16,
+     "iconUrl": "https://lh3.googleusercontent.com/-3IJJGEnZKCE/V3veYM26CbI/AAAAAAAACKM/FcHoaxs_UB8U_DmzopL4PzfFV_Udsop0wCLcB/s16-c-k/Atari_ICN_16.png"
+    },
+    {
+     "category": "document",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-HFu_3xbUC24/V3veWDSH60I/AAAAAAAACKE/Hq-B07x7D_Iq3tPeKa2wf_w-bi7bsvb4gCLcB/s32-c-k/Atari_ICN_32%2Bcopy.png"
+    },
+    {
+     "category": "document",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-XMfdrViJhac/V3veUDKX0PI/AAAAAAAACJ8/LhnbBe8Zr1gWvA-HQ7CfX5NYwLRKT_gfwCLcB/s48-c-k/Atari_ICN_64.png"
+    },
+    {
+     "category": "document",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-XMfdrViJhac/V3veUDKX0PI/AAAAAAAACJ8/LhnbBe8Zr1gWvA-HQ7CfX5NYwLRKT_gfwCLcB/s64-c-k/Atari_ICN_64.png"
+    },
+    {
+     "category": "document",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-0bcDxG3VNLs/V3veSPY6P9I/AAAAAAAACJ0/wbs51yAfXvctz1wjGRSUI8FjbTBbbEFawCLcB/s128-c-k/Atari_ICN_128.png"
+    },
+    {
+     "category": "document",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-ycq6bfEyy74/V3veP_lRQTI/AAAAAAAACJs/di-DkiJ6bQQ0YfGxB2dXdXLw84LGmSQfQCLcB/s256-c-k/Atari_ICN_256.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 10,
+     "iconUrl": "https://lh3.googleusercontent.com/-3IJJGEnZKCE/V3veYM26CbI/AAAAAAAACKM/FcHoaxs_UB8U_DmzopL4PzfFV_Udsop0wCLcB/s10-c-k/Atari_ICN_16.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 16,
+     "iconUrl": "https://lh3.googleusercontent.com/-3IJJGEnZKCE/V3veYM26CbI/AAAAAAAACKM/FcHoaxs_UB8U_DmzopL4PzfFV_Udsop0wCLcB/s16-c-k/Atari_ICN_16.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-HFu_3xbUC24/V3veWDSH60I/AAAAAAAACKE/Hq-B07x7D_Iq3tPeKa2wf_w-bi7bsvb4gCLcB/s32-c-k/Atari_ICN_32%2Bcopy.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-XMfdrViJhac/V3veUDKX0PI/AAAAAAAACJ8/LhnbBe8Zr1gWvA-HQ7CfX5NYwLRKT_gfwCLcB/s48-c-k/Atari_ICN_64.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-XMfdrViJhac/V3veUDKX0PI/AAAAAAAACJ8/LhnbBe8Zr1gWvA-HQ7CfX5NYwLRKT_gfwCLcB/s64-c-k/Atari_ICN_64.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-0bcDxG3VNLs/V3veSPY6P9I/AAAAAAAACJ0/wbs51yAfXvctz1wjGRSUI8FjbTBbbEFawCLcB/s128-c-k/Atari_ICN_128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-ycq6bfEyy74/V3veP_lRQTI/AAAAAAAACJs/di-DkiJ6bQQ0YfGxB2dXdXLw84LGmSQfQCLcB/s256-c-k/Atari_ICN_256.png"
+    }
+   ],
+   "requiresAuthorizationBeforeOpenWith": true,
+   "supportsTeamDrives": false
+  },
+  {
+   "kind": "drive#app",
+   "id": "545638117049",
+   "name": "Hapara",
+   "type": "WEB_ONLY",
+   "shortDescription": "Hapara: Making Learning Visible",
+   "longDescription": "",
+   "supportsCreate": false,
+   "supportsImport": false,
+   "supportsMultiOpen": false,
+   "supportsOfflineCreate": false,
+   "supportsMobileBrowser": false,
+   "installed": true,
+   "authorized": false,
+   "driveBranded": false,
+   "removable": false,
+   "hasDriveWideScope": false,
+   "useByDefault": true,
+   "openUrlTemplate": "https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/drive.file&client_id=545638117049-r7qavj2dau70922un3dn3kifl5vd3249.apps.googleusercontent.com&response_type=code&access_type=offline&redirect_uri=https://engage.teacherdashboard.com/engage-api/latest/gdriveapp/openfile&user_id=101973748451364245012&state=%7B%22ids%22:%5B%22{ids}%22%5D,%22exportIds%22:%5B%22{exportIds}%22%5D,%22action%22:%22open%22,%22userId%22:%22101973748451364245012%22%7D",
+   "primaryMimeTypes": [
+    "application/vnd.google-apps.drive-sdk.545638117049"
+   ],
+   "icons": [
+    {
+     "category": "application",
+     "size": 10,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s10-c-k/favicon.ico"
+    },
+    {
+     "category": "application",
+     "size": 16,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s16-c-k/favicon.ico"
+    },
+    {
+     "category": "application",
+     "size": 32,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s32-c-k/favicon.ico"
+    },
+    {
+     "category": "application",
+     "size": 48,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s48-c-k/favicon.ico"
+    },
+    {
+     "category": "application",
+     "size": 64,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s64-c-k/favicon.ico"
+    },
+    {
+     "category": "application",
+     "size": 128,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s128-c-k/favicon.ico"
+    },
+    {
+     "category": "application",
+     "size": 256,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s256-c-k/favicon.ico"
+    },
+    {
+     "category": "document",
+     "size": 10,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s10-c-k/favicon.ico"
+    },
+    {
+     "category": "document",
+     "size": 16,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s16-c-k/favicon.ico"
+    },
+    {
+     "category": "document",
+     "size": 32,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s32-c-k/favicon.ico"
+    },
+    {
+     "category": "document",
+     "size": 48,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s48-c-k/favicon.ico"
+    },
+    {
+     "category": "document",
+     "size": 64,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s64-c-k/favicon.ico"
+    },
+    {
+     "category": "document",
+     "size": 128,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s128-c-k/favicon.ico"
+    },
+    {
+     "category": "document",
+     "size": 256,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s256-c-k/favicon.ico"
+    },
+    {
+     "category": "documentShared",
+     "size": 10,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s10-c-k/favicon.ico"
+    },
+    {
+     "category": "documentShared",
+     "size": 16,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s16-c-k/favicon.ico"
+    },
+    {
+     "category": "documentShared",
+     "size": 32,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s32-c-k/favicon.ico"
+    },
+    {
+     "category": "documentShared",
+     "size": 48,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s48-c-k/favicon.ico"
+    },
+    {
+     "category": "documentShared",
+     "size": 64,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s64-c-k/favicon.ico"
+    },
+    {
+     "category": "documentShared",
+     "size": 128,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s128-c-k/favicon.ico"
+    },
+    {
+     "category": "documentShared",
+     "size": 256,
+     "iconUrl": "https://lh4.googleusercontent.com/-F2sFaLU1K1A/VQtS63Jhg2I/AAAAAAAAAJ8/fDinhent8xQ/s256-c-k/favicon.ico"
+    }
+   ],
+   "requiresAuthorizationBeforeOpenWith": true,
+   "supportsTeamDrives": false
+  },
+  {
+   "kind": "drive#app",
+   "id": "173664973106",
+   "name": "Turnitin",
+   "type": "WEB_ONLY",
+   "shortDescription": "",
+   "longDescription": "",
+   "supportsCreate": false,
+   "supportsImport": false,
+   "supportsMultiOpen": false,
+   "supportsOfflineCreate": false,
+   "supportsMobileBrowser": false,
+   "installed": false,
+   "authorized": true,
+   "driveBranded": false,
+   "removable": true,
+   "hasDriveWideScope": true,
+   "useByDefault": false,
+   "primaryMimeTypes": [
+    "application/vnd.google-apps.drive-sdk.173664973106"
+   ],
+   "requiresAuthorizationBeforeOpenWith": true,
+   "supportsTeamDrives": false
+  },
+  {
+   "kind": "drive#app",
+   "id": "1092636219480",
+   "name": "Google Docs",
+   "type": "CHROME_EXTENSION_ONLY",
+   "shortDescription": "Create and edit documents ",
+   "longDescription": "",
+   "supportsCreate": false,
+   "supportsImport": false,
+   "supportsMultiOpen": true,
+   "supportsOfflineCreate": false,
+   "supportsMobileBrowser": false,
+   "installed": true,
+   "authorized": false,
+   "driveBranded": false,
+   "removable": false,
+   "hasDriveWideScope": false,
+   "useByDefault": true,
+   "productUrl": "https://chrome.google.com/webstore/detail/gbkeegbaiigmenfmjfclcdgdpimamgkj",
+   "productId": "gbkeegbaiigmenfmjfclcdgdpimamgkj",
+   "openUrlTemplate": "http://drive.google.com/views/app.html?state=%7B%22ids%22:%5B%22{ids}%22%5D,%22exportIds%22:%5B%22{exportIds}%22%5D,%22action%22:%22open%22,%22userId%22:%22101973748451364245012%22%7D",
+   "primaryMimeTypes": [
+    "application/vnd.ces-quickword",
+    "application/vnd.msword",
+    "application/vnd.ms-word",
+    "application/vnd.ms-word.document.macroEnabled.12",
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "application/msword",
+    "application/vnd.ms-word.document.12",
+    "application/vnd.wordprocessing-openxml",
+    "application/vnd.google-apps.drive-sdk.1092636219480"
+   ],
+   "primaryFileExtensions": [
+    "docx",
+    "doc",
+    "docm"
+   ],
+   "icons": [
+    {
+     "category": "application",
+     "size": 10,
+     "iconUrl": "https://lh5.googleusercontent.com/-pdIpKp_jg0Y/UPX2QfKmpmI/AAAAAAAAA4M/xn2cjhf_ah8/s10-c-k/docs-16.png"
+    },
+    {
+     "category": "application",
+     "size": 16,
+     "iconUrl": "https://lh5.googleusercontent.com/-pdIpKp_jg0Y/UPX2QfKmpmI/AAAAAAAAA4M/xn2cjhf_ah8/s16-c-k/docs-16.png"
+    },
+    {
+     "category": "application",
+     "size": 32,
+     "iconUrl": "https://lh4.googleusercontent.com/-5LK7fKfJbro/UPV9afwFJoI/AAAAAAAAA0E/tPkqmw0JEQU/s32-c-k/docs-32.png"
+    },
+    {
+     "category": "application",
+     "size": 48,
+     "iconUrl": "https://lh5.googleusercontent.com/-sExaefYZOlc/USUx8r8x41I/AAAAAAAACPk/fNS8IBQh8iw/s48-c-k/docs-64.png"
+    },
+    {
+     "category": "application",
+     "size": 64,
+     "iconUrl": "https://lh5.googleusercontent.com/-sExaefYZOlc/USUx8r8x41I/AAAAAAAACPk/fNS8IBQh8iw/s64-c-k/docs-64.png"
+    },
+    {
+     "category": "application",
+     "size": 128,
+     "iconUrl": "https://lh5.googleusercontent.com/-eWRjAI0Nycc/USUyA2sw5NI/AAAAAAAACPw/bi7D-xwiclw/s128-c-k/docs-128.png"
+    },
+    {
+     "category": "application",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-eWRjAI0Nycc/USUyA2sw5NI/AAAAAAAACPw/bi7D-xwiclw/s256-c-k/docs-128.png"
+    },
+    {
+     "category": "document",
+     "size": 10,
+     "iconUrl": "https://lh5.googleusercontent.com/-sCg4gG_WAnM/UNS3_JRkvVI/AAAAAAAAAyk/8OT1wOmSC30/s10-c-k/icon_11_document_list.png"
+    },
+    {
+     "category": "document",
+     "size": 16,
+     "iconUrl": "https://lh5.googleusercontent.com/-sCg4gG_WAnM/UNS3_JRkvVI/AAAAAAAAAyk/8OT1wOmSC30/s16-c-k/icon_11_document_list.png"
+    },
+    {
+     "category": "document",
+     "size": 32,
+     "iconUrl": "https://lh5.googleusercontent.com/-3axM_M62Z3A/UNS4DVFflnI/AAAAAAAAAy0/FzgNcnQg9tM/s32-c-k/icon_11_document_email.png"
+    },
+    {
+     "category": "document",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s48-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s64-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s128-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s256-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 10,
+     "iconUrl": "https://lh5.googleusercontent.com/-sCg4gG_WAnM/UNS3_JRkvVI/AAAAAAAAAyk/8OT1wOmSC30/s10-c-k/icon_11_document_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 16,
+     "iconUrl": "https://lh5.googleusercontent.com/-sCg4gG_WAnM/UNS3_JRkvVI/AAAAAAAAAyk/8OT1wOmSC30/s16-c-k/icon_11_document_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 32,
+     "iconUrl": "https://lh5.googleusercontent.com/-3axM_M62Z3A/UNS4DVFflnI/AAAAAAAAAy0/FzgNcnQg9tM/s32-c-k/icon_11_document_email.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s48-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s64-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s128-c-k/icon_11_document_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-4P0oPrMfivI/UNS4JDwWynI/AAAAAAAAAzI/065ltSnGD_w/s256-c-k/icon_11_document_xl128.png"
+    }
+   ],
+   "chromeExtensionIds": [
+    "gbkeegbaiigmenfmjfclcdgdpimamgkj"
+   ],
+   "requiresAuthorizationBeforeOpenWith": false,
+   "supportsTeamDrives": false
+  },
+  {
+   "kind": "drive#app",
+   "id": "133678810058",
+   "name": "Google Sheets",
+   "type": "CHROME_EXTENSION_ONLY",
+   "shortDescription": "Create and edit spreadsheets",
+   "longDescription": "",
+   "supportsCreate": false,
+   "supportsImport": false,
+   "supportsMultiOpen": true,
+   "supportsOfflineCreate": false,
+   "supportsMobileBrowser": false,
+   "installed": true,
+   "authorized": false,
+   "driveBranded": false,
+   "removable": false,
+   "hasDriveWideScope": false,
+   "useByDefault": true,
+   "productUrl": "https://chrome.google.com/webstore/detail/gbkeegbaiigmenfmjfclcdgdpimamgkj",
+   "productId": "gbkeegbaiigmenfmjfclcdgdpimamgkj",
+   "openUrlTemplate": "http://drive.google.com/views/app.html?state=%7B%22ids%22:%5B%22{ids}%22%5D,%22exportIds%22:%5B%22{exportIds}%22%5D,%22action%22:%22open%22,%22userId%22:%22101973748451364245012%22%7D",
+   "primaryMimeTypes": [
+    "application/vnd.ms-excel",
+    "application/msexcel",
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "application/vnd.spreadsheet-openxml",
+    "application/vnd.ces-quicksheet",
+    "application/vnd.ms-excel.sheet.macroEnabled.12",
+    "application/vnd.google-apps.drive-sdk.133678810058"
+   ],
+   "primaryFileExtensions": [
+    "xlsx",
+    "xls",
+    "xlsm"
+   ],
+   "icons": [
+    {
+     "category": "application",
+     "size": 10,
+     "iconUrl": "https://lh5.googleusercontent.com/-CWmXwwguBYg/UnsFvbgwzsI/AAAAAAAADpc/trQz3sklWL8/s10-c-k/spreadsheets-16.png"
+    },
+    {
+     "category": "application",
+     "size": 16,
+     "iconUrl": "https://lh5.googleusercontent.com/-CWmXwwguBYg/UnsFvbgwzsI/AAAAAAAADpc/trQz3sklWL8/s16-c-k/spreadsheets-16.png"
+    },
+    {
+     "category": "application",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-iqCqIsJH-Kw/UnsGia72GkI/AAAAAAAADp8/lst3dIIb-A8/s32-c-k/spreadsheets-32.png"
+    },
+    {
+     "category": "application",
+     "size": 48,
+     "iconUrl": "https://lh4.googleusercontent.com/-kPcOXqDs0cI/UnsGlv4SY6I/AAAAAAAADqM/tXpq378kr-Y/s48-c-k/spreadsheets-64.png"
+    },
+    {
+     "category": "application",
+     "size": 64,
+     "iconUrl": "https://lh4.googleusercontent.com/-kPcOXqDs0cI/UnsGlv4SY6I/AAAAAAAADqM/tXpq378kr-Y/s64-c-k/spreadsheets-64.png"
+    },
+    {
+     "category": "application",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-2x3lCAAylPY/UnsGodlWzoI/AAAAAAAADqY/QM4jf_jICgk/s128-c-k/spreadsheets-128.png"
+    },
+    {
+     "category": "application",
+     "size": 256,
+     "iconUrl": "https://lh6.googleusercontent.com/-GDzOqEHrElE/UnsGrnREsFI/AAAAAAAADqs/Z-tpwCnIts4/s256-c-k/spreadsheets-128.png"
+    },
+    {
+     "category": "document",
+     "size": 10,
+     "iconUrl": "https://lh6.googleusercontent.com/-Q-44EkHWJ7U/UnsHNhOIgcI/AAAAAAAADq8/dpyH72iw1Yw/s10-c-k/icon_11_spreadsheet_list.png"
+    },
+    {
+     "category": "document",
+     "size": 16,
+     "iconUrl": "https://lh6.googleusercontent.com/-Q-44EkHWJ7U/UnsHNhOIgcI/AAAAAAAADq8/dpyH72iw1Yw/s16-c-k/icon_11_spreadsheet_list.png"
+    },
+    {
+     "category": "document",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-LB7ZLogv6zI/UnsHPhTlI9I/AAAAAAAADrI/aaSoa2Uu1HY/s32-c-k/icon_11_spreadsheet_email.png"
+    },
+    {
+     "category": "document",
+     "size": 48,
+     "iconUrl": "https://lh4.googleusercontent.com/-ZnPMfjcgzZE/UnsHSKyMhRI/AAAAAAAADrU/vsnR-Xxx9Lo/s48-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 64,
+     "iconUrl": "https://lh4.googleusercontent.com/-ZnPMfjcgzZE/UnsHSKyMhRI/AAAAAAAADrU/vsnR-Xxx9Lo/s64-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 128,
+     "iconUrl": "https://lh6.googleusercontent.com/-rxJN30D3xzY/UnsHUGXG9UI/AAAAAAAADrg/l5RMBQQdMjk/s128-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-si_COtL6iGQ/UnsHVjJvYwI/AAAAAAAADrs/WA_eC6UmbDo/s256-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 10,
+     "iconUrl": "https://lh6.googleusercontent.com/-Q-44EkHWJ7U/UnsHNhOIgcI/AAAAAAAADq8/dpyH72iw1Yw/s10-c-k/icon_11_spreadsheet_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 16,
+     "iconUrl": "https://lh6.googleusercontent.com/-Q-44EkHWJ7U/UnsHNhOIgcI/AAAAAAAADq8/dpyH72iw1Yw/s16-c-k/icon_11_spreadsheet_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 32,
+     "iconUrl": "https://lh3.googleusercontent.com/-LB7ZLogv6zI/UnsHPhTlI9I/AAAAAAAADrI/aaSoa2Uu1HY/s32-c-k/icon_11_spreadsheet_email.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 48,
+     "iconUrl": "https://lh4.googleusercontent.com/-ZnPMfjcgzZE/UnsHSKyMhRI/AAAAAAAADrU/vsnR-Xxx9Lo/s48-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 64,
+     "iconUrl": "https://lh4.googleusercontent.com/-ZnPMfjcgzZE/UnsHSKyMhRI/AAAAAAAADrU/vsnR-Xxx9Lo/s64-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 128,
+     "iconUrl": "https://lh6.googleusercontent.com/-rxJN30D3xzY/UnsHUGXG9UI/AAAAAAAADrg/l5RMBQQdMjk/s128-c-k/icon_11_spreadsheet_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-si_COtL6iGQ/UnsHVjJvYwI/AAAAAAAADrs/WA_eC6UmbDo/s256-c-k/icon_11_spreadsheet_xl128.png"
+    }
+   ],
+   "chromeExtensionIds": [
+    "gbkeegbaiigmenfmjfclcdgdpimamgkj"
+   ],
+   "requiresAuthorizationBeforeOpenWith": false,
+   "supportsTeamDrives": false
+  },
+  {
+   "kind": "drive#app",
+   "id": "973666970040",
+   "name": "Google Slides",
+   "type": "CHROME_EXTENSION_ONLY",
+   "shortDescription": "Create and edit presentations ",
+   "longDescription": "",
+   "supportsCreate": false,
+   "supportsImport": false,
+   "supportsMultiOpen": true,
+   "supportsOfflineCreate": false,
+   "supportsMobileBrowser": false,
+   "installed": true,
+   "authorized": false,
+   "driveBranded": false,
+   "removable": false,
+   "hasDriveWideScope": false,
+   "useByDefault": true,
+   "productUrl": "https://chrome.google.com/webstore/detail/gbkeegbaiigmenfmjfclcdgdpimamgkj",
+   "productId": "gbkeegbaiigmenfmjfclcdgdpimamgkj",
+   "openUrlTemplate": "http://drive.google.com/views/app.html?state=%7B%22ids%22:%5B%22{ids}%22%5D,%22exportIds%22:%5B%22{exportIds}%22%5D,%22action%22:%22open%22,%22userId%22:%22101973748451364245012%22%7D",
+   "primaryMimeTypes": [
+    "application/vnd.presentation-openxmlm",
+    "application/vnd.ms-powerpoint.presentation.macroEnabled.12",
+    "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "application/vnd.presentation-openxml",
+    "application/mspowerpoint",
+    "application/vnd.ms-powerpoint",
+    "application/vnd.ces-quickpoint",
+    "application/vnd.google-apps.drive-sdk.973666970040"
+   ],
+   "primaryFileExtensions": [
+    "pptx",
+    "ppt",
+    "pptm"
+   ],
+   "icons": [
+    {
+     "category": "application",
+     "size": 10,
+     "iconUrl": "https://lh3.googleusercontent.com/-mOc1Fjz3_DU/UPX2DFPpg5I/AAAAAAAAA3c/gI5OzDIEjsI/s10-c-k/presentations-16.png"
+    },
+    {
+     "category": "application",
+     "size": 16,
+     "iconUrl": "https://lh3.googleusercontent.com/-mOc1Fjz3_DU/UPX2DFPpg5I/AAAAAAAAA3c/gI5OzDIEjsI/s16-c-k/presentations-16.png"
+    },
+    {
+     "category": "application",
+     "size": 32,
+     "iconUrl": "https://lh5.googleusercontent.com/-I1ZBP63Dt5g/UPV-ELejL4I/AAAAAAAAA1Y/Zdx1R9kPH3c/s32-c-k/presentations-32.png"
+    },
+    {
+     "category": "application",
+     "size": 48,
+     "iconUrl": "https://lh3.googleusercontent.com/-nHWmaNzw2M4/USUysKupmPI/AAAAAAAACRc/HlRyfbqByrs/s48-c-k/presentations-64.png"
+    },
+    {
+     "category": "application",
+     "size": 64,
+     "iconUrl": "https://lh3.googleusercontent.com/-nHWmaNzw2M4/USUysKupmPI/AAAAAAAACRc/HlRyfbqByrs/s64-c-k/presentations-64.png"
+    },
+    {
+     "category": "application",
+     "size": 128,
+     "iconUrl": "https://lh3.googleusercontent.com/-9iQTRcgM5OM/USUyuRWwTgI/AAAAAAAACRo/k9RYEWE8SK0/s128-c-k/presentations-128.png"
+    },
+    {
+     "category": "application",
+     "size": 256,
+     "iconUrl": "https://lh3.googleusercontent.com/-9iQTRcgM5OM/USUyuRWwTgI/AAAAAAAACRo/k9RYEWE8SK0/s256-c-k/presentations-128.png"
+    },
+    {
+     "category": "document",
+     "size": 10,
+     "iconUrl": "https://lh4.googleusercontent.com/-6bLACjFNhS0/UNS9A-Q4LRI/AAAAAAAAA28/qM4eZV1xMb0/s10-c-k/icon_11_presentation_list.png"
+    },
+    {
+     "category": "document",
+     "size": 16,
+     "iconUrl": "https://lh4.googleusercontent.com/-6bLACjFNhS0/UNS9A-Q4LRI/AAAAAAAAA28/qM4eZV1xMb0/s16-c-k/icon_11_presentation_list.png"
+    },
+    {
+     "category": "document",
+     "size": 32,
+     "iconUrl": "https://lh4.googleusercontent.com/-ErUZynuh6yI/UNS9EnB9UxI/AAAAAAAAA3I/iG7EyEIENsw/s32-c-k/icon_11_presentation_email.png"
+    },
+    {
+     "category": "document",
+     "size": 48,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s48-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 64,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s64-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 128,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s128-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "document",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s256-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 10,
+     "iconUrl": "https://lh4.googleusercontent.com/-6bLACjFNhS0/UNS9A-Q4LRI/AAAAAAAAA28/qM4eZV1xMb0/s10-c-k/icon_11_presentation_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 16,
+     "iconUrl": "https://lh4.googleusercontent.com/-6bLACjFNhS0/UNS9A-Q4LRI/AAAAAAAAA28/qM4eZV1xMb0/s16-c-k/icon_11_presentation_list.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 32,
+     "iconUrl": "https://lh4.googleusercontent.com/-ErUZynuh6yI/UNS9EnB9UxI/AAAAAAAAA3I/iG7EyEIENsw/s32-c-k/icon_11_presentation_email.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 48,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s48-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 64,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s64-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 128,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s128-c-k/icon_11_presentation_xl128.png"
+    },
+    {
+     "category": "documentShared",
+     "size": 256,
+     "iconUrl": "https://lh5.googleusercontent.com/-8hVid_SKBeI/UNS9H05BvDI/AAAAAAAAA3U/_ltqb2QXhpg/s256-c-k/icon_11_presentation_xl128.png"
+    }
+   ],
+   "chromeExtensionIds": [
+    "gbkeegbaiigmenfmjfclcdgdpimamgkj"
+   ],
+   "requiresAuthorizationBeforeOpenWith": false,
+   "supportsTeamDrives": false
+  }
+ ],
+ "defaultAppIds": [
+  "619683526622",
+  "1092636219480",
+  "1083656409722",
+  "133678810058",
+  "889782162350",
+  "973666970040",
+  "196802322321",
+  "952342923413",
+  "796396377186",
+  "897606708560",
+  "545638117049"
+ ]
+}

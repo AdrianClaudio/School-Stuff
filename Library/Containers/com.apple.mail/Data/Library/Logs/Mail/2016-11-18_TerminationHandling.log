@@ -1,0 +1,40 @@
+Nov 18 12:07:03 SLV-J4-05.local Mail[465] <Debug>: <addTerminationHandler:> Added handler: <MailApp: 0x7ffd6bc02000>
+	_currentTerminationHandlers: (null)
+	_terminationHandlers: (
+	    "<MailApp: 0x7ffd6bc02000>"
+	)
+	_terminationReply: NSTerminateCancel
+Nov 18 12:07:03 SLV-J4-05.local Mail[465] <Debug>: <addTerminationHandler:> Added handler: <ActivityViewer: 0x600000272780>
+	_currentTerminationHandlers: (null)
+	_terminationHandlers: (
+	    "<MailApp: 0x7ffd6bc02000>",
+	    "<ActivityViewer: 0x600000272780>"
+	)
+	_terminationReply: NSTerminateCancel
+Nov 18 12:07:03 SLV-J4-05.local Mail[465] <Debug>: <addTerminationHandler:> Added handler: <MailTimeMachineController: 0x600000084ce0>
+	_currentTerminationHandlers: (null)
+	_terminationHandlers: (
+	    "<MailApp: 0x7ffd6bc02000>",
+	    "<ActivityViewer: 0x600000272780>",
+	    "<MailTimeMachineController: 0x600000084ce0>"
+	)
+	_terminationReply: NSTerminateCancel
+Nov 18 12:07:04 SLV-J4-05.local Mail[465] <Debug>: <addTerminationHandler:> Added handler: <MessageViewer: 0x7ffd6bc16760>
+	_currentTerminationHandlers: (null)
+	_terminationHandlers: (
+	    "<MailApp: 0x7ffd6bc02000>",
+	    "<ActivityViewer: 0x600000272780>",
+	    "<MailTimeMachineController: 0x600000084ce0>",
+	    "<MessageViewer: 0x7ffd6bc16760>"
+	)
+	_terminationReply: NSTerminateCancel
+Nov 18 12:07:04 SLV-J4-05.local Mail[465] <Debug>: <addTerminationHandler:> Added handler: <MailboxesController: 0x608000107590>
+	_currentTerminationHandlers: (null)
+	_terminationHandlers: (
+	    "<MailApp: 0x7ffd6bc02000>",
+	    "<ActivityViewer: 0x600000272780>",
+	    "<MailTimeMachineController: 0x600000084ce0>",
+	    "<MessageViewer: 0x7ffd6bc16760>",
+	    "<MailboxesController: 0x608000107590>"
+	)
+	_terminationReply: NSTerminateCancel

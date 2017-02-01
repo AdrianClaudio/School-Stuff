@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!-- THIS IS A TEMPLATE FILE WITH SAMPLE VALUES FILLED IN. PLEASE REVIEW AND UPDATE FOR YOUR INSTALLER -->
+  <!-- Its Schema is available here public/Common/xplat/schema/CSUManifest.xsd -->
+  <Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd" CSUVersion="1.0">    <UpdateID>5.5.1</UpdateID>
+
+    <OwningChannel><!-- Channel ID which owns this update -->AdobeMediaEncoderCS5.5-5.5</OwningChannel>
+<!-- One for each locale to be displayed in CS Updater-->
+    <DisplayName default="en_US">
+          <en_US>Adobe Media Encoder CS5.5 5.5.1</en_US>
+		  <ko_KR>Adobe Media Encoder CS5.5 5.5.1</ko_KR>
+		  <zh_TW>Adobe Media Encoder CS5.5 5.5.1</zh_TW>
+		  <zh_CN>Adobe Media Encoder CS5.5 5.5.1</zh_CN>
+		  <de_DE>Adobe Media Encoder CS5.5 5.5.1</de_DE>
+		  		  <es_ES>Adobe Media Encoder CS5.5 5.5.1</es_ES>
+		  <fr_FR>Adobe Media Encoder CS5.5 5.5.1</fr_FR>
+		  <it_IT>Adobe Media Encoder CS5.5 5.5.1</it_IT>
+		  <nl_NL>Adobe Media Encoder CS5.5 5.5.1</nl_NL>
+		  		  <sv_SE>Adobe Media Encoder CS5.5 5.5.1</sv_SE>
+		  <cs_CZ>Adobe Media Encoder CS5.5 5.5.1</cs_CZ>
+		  <ja_JP>Adobe Media Encoder CS5.5 5.5.1</ja_JP>
+		  <pl_PL>Adobe Media Encoder CS5.5 5.5.1</pl_PL>
+		  		  <ru_RU>Adobe Media Encoder CS5.5 5.5.1</ru_RU>
+		  <pl_PL>Adobe Media Encoder CS5.5 5.5.1</pl_PL>
+		  <pt_BR>Adobe Media Encoder CS5.5 5.5.1</pt_BR>
+		  <tr_TR>Adobe Media Encoder CS5.5 5.5.1</tr_TR>
+        </DisplayName>
+  <!-- One for each locale to be displayed in CS Updater-->
+  <Description default="en_US">
+          <en_US>Addresses watched folder processing problems in networked environments and a number of other issues.</en_US>
+		  <ko_KR>네트워크 환경에서 발생하는 감시 폴더 처리 문제와 기타 여러 문제를 해결합니다.</ko_KR>
+		  <zh_TW>解決監看資料夾在網路環境中的處理問題及其他一些問題。</zh_TW>
+		  <zh_CN>解决联网环境中的监视文件夹处理问题，以及一系列其他问题。</zh_CN>
+		  <de_DE>Behebt Probleme im Zusammenhang mit der Verarbeitung beobachteter Ordner in Netzwerkumgebungen sowie eine Reihe weiterer Probleme.</de_DE>
+		  <es_ES>Aborda los problemas de procesamiento de la carpeta inspeccionada en entornos de red y otros problemas.</es_ES>
+		  <fr_FR>Résout les problèmes de traitement des dossiers contrôlés dans les environnements en réseau, ainsi que certains autres problèmes.</fr_FR>
+		  <it_IT>Risolve problemi legati alle cartelle esaminate in ambienti di rete e alcuni altri problemi.</it_IT>
+		  <nl_NL>Behandelt problemen met de verwerking van gecontroleerde mappen in netwerkomgevingen en een aantal andere problemen.</nl_NL>
+		  <sv_SE>Korrigerar bearbetningsproblem för bevakade mappar i nätverksmiljöer och en del andra problem.</sv_SE>
+		  <cs_CZ>Řeší problémy se zpracováním sledovaných složek v síťových prostředích a řadu dalších problémů.</cs_CZ>
+		  <ja_JP>ネットワーク環境における監視フォルダーの処理に関する問題およびその他多数の問題に対応。</ja_JP>
+		  <pl_PL>Rozwiązuje problem dotyczący przetwarzania folderów obserwowanych w środowiskach sieciowych oraz kilka innych problemów.</pl_PL>
+		  <ru_RU>Устраняет проблемы, связанные с обработкой папок отслеживания в сетевых средах, и некоторые другие проблемы.</ru_RU>
+		  <pt_BR>Trata de problemas de processamento da pasta monitorada em ambientes de rede e de diversos outros problemas.</pt_BR>
+		  <tr_TR>Ağa bağlı ortamlarda izleme klasöründeki işleme sorunlarını ve daha pek çok sorunu düzeltir.</tr_TR>
+        </Description>
+  <AffectedChannels>
+    <!--Channel IDs which could get affected by this update.-->
+    <ChannelID>AdobeMediaEncoderCS5.5-5.5</ChannelID>
+  </AffectedChannels>
+  <InstallFiles>
+    <File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+      <Type>2</Type>
+      <ExecutableName>AdobePatchInstaller.app</ExecutableName>
+      <Size>82967175</Size>
+    </File>
+  </InstallFiles>
+  <NeedsReboot>false</NeedsReboot>
+</Manifest>

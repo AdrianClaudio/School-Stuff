@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codehinting_structure name="Joomla" subroot="$(SITEROOT)/" version="1.0" default="default">
+	<structure_entries>
+		<structure_entry type="folder" name="[SUBROOT]modules" extensions=".php"  scan="on" recursive="recursive" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[SUBROOT]plugins" extensions=".php"  scan="on" recursive="recursive" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[SUBROOT]administrator/includes"  scan="on" extensions=".php" recursive="recursive" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[SUBROOT]includes" extensions=".php"  scan="on" recursive="recursive" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[SUBROOT]libraries" extensions=".php"  scan="on" recursive="recursive" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="file" name="[SUBROOT]configuration.php"  scan="on" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[SUBROOT]templates" extensions=".php" scan="on"  recursive="recursive" filter="CLASS%20IGNORE_PREFIX(%22_%22)%20METHOD%20IGNORE_PREFIX(%22_%22)%20PROPERTY%20IGNORE_PREFIX(%22_%22)%20FUNCTION%20IGNORE_PREFIX(%22_%22)%20VARIABLE%20IGNORE_PREFIX(%22_%22)"></structure_entry>
+		<structure_entry type="folder" name="[CONFIG]CodeHints/CMS/Joomla/" scan="on" ></structure_entry>
+	</structure_entries>
+</codehinting_structure>

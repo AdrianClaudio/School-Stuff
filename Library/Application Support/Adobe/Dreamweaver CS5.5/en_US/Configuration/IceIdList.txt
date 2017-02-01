@@ -1,0 +1,11 @@
+# This configuration file contains the list of id or class values that will be 
+# promoted to ICE editable regions when the user creates a new 
+# HTML file with InContext Editable regions.
+#
+# Each line should contain a single id or class value.
+# Lines starting with # are considered comments
+# Empty lines are ignored.
+#
+# The list of IDs can be found below:
+mainContent
+content

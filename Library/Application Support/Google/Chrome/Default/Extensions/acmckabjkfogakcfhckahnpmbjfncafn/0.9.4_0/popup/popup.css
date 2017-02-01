@@ -1,0 +1,83 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#container {
+	padding: 5px;
+	width: 225px;
+	height: 170px;
+	margin: 5px;
+	outline: 5px gray solid;
+	background-color: #141A1F;
+}
+
+.version {
+	position: absolute;
+	font-size: 10px;
+	color: #999;
+}
+
+hr {
+	opacity: 0.1;
+}
+
+.center {
+	text-align: center;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 10px;
+	width: 93%;
+}
+
+.header {
+	font-size: 2em;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.disabled {
+	color: #FFD9D9;
+}
+
+.enabled {
+	color: #D9FFDA;
+}
+
+.grayedout {
+	color: #808080;
+}
+
+.field {
+	width: 100%;
+	height: auto;
+	padding: 5px 0px;
+	cursor: pointer;
+}
+
+.field:hover {
+	background-color: #636363;
+}
+
+.field:active {
+	background-color: #707070;
+}
+
+.disclaimer {
+	font-size: 10px;
+}
+
+hr {
+	margin: 1px;
+	padding: 0px;
+}

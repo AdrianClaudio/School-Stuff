@@ -1,0 +1,19 @@
+2016/11/30-11:09:16.456 43523 Reusing MANIFEST /Users/P4/Library/Application Support/Google/Chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2016/11/30-11:09:16.456 43523 Recovering log #147
+2016/11/30-11:09:16.490 43523 Reusing old log /Users/P4/Library/Application Support/Google/Chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000147.log 
+2016/11/30-11:09:16.858 168987 Level-0 table #151: started
+2016/11/30-11:09:16.858 43523 Current memtable full; waiting...
+2016/11/30-11:09:16.868 168987 Level-0 table #151: 1002062 bytes OK
+2016/11/30-11:09:16.868 168987 Delete type=0 #147
+2016/11/30-11:09:16.897 168987 Level-0 table #153: started
+2016/11/30-11:09:16.897 168987 Level-0 table #153: 0 bytes OK
+2016/11/30-11:09:16.898 168987 Delete type=0 #150
+2016/11/30-11:09:16.898 168987 Manual compaction at level-0 from '\x00\x1a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x01\x02\x01\x19\x001\x002\x001\x000\x008\x002\x003\x004\x000\x007\x002\x005\x006\x000\x003\x003\x006\x002\x008\x009\x00_\x001\x00_\x00u\x00p' @ 2358 : 0
+2016/11/30-11:09:16.898 168987 Compacting 2@0 + 1@1 files
+2016/11/30-11:09:16.963 168987 Generated table #154@0: 37 keys, 1315951 bytes
+2016/11/30-11:09:16.963 168987 Compacted 2@0 + 1@1 files => 1315951 bytes
+2016/11/30-11:09:16.965 168987 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/11/30-11:09:16.966 168987 Delete type=2 #146
+2016/11/30-11:09:16.989 168987 Delete type=2 #148
+2016/11/30-11:09:16.990 168987 Delete type=2 #151
+2016/11/30-11:09:16.990 168987 Manual compaction at level-0 from '\x00\x02\x01\x02\x01\x19\x001\x002\x001\x000\x008\x002\x003\x004\x000\x007\x002\x005\x006\x000\x003\x003\x006\x002\x008\x009\x00_\x001\x00_\x00u\x00p' @ 2358 : 0 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at (end)

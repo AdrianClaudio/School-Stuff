@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!-- THIS IS A TEMPLATE FILE WITH SAMPLE VALUES FILLED IN. PLEASE REVIEW AND UPDATE FOR YOUR INSTALLER -->
+  <!-- Its Schema is available here public/Common/xplat/schema/CSUManifest.xsd -->
+  <Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd" CSUVersion="1.0">    <UpdateID>11.5.1</UpdateID>
+
+    <OwningChannel><!-- Channel ID which owns this update -->FlashPro11.5</OwningChannel>
+<!-- One for each locale to be displayed in CS Updater-->
+  <DisplayName default="en_US">
+<cs_CZ>Aktualizace Adobe Flash Professional CS5.5 11.5.1</cs_CZ>
+<da_DK>Adobe Flash Professional CS5.5 Update 11.5.1</da_DK>
+<de_DE>Adobe Flash Professional CS5.5 Update 11.5.1</de_DE>
+<en_US>Adobe Flash Professional CS5.5 Update 11.5.1</en_US>
+<en_GB>Adobe Flash Professional CS5.5 Update 11.5.1</en_GB>
+<en_XM>Adobe Flash Professional CS5.5 Update 11.5.1</en_XM>
+<es_ES>Actualización 11.5.1 de Adobe Flash Professional CS5.5</es_ES>
+<es_MX>Actualización 11.5.1 de Adobe Flash Professional CS5.5</es_MX>
+<fi_FI>Adobe Flash Professional CS5.5 Update 11.5.1</fi_FI>
+<fr_FR>Mise à jour 11.5.1 Adobe Flash Professional CS5.5</fr_FR>
+<fr_CA>Mise à jour 11.5.1 Adobe Flash Professional CS5.5</fr_CA>
+<fr_XM>Mise à jour 11.5.1 Adobe Flash Professional CS5.5</fr_XM>
+<hu_HU>Adobe Flash Professional CS5.5 Update 11.5.1</hu_HU>
+<it_IT>Adobe Flash Professional CS5.5 - Aggiornamento 11.5.1</it_IT>
+<ja_JP>Adobe Flash Professional CS5.5 11.5.1 アップデート</ja_JP>
+<ko_KR>Adobe Flash Professional CS5.5 업데이트 11.5.1</ko_KR>
+<nb_NO>Adobe Flash Professional CS5.5 Update 11.5.1</nb_NO>
+<nl_NL>Update 11.5.1 voor Adobe Flash Professional CS5.5</nl_NL>
+<pl_PL>Aktualizacja Adobe Flash Professional CS5.5 11.5.1</pl_PL>
+<pt_BR>Adobe Flash Professional CS5.5 – Atualização 11.5.1</pt_BR>
+<ro_RO>Adobe Flash Professional CS5.5 Update 11.5.1</ro_RO>
+<ru_RU>Обновление Adobe Flash Professional CS5.5 11.5.1</ru_RU>
+<sv_SE>Adobe Flash Professional CS5.5-uppdatering 11.5.1</sv_SE>
+<tr_TR>Adobe Flash Professional CS5.5 Güncellemesi 11.5.1</tr_TR>
+<uk_UA>Adobe Flash Professional CS5.5 Update 11.5.1</uk_UA>
+<zh_CN>Adobe Flash Professional CS5.5 更新 11.5.1</zh_CN>
+<zh_TW>Adobe Flash Professional CS5.5 更新 11.5.1</zh_TW>
+  </DisplayName>
+  <!-- One for each locale to be displayed in CS Updater-->
+  <Description default="en_US">
+<cs_CZ>Tato aktualizace obsahuje opravy pro otevírání a ukládání některých souborů aplikace Flash Professional (FLA) ve verzi CS5.5 a další opravy chyb. Důrazně doporučujeme tuto opravu nainstalovat.</cs_CZ>
+<da_DK>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</da_DK>
+<de_DE>Dieses Update behebt Probleme beim Öffnen und Speichern bestimmter Flash Professional-Dateien (FLA-Dateien) in CS5.5 und enthält weitere Bug Fixes. Es wird dringend empfohlen, dieses Update zu installieren.</de_DE>
+<en_US>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</en_US>
+<en_GB>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</en_GB>
+<en_XM>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</en_XM>
+<es_ES>Esta actualización contiene soluciones para abrir y cerrar algunos archivos de Flash Professional (FLA) en CS5.5, así como otras mejoras para errores detectados. Se recomienda encarecidamente instalar esta actualización.</es_ES>
+<es_MX>Esta actualización contiene soluciones para abrir y cerrar algunos archivos de Flash Professional (FLA) en CS5.5, así como otras mejoras para errores detectados. Se recomienda encarecidamente instalar esta actualización.</es_MX>
+<fi_FI>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</fi_FI>
+<fr_FR>Cette mise à jour contient des solutions aux problèmes d’ouverture et d’enregistrement de certains fichiers FLA (Flash Professional) dans CS5.5, ainsi que d’autres correctifs. Il est fortement recommandé d’installer cette mise à jour.</fr_FR>
+<fr_CA>Cette mise à jour contient des solutions aux problèmes d’ouverture et d’enregistrement de certains fichiers FLA (Flash Professional) dans CS5.5, ainsi que d’autres correctifs. Il est fortement recommandé d’installer cette mise à jour.</fr_CA>
+<fr_XM>Cette mise à jour contient des solutions aux problèmes d’ouverture et d’enregistrement de certains fichiers FLA (Flash Professional) dans CS5.5, ainsi que d’autres correctifs. Il est fortement recommandé d’installer cette mise à jour.</fr_XM>
+<hu_HU>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</hu_HU>
+<it_IT>Questo aggiornamento contiene correzioni relative all'apertura e al salvataggio di alcuni file di Flash Professional (FLA) in CS5.5, oltre ad altre correzioni di bug. Consigliamo vivamente di installare l'aggiornamento.</it_IT>
+<ja_JP>このアップデートには、一部の Flash Professional ファイル (FLA) を CS5.5 で開き保存するための修正と、その他のバグ修正が含まれています。このアップデートをインストールすることを強くお勧めします。</ja_JP>
+<ko_KR>이 업데이트에서는 일부 Flash Professional 파일(FLA)을 CS5.5에서 열고 저장하는 문제와 기타 버그가 수정되었습니다. 이 업데이트를 설치하는 것이 좋습니다.</ko_KR>
+<nb_NO>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</nb_NO>
+<nl_NL>Deze update bevat oplossingen voor bugs bij het openen en opslaan van bepaalde Flash Professional-bestanden (FLA's) in CS5.5, en andere oplossingen. Het is sterk aan te raden deze update te installeren.</nl_NL>
+<pl_PL>Ta aktualizacja zawiera poprawki dotyczące otwierania i zapisywania niektórych plików programu Flash Professional (FLA) w pakiecie CS5.5 oraz usuwa pewne inne błędy. Zainstalowanie tej poprawki jest stanowczo zalecane.</pl_PL>
+<pt_BR>Esta atualização contém correções para abertura e salvamento de alguns arquivos do Flash Professional (FLAs) no CS5.5, além da correção de outros bugs. É altamente recomendável instalar esta atualização.</pt_BR>
+<ro_RO>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</ro_RO>
+<ru_RU>В этом обновлении содержатся исправления ошибок, возникающих при открытии и сохранении некоторых файлов Flash Professional (FLA) в CS5.5, и других ошибок. Настоятельно рекомендуется установить это обновление.</ru_RU>
+<sv_SE>Den här uppdateringen innehåller korrigeringar för att öppna och spara vissa Flash Professional-filer (FLA-filer) i CS5.5 samt andra felkorrigeringar. Vi rekommenderar att du installerar denna uppdatering.</sv_SE>
+<tr_TR>Bu güncelleme CS5.5'te bazı Flash Professional dosyalarını (FLA'lar) açmaya ve kaydetmeye yönelik düzeltmeleri ve diğer hata düzeltmelerini içerir. Bu güncellemeyi yüklemeniz kesinlikle önerilir.</tr_TR>
+<uk_UA>This update contains fixes for opening and saving some Flash Professional files (FLAs) in CS5.5, and other bug fixes. It is highly recommended that you install this update.</uk_UA>
+<zh_CN>此更新包含用于在 CS5.5 中打开和存储某些 Flash Professional 文件 (FLA) 的修正以及其他错误修正。强烈建议您安装此更新。</zh_CN>
+<zh_TW>這個更新包含適用於在 CS5.5 中開啟和儲存一些 Flash Professional 檔案 (FLA) 的修正及其他錯誤修正。強烈建議您安裝這個更新。</zh_TW>
+        </Description>
+  <AffectedChannels>
+    <!--Channel IDs which could get affected by this update.-->
+    <ChannelID>FlashPro11.5</ChannelID>
+  </AffectedChannels>
+  <InstallFiles>
+    <File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+      <Type>2</Type>
+      <ExecutableName>Adobe Flash Professional CS5.5 Update/AdobePatchInstaller.app</ExecutableName>
+      <Size>17222129</Size>
+      <!-- CompareType is to specify platform specific requirements for this patch. This is optional tag and need be used only if required. -->
+    </File>
+  </InstallFiles>
+  <NeedsReboot>false</NeedsReboot>
+</Manifest>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><Manifest CSUVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd">
+	<UpdateID>update14</UpdateID>
+	<OwningChannel>AdobeApplicationManager-1.0</OwningChannel>
+	<AAMInfo><Channel><DisplayName>AdobeApplicationManager-1.0</DisplayName>
+		</Channel>
+	</AAMInfo>
+  <DisplayName default="en_US"><ar_AE>Adobe Application Manager</ar_AE>
+    <bg_BG>Adobe Application Manager</bg_BG>
+    <cs_CZ>Adobe Application Manager</cs_CZ>
+    <da_DK>Adobe Application Manager</da_DK>
+    <de_DE>Adobe Application Manager</de_DE>
+    <el_GR>Adobe Application Manager</el_GR>
+    <en_US>Adobe Application Manager</en_US>
+    <es_ES>Adobe Application Manager</es_ES>
+    <et_EE>Adobe Application Manager</et_EE>
+    <fi_FI>Adobe Application Manager</fi_FI>
+    <fr_FR>Adobe Application Manager</fr_FR>
+    <he_IL>Adobe Application Manager</he_IL>
+    <hr_HR>Adobe Application Manager</hr_HR>
+    <hu_HU>Adobe Application Manager</hu_HU>
+    <it_IT>Adobe Application Manager</it_IT>
+    <ja_JP>Adobe Application Manager</ja_JP>
+    <ko_KR>Adobe Application Manager</ko_KR>
+    <lt_LT>Adobe Application Manager</lt_LT>
+    <lv_LV>Adobe Application Manager</lv_LV>
+    <nb_NO>Adobe Application Manager</nb_NO>
+    <nl_NL>Adobe Application Manager</nl_NL>
+    <pl_PL>Adobe Application Manager</pl_PL>
+    <pt_BR>Adobe Application Manager</pt_BR>
+    <ro_RO>Adobe Application Manager</ro_RO>
+    <ru_RU>Adobe Application Manager</ru_RU>
+    <sk_SK>Adobe Application Manager</sk_SK>
+    <sl_SI>Adobe Application Manager</sl_SI>
+    <sv_SE>Adobe Application Manager</sv_SE>
+    <tr_TR>Adobe Application Manager</tr_TR>
+    <uk_UA>Adobe Application Manager</uk_UA>
+    <zh_CN>Adobe Application Manager</zh_CN>
+    <zh_TW>Adobe Application Manager</zh_TW>
+  </DisplayName>
+  <Description default="en_US"><en_US>Required to keep Adobe applications up to date, includes Adobe Software Integrity Service</en_US>
+		<cs_CZ>Nezbytný nástroj k zajištění aktualizací pro aplikace Adobe. Součástí je služba Adobe Software Integrity Service</cs_CZ>
+		<da_DK>Påkrævet for at holde Adobe-programmer opdateret, omfatter Adobe Software Integrity Service</da_DK>
+		<de_DE>Erforderlich, um Adobe-Applikationen auf dem neuesten Stand zu halten. Umfasst Adobe Software Integrity Service</de_DE>
+		<es_ES>Necesario para mantener las aplicaciones de Adobe actualizadas. Incluye Adobe Software Integrity Service.</es_ES>
+		<es_MX>Necesario para mantener las aplicaciones de Adobe actualizadas. Incluye Adobe Software Integrity Service.</es_MX>
+		<fi_FI>Tarvitaan Adoben sovellusten pitämiseksi ajan tasalla, sisältää Adobe Software Integrity Servicen</fi_FI>
+		<fr_FR>Nécessaire pour garder les applications Adobe à jour, y compris Adobe Software Integrity Service</fr_FR>
+		<fr_CA>Nécessaire pour garder les applications Adobe à jour, y compris Adobe Software Integrity Service</fr_CA>
+		<it_IT>Richiesto per mantenere le applicazioni Adobe aggiornate. Comprende Adobe Software Integrity Service</it_IT>
+		<ja_JP>Adobe Software Integrity Service を含むアドビアプリケーションを最新の状態に保つ必要があります</ja_JP>
+		<ko_KR>Adobe 응용 프로그램을 최신 상태로 유지하기 위해 필요하며, Adobe Software Integrity Service를 포함합니다</ko_KR>
+		<nb_NO>Nødvendig for å holde Adobe-applikasjoner oppdatert, inkludert Adobe Software Integrity Service</nb_NO>
+		<nl_NL>Vereist om Adobe-toepassingen up-to-date te houden. Bevat Adobe Software Integrity Service</nl_NL>
+		<pl_PL>Wymagany do aktualizacji aplikacji Adobe. Zawiera usługę Adobe Software Integrity Service</pl_PL>
+		<pt_BR>Necessário para manter os aplicativos da Adobe atualizados, inclui o Adobe Software Integrity Service</pt_BR>
+		<ru_RU>Необходим для поддержки актуальности приложений Adobe. Включает службу Adobe Software Integrity Service.</ru_RU>
+		<sv_SE>Krävs för att hålla Adobe-program uppdaterade, inklusive Adobe Software Integrity Service</sv_SE>
+		<tr_TR>Adobe uygulamalarının güncel tutulması için gereklidir, Adobe Software Integrity Service'ı içerir</tr_TR>
+		<zh_CN>需要始终将 Adobe 应用程序保持为最新版本，包括 Adobe Software Integrity Service</zh_CN>
+		<zh_TW>必須讓 Adobe 應用程式保持最新狀態，包含 Adobe Software Integrity Service</zh_TW>
+  </Description>
+  <AffectedChannels><ChannelID>AdobeApplicationManager-1.0</ChannelID>
+  </AffectedChannels>
+	<InstallFiles><File><Name>setup.dmg</Name>
+			<Type>2</Type>
+     			<ExecutableName>Install.app/Contents/MacOS/Install</ExecutableName>
+			<SilentExecutableArgs>--action=update</SilentExecutableArgs>
+			<Size>76826629</Size>
+		</File>
+	</InstallFiles>
+	<NeedsReboot>false</NeedsReboot>
+<TargetBuildType>2</TargetBuildType></Manifest>

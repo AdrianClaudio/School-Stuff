@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<installinfo versionnum="11.5">
+  <firstrunfile name="ActiveXNames.txt" />
+  <firstrunfile name="Configuration_ReadMe.htm" />
+  <firstrunfile name="Extensions.txt" />
+  <firstrunfile name="FTPExtensionMap.txt" />
+  <firstrunfile name="FTPExtensionMapMac.txt" />
+  <firstrunfile name="IceIdList.txt" />
+  <firstrunfile name="version.xml" />
+  <firstrunfile name="CodeColoring\Colors.xml" />
+  <firstrunfile name="CodeHints\CMS\Drupal\variables.php" />
+  <firstrunfile name="CodeHints\CMS\Joomla\variables.php" />
+  <firstrunfile name="CodeHints\CMS\Wordpress\variables.php" />
+  <firstrunfile name="DocumentTypes\MMDocumentTypes.xml" />
+  <firstrunfile name="Menus\Custom Sets\active set.txt" />
+  <firstrunfile name="Queries\placeholder.txt" />
+  <firstrunfile name="Shared\Dinamico\Presets\_blank.xml" />
+  <firstrunfile name="Shared\Dinamico\Presets\Drupal.xml" />
+  <firstrunfile name="Shared\Dinamico\Presets\Joomla.xml" />
+  <firstrunfile name="Shared\Dinamico\Presets\WordPress.xml" />
+</installinfo>

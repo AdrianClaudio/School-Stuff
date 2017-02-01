@@ -1,0 +1,242 @@
+﻿<?xml version="1.0"?>
+<startpage version="2.0">
+	<layout>
+	<!-- list of the columns used -->
+		<column>
+			<!--can be one of recentitems, newitems or sampleitems-->
+			<recentitems max="10"/>
+		</column>
+		<column>
+			<!--can be one of recentitems, newitems or sampleitems-->
+			<newitems max="10"/>
+		</column>
+		<column>
+			<!--can be one of recentitems, newitems or sampleitems-->
+			<sampleitems max="7"/>
+			<extenditems max="0"/>
+		</column>
+	</layout>
+	
+	<strings>
+	<!-- list all strings used-->	
+		<!-- used for default content when no internet connection is detected -->
+		<productname>Dreamweaver</productname>
+		<nointernethead>Adobe® ^p® CS5.5</nointernethead>
+		<nointernetmain>Find the latest tips, podcasts, and more in Adobe® Bridge Home.</nointernetmain>
+
+		<!-- column 1: open -->
+		<openrecentitem>Open a Recent Item</openrecentitem>
+		<open>Open...</open>
+		
+		<!-- column 2: new -->
+		<createnew>Create New</createnew>
+		<newsite>Dreamweaver Site...</newsite>
+		<more>More...</more>
+		
+		<!-- column 3: templates and extend -->
+		<createfromtemplates>Top Features (videos)</createfromtemplates>
+		<extend>More...</extend>
+		
+		<!-- don't show again checkbox at the bottom-->
+		<dontshowagain>Don't show again</dontshowagain>
+		<checkboxalert>To turn the Welcome Screen on, choose Show Welcome Screen from the General category in the Preferences dialog.</checkboxalert>
+		
+		<!-- these are live urls on the screen-->
+		<exchange>Dreamweaver Exchange »</exchange>
+		<quicktour>Getting Started »</quicktour>
+		<tutorial>New Features »</tutorial>
+		<training>Resources »</training>
+		
+		<!-- used for issuing MMExecute JS commands and to indetify app in ActionScript-->
+		<appobject>dw</appobject>
+		
+		<!-- list of localizable weblinks -->
+		<urlexchange>https://www.adobe.com/go/dreamweaver_exchange</urlexchange>
+		<urlquicktour>https://www.adobe.com/go/learn_dw_gettingstarted</urlquicktour>
+		<urltutorial>https://www.adobe.com/go/learn_dw_whatsnew</urltutorial>
+		<urltraining>https://www.adobe.com/go/learn_dw_resources</urltraining>
+		<urlshim>https://www.adobe.com/startpage/dw.swf</urlshim>
+		<localshim>resources/defaultdynswf.swf</localshim>
+		
+		<!-- URLs for videos, which are localized by adding things like "_fr" to them -->
+    <videourl0>https://www.adobe.com/go/dw11.5_overview</videourl0>
+    <videourl1>https://www.adobe.com/go/dwcs5inspect_en</videourl1>
+    <videourl2>https://www.adobe.com/go/dwcs5css_en</videourl2>
+		<videourl3>https://www.adobe.com/go/dwcs5drf_en</videourl3>
+		<videourl4>https://www.adobe.com/go/dwcs5livenav_en</videourl4>
+		<videourl5>https://www.adobe.com/go/dwcs5browserlab_en</videourl5>
+		<videourl6>https://www.adobe.com/go/dw11morevideos</videourl6>
+		
+		<!-- video link strings -->
+    <topvideos0>CS5.5 Feature Overview</topvideos0>
+    <topvideos1>CSS Inspect Mode</topvideos1>
+    <topvideos2>CSS Enable/Disable</topvideos2>
+		<topvideos3>Dynamically Related Files</topvideos3>
+		<topvideos4>Live View Navigation</topvideos4>
+		<topvideos5>BrowserLab Integration</topvideos5>
+		
+	</strings>
+	
+	<resources>
+		<!-- list of image resources -->
+	    <icondoc>resources/images/appicondoc.png</icondoc>
+	    <!-- dont use appicondocsec.png since they are the same for now -->
+	    <icondocsecondary>resources/images/appicondoc.png</icondocsecondary>
+	    <iconfolder>resources/images/folder.png</iconfolder>
+		<iconapp>resources/images/icon_app.png</iconapp>
+		<iconappxl>resources/images/appicon_xl.png</iconappxl>
+	    <icondocsite>resources/images/siteicondoc.png</icondocsite>
+		<icondochelp>resources/images/icon_help.png</icondochelp>		
+		<exchangeicon>resources/images/appicon_exman.png</exchangeicon>
+		<helpdocicon>resources/images/icon_helpdoc.png</helpdocicon>
+		<buttonhover>resources/images/btn_hover.png</buttonhover>
+		<vsepline>resources/images/sep_v.png</vsepline>
+		<hsepline>resources/images/sep_h.png</hsepline>
+    <iconvideo0>resources/images/Thumb_CS55overview.png</iconvideo0>
+    <iconvideo1>resources/images/Thumb_CSSInspectMode.png</iconvideo1>
+    <iconvideo2>resources/images/Thumb_CSSIEnableDisable.png</iconvideo2> 
+	    <iconvideo3>resources/images/Thumb_DynamicallyRelatedFiles.png</iconvideo3> 
+	    <iconvideo4>resources/images/Thumb_LiveViewNavigation.png</iconvideo4> 
+	    <iconvideo5>resources/images/Thumb_BrowserLabIntegration.png</iconvideo5> 
+	</resources>
+	
+	<filetypes>
+		<!-- links extensions to images and names-->
+			<!-- fticon maps to a resource in the image resources list above-->
+		<type>
+			<ftextension>HTML</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>HTM</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>ColdFusion</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>CFM</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>PHP_MySQL</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>PHP</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>ASP-VB</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>ASP</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>ASP.NET_CSharp</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>ASPX</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>JavaScript</ftextension>
+			<fticon>icondocsecondary</fticon>
+		</type>
+		<type>
+			<ftextension>JS</ftextension>
+			<fticon>icondocsecondary</fticon>
+		</type>
+		<type>
+			<ftextension>XML</ftextension>
+			<fticon>icondocsecondary</fticon>
+		</type>
+		<type>
+			<ftextension>XSLT</ftextension>
+			<fticon>icondocsecondary</fticon>
+		</type>
+		<type>
+			<ftextension>XSL</ftextension>
+			<fticon>icondocsecondary</fticon>
+		</type>
+		<type>
+			<ftextension>CSS</ftextension>
+			<fticon>icondocsecondary</fticon>
+		</type>
+		<type>
+			<ftextension>Site</ftextension>
+			<fticon>icondocsite</fticon>
+		</type>
+	</filetypes>
+	
+	<dimensions>
+		<dialog>
+			<w>700</w><h>500</h>
+		</dialog>
+		<icon>
+			<w>16</w><h>16</h>
+		</icon>
+		<prodicon>
+			<w>48</w><h>48</h>
+		</prodicon>
+		<header>
+			<w>700</w><h>104</h>
+		</header>
+		<footer>
+			<w>700</w><h>24</h>
+		</footer>
+		<listarea>
+			<w>700</w><h>262</h>
+		</listarea>
+		<linksarea>
+			<w>700</w><h>110</h>
+		</linksarea>
+		<itemline>
+			<w>180</w><h>22</h>
+		</itemline>
+		<headline>
+			<w>180</w><h>27</h>
+		</headline>
+		<paddingoverall>
+			<w>16</w><h>15</h>
+		</paddingoverall>
+		<indentitemline>
+			<w>8</w><h>0</h>
+		</indentitemline>
+	</dimensions>
+	
+	<colors>
+		<cbackground>FFFFFF</cbackground>
+		<clinksarea>FFFFFF</clinksarea>
+		<cfooter>EEEEEE</cfooter>
+	</colors>
+	
+	<fonts>
+		<headline>
+			<name>Arial</name>
+			<size>13</size>
+			<bold>true</bold>
+			<italic>false</italic>
+			<!--1E364F-->
+			<color>555555</color>
+		</headline>
+		<itemline>
+			<name>Arial</name>
+			<size>11</size>
+			<bold>false</bold>
+			<italic>false</italic>
+			<color>000000</color>
+		</itemline>
+		<itemlineemph>
+			<name>Arial</name>
+			<size>11</size>
+			<bold>true</bold>
+			<italic>false</italic>
+			<color>000000</color>
+		</itemlineemph>
+	</fonts>
+</startpage>

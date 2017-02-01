@@ -1,0 +1,1 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/"><menuitem name="(No recent snippets)" file="Menus/MM/Recent_Snippets.htm" id="DWPopup_RecentSnippets" dynamic="true" /><separator /><menuitem name="Snippets Panel" command="dw.toggleFloater('snippets')" enabled="true" checked="dw.getFloaterVisibility('snippets')" id="DWPopup_OpenSnippetsPanel" />

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!-- THIS IS A TEMPLATE FILE WITH SAMPLE VALUES FILLED IN. PLEASE REVIEW AND UPDATE FOR YOUR INSTALLER -->
+  <!-- Its Schema is available here public/Common/xplat/schema/CSUManifest.xsd -->
+  <Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd" CSUVersion="1.0">    <UpdateID>5.5.3</UpdateID>
+
+    <OwningChannel><!-- Channel ID which owns this update -->AdobeExtensionManagerCS5.5-5.5</OwningChannel>
+<!-- One for each locale to be displayed in CS Updater-->
+  <DisplayName default="en_US">
+                    <en_US>Adobe Extension Manager CS5.5 Update</en_US>
+					<cs_CZ>Aktualizace správce rozšíření Adobe Extension Manager CS5.5</cs_CZ>
+					<da_DK>Adobe Extension Manager CS5.5 Opdatering</da_DK>
+					<de_DE>Update für Adobe Extension Manager CS5.5</de_DE>
+					<es_ES>Actualización de Adobe Extension Manager CS5.5</es_ES>
+					<fi_FI>Adobe Extension Manager CS5.5 -päivitys</fi_FI>
+					<fr_FR>Mise à jour d’Adobe Extension Manager CS5.5</fr_FR>
+					<hu_HU>Adobe Extension Manager CS5.5 – frissítés</hu_HU>
+					<it_IT>Aggiornamento di Adobe Extension Manager CS5.5</it_IT>
+					<ja_JP>Adobe Extension Manager CS5.5 アップデート</ja_JP>
+					<ko_KR>Adobe Extension Manager CS5.5 업데이트</ko_KR>
+					<nb_NO>Adobe Extension Manager CS5.5-oppdatering</nb_NO>
+					<nl_NL>Adobe Extension Manager CS5.5-update</nl_NL>
+					<pl_PL>Aktualizacja programu Adobe Extension Manager CS5.5</pl_PL>
+					<pt_BR>Atualização do Adobe Extension Manager CS5.5</pt_BR>
+					<ro_RO>Actualizare Adobe Extension Manager CS5.5</ro_RO>
+					<ru_RU>Обновление Adobe Extension Manager CS5.5</ru_RU>
+					<sv_SE>Adobe Extension Manager CS5.5-uppdatering</sv_SE>
+					<tr_TR>Adobe Extension Manager CS5.5 Güncelleştirmesi</tr_TR>
+					<uk_UA>Оновлення Adobe Extension Manager CS5.5</uk_UA>
+					<zh_CN>Adobe Extension Manager CS5.5 更新</zh_CN>
+					<zh_TW>Adobe Extension Manager CS5.5 更新</zh_TW>
+				</DisplayName>
+  <!-- One for each locale to be displayed in CS Updater-->
+  <Description default="en_US">
+                    <en_US>This update addresses a critical issue in Extension Manager that prevents InDesign extensions from being imported in OS X Mountain Lion (10.8).</en_US>
+					<cs_CZ>Tato aktualizace opravuje závažnou chybu v aplikaci Extension Manager, která v systému OS X Mountain Lion (10.8) brání v importu rozšíření aplikace InDesign.</cs_CZ>
+					<da_DK>Denne opdatering retter et kritisk problem i Extension Manager, som forhindrer InDesign-udvidelser i at blive importeret i OS X Mountain Lion (10.8).</da_DK>
+					<de_DE>Dieses Update behebt das kritische Problem in Extension Manager, das unter OS X Mountain Lion (10.8) ein Importieren von InDesign-Erweiterungen verhindert.</de_DE>
+					<es_ES>Esta actualización corrige un problema grave en Extension Manager que evita que las extensiones de InDesign se importen a OS X Mountain Lion (10.8).</es_ES>
+					<fi_FI>Tämä päivitys ratkaisee Extension Managerissa ilmenevän kriittisen ongelman, joka estää InDesign-laajennusten tuonnin OS X Mountain Lioniin (10.8).</fi_FI>
+					<fr_FR>Cette mise à jour est destinée à régler un problème majeur dans Extension Manager qui empêche l'importation des extensions InDesign dans OS X Mountain Lion (10.8).</fr_FR>
+					<hu_HU>Ez a frissítés egy kritikus hibát javít ki az Extension Manager programban, amely megakadályozza az InDesign-kiterjesztések importálását OS X Mountain Lion (10.8) rendszeren.</hu_HU>
+					<it_IT>Questo aggiornamento risolve un problema critico di Extension Manager che impedisce l'importazione delle estensioni di InDesign in OS X Mountain Lion (10.8).</it_IT>
+					<ja_JP>このアップデートは、InDesign の拡張機能が OS X Mountain Lion (10.8) に読み込まれるという Extension Manager の重要な問題に対応します。</ja_JP>
+					<ko_KR>이 업데이트는 Extension Manager에서 OS X Mountain Lion(10.8)으로 InDesign 확장을 가져오지 못하는 중요한 문제를 다룹니다.</ko_KR>
+					<nb_NO>Denne oppdateringen retter en kritisk feil i Extension Manager som hindrer InDesign-tilleggsmoduler i å bli importert i OS X Mountain Lion (10.8).</nb_NO>
+					<nl_NL>Deze update verhelpt een ernstig probleem in Extension Manager waardoor InDesign-extensies niet kunnen worden geïmporteerd in OS X Mountain Lion (10.8).</nl_NL>
+					<pl_PL>Ta aktualizacja rozwiązuje problem o znaczeniu krytycznym w programie Extension Manager, uniemożliwiający importowanie rozszerzeń programu InDesign w systemie OS X Mountain Lion (10.8).</pl_PL>
+					<pt_BR>Esta atualização corrige problemas críticos no Gerenciador de extensões que impedem a importação das extensões do InDesign para o X Mountain Lion (10.8).</pt_BR>
+					<ro_RO>Această actualizare soluţionează o problemă critică din Extension Manager care împiedică importul extensiilor InDesign în Mountain Lion OS X (10.8).</ro_RO>
+					<ru_RU>Данное обновление исправляет критическую неполадку Extension Manager, не позволяющую импортировать расширения InDesign в OS X Mountain Lion (10.8).</ru_RU>
+					<sv_SE>Den här uppdateringen åtgärdar ett kritiskt problem i Extension Manager som förhindrar att InDesign-tillägg importeras i OS X Mountain Lion (10.8).</sv_SE>
+					<tr_TR>Bu güncelleme Extension Manager'da bulunan ve InDesign uzantılarının OS X Mountain Lion (10.8) işletim sisteminde içe aktarılmasını engelleyen önemli bir soruna yöneliktir.</tr_TR>
+					<uk_UA>Це оновлення виправляє критичну помилку в Extension Manager, через яку неможливо імпортувати розширення InDesign в OS X Mountain Lion (10.8).</uk_UA>
+					<zh_CN>此更新解决了 Extension Manager 中的一个严重问题，该问题会导致无法在 OS X Mountain Lion (10.8) 中导入 InDesign 扩展。</zh_CN>
+					<zh_TW>此更新修正一個 Extension Manager 中的嚴重問題，這個問題會使 InDesign 擴充功能無法在 OS X Mountain Lion (10.8) 中匯入。</zh_TW>
+				</Description>
+  <AffectedChannels>
+    <!--Channel IDs which could get affected by this update.-->
+    <ChannelID>AdobeExtensionManagerCS5.5-5.5</ChannelID>
+  </AffectedChannels>
+  <InstallFiles>
+    <File RIBSBased="1">
+      <Name>Setup.dmg</Name>
+      <Type>2</Type>
+      <ExecutableName>AdobePatchInstaller.app</ExecutableName>
+      <Size>12822367</Size>
+      <CompareType name="OSPlatformLookup">
+        <TargetValue>10.8.0</TargetValue>
+        <Operator>GreaterOrEqual</Operator>
+      </CompareType>
+    </File>
+  </InstallFiles>
+  <NeedsReboot>false</NeedsReboot>
+</Manifest>

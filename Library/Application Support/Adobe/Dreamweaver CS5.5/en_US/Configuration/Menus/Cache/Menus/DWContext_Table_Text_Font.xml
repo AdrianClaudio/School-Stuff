@@ -1,0 +1,1 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/"><menuitem name="Default" file="Menus/MM/Text_FontFamilies.htm" id="DWContext_Table_Text_Font_Default" dynamic="true" /><separator /><menuitem name="_Edit Font List..." command="dw.editFontList()" enabled="true" id="DWContext_Table_Text_Font_EditFontList" />

@@ -1,0 +1,342 @@
+(function($) {
+	"use strict";
+	
+	$(document).ready(function() {
+		/*-----------------------------------------------------------------------------------*/
+		/*  Social Counter JS
+		/*-----------------------------------------------------------------------------------*/ 		
+		var $URL = crestaPermalink.thePermalink;
+		var $ismorezero = crestaPermalink.themorezero;
+		totalShares($URL);
+
+			function ReplaceNumberWithCommas(shareNumber) {
+				 if (shareNumber >= 1000000000) {
+					return (shareNumber / 1000000000).toFixed(1).replace(/\.0$/, '') + 'G';
+				 }
+				 if (shareNumber >= 1000000) {
+					return (shareNumber / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
+				 }
+				 if (shareNumber >= 1000) {
+					return (shareNumber / 1000).toFixed(1).replace(/\.0$/, '') + 'K';
+				 }
+				 return shareNumber;
+			}
+
+			if ( $('#stumbleupon-cresta').hasClass('stumbleupon-cresta-share') || $('#stumbleupon-cresta-c').hasClass('stumbleupon-cresta-share') ) {
+				// Stumbleupon Shares Count via PHP
+				var stumbleuponShares = crestaShareS.StumbleCount;
+				var stumbleuponvar = $('<span class="cresta-the-count-content" id="stumbleupon-count-content"></span>').text(ReplaceNumberWithCommas(stumbleuponShares));
+				if (stumbleuponShares > 0 || $ismorezero == 'nomore') {
+					$('.stumbleupon-cresta-share a').after(stumbleuponvar)
+				}
+				$('#total-shares, #total-shares-content').attr('data-stumbleuponShares', stumbleuponShares)
+			} else {
+				$('#total-shares, #total-shares-content').attr('data-stumbleuponShares', 0)
+			}
+			
+			
+			if ( $('#linkedin-cresta').hasClass('linkedin-cresta-share') || $('#linkedin-cresta-c').hasClass('linkedin-cresta-share') ) {
+				// Linkedin Shares Count via PHP
+				var LinkedinShares = crestaShareSS.LinkedinCount;
+				var linkedinvar = $('<span class="cresta-the-count-content" id="linkedin-count-content"></span>').text(ReplaceNumberWithCommas(LinkedinShares));
+				if (LinkedinShares > 0 || $ismorezero == 'nomore') {
+					$('.linkedin-cresta-share a').after(linkedinvar)
+				}
+				$('#total-shares, #total-shares-content').attr('data-linkedInShares', LinkedinShares)
+			} else {
+				$('#total-shares, #total-shares-content').attr('data-linkedInShares', 0)
+			}
+			
+			// Google Plus Shares Count
+			function googleplusShares($URL) {
+				if ( $('#googleplus-cresta').hasClass('googleplus-cresta-share') || $('#googleplus-cresta-c').hasClass('googleplus-cresta-share') ) {
+					var gplusRequest = [{
+						"method":"pos.plusones.get",
+						"id":"p",
+						"params":{
+							"nolog":true,
+							"id":$URL,
+							"source":"widget",
+							"userId":"@viewer",
+							"groupId":"@self"
+							},
+						"jsonrpc":"2.0",
+						"key":"p",
+						"apiVersion":"v1"
+					}];
+
+					$.ajax({
+						url: "https://clients6.google.com/rpc?key=AIzaSyCKSbrvQasunBoV16zDH9R33D88CeLr9gQ",
+						type: "POST",
+						data: JSON.stringify(gplusRequest),
+						contentType: "application/json; charset=utf-8",
+						dataType: "json",
+						timeout: 2500,
+						error: function(jqXHR, status, errorThrown){  
+							if ($ismorezero == 'nomore') {
+								$('.googleplus-cresta-share a').after('<span class="cresta-the-count-content" id="googleplus-count-content">0</span>')
+							}
+							$('#total-shares, #total-shares-content').attr('data-googleplusShares', 0)
+						},
+						success: function(googleplusSharess) {
+							var googleplusvar = $('<span class="cresta-the-count-content" id="googleplus-count-content"></span>').text(ReplaceNumberWithCommas(googleplusSharess[0].result.metadata.globalCounts.count));
+							if (googleplusSharess[0].result.metadata.globalCounts.count > 0 || $ismorezero == 'nomore') {
+								$('.googleplus-cresta-share a').after(googleplusvar)
+							}
+							$('#total-shares, #total-shares-content').attr('data-googleplusShares', googleplusSharess[0].result.metadata.globalCounts.count)
+						}
+					});
+				} else {
+					$('#total-shares, #total-shares-content').attr('data-googleplusShares', 0)
+				}
+			}
+				
+			// Facebook Shares Count
+			function facebookShares($URL) {
+				if ( $('#facebook-cresta').hasClass('facebook-cresta-share') || $('#facebook-cresta-c').hasClass('facebook-cresta-share') ) {
+					$.getJSON('https://graph.facebook.com/?id=' + $URL, function (fbdata) {
+						var facebookvar = $('<span class="cresta-the-count-content" id="facebook-count-content"></span>').text(ReplaceNumberWithCommas(fbdata.share.share_count || 0));
+						if (fbdata.share.share_count > 0 || $ismorezero == 'nomore') {
+							$('.facebook-cresta-share a').after(facebookvar)
+						}
+						$('#total-shares, #total-shares-content').attr('data-facebookShares', fbdata.share.share_count || 0)
+					});
+				} else {
+					$('#total-shares, #total-shares-content').attr('data-facebookShares', 0)
+				}
+			}
+			
+			// Twitter Shares Count
+			function twitterShares($URL) {
+				if ( $('#twitter-cresta').hasClass('twitter-cresta-share') && $('#twitter-cresta').hasClass('withCount') || $('#twitter-cresta-c').hasClass('twitter-cresta-share') && $('#twitter-cresta-c').hasClass('withCount') ) {
+					$.getJSON('https://public.newsharecounts.com/count.json?url=' + $URL + '&callback=?', function (twitterdata) {
+						var twittervar = $('<span class="cresta-the-count-content" id="twitter-count-content"></span>').text(ReplaceNumberWithCommas(twitterdata.count));
+						if (twitterdata.count > 0 || $ismorezero == 'nomore') {
+							$('.twitter-cresta-share a').after(twittervar)
+						}
+						$('#total-shares, #total-shares-content').attr('data-twitterShares', twitterdata.count)
+					});
+				} else {
+					$('#total-shares, #total-shares-content').attr('data-twitterShares', 0)
+				}
+			}
+			/*
+			// LinkedIn Shares Count
+			function linkedInShares($URL) {
+				if ( $('#linkedin-cresta').hasClass('linkedin-cresta-share') || $('#linkedin-cresta-c').hasClass('linkedin-cresta-share') ) {
+					$.ajax({
+						url: "https://www.linkedin.com/countserv/count/share?url=" + $URL + "&callback=?",
+						type: "GET",
+						dataType: "json",
+						timeout: 2500,
+						error: function(jqXHR, status, errorThrown){  
+							if ($ismorezero == 'nomore') {
+								$('.linkedin-cresta-share a').after('<span class="cresta-the-count-content" id="linkedin-count-content">0</span>')
+							}
+							$('#total-shares, #total-shares-content').attr('data-linkedInShares', 0)
+						},
+						success: function (linkedindata) {
+							var linkedinvar = $('<span class="cresta-the-count-content" id="linkedin-count-content"></span>').text(ReplaceNumberWithCommas(linkedindata.count));
+							if (linkedindata.count > 0 || $ismorezero == 'nomore') {
+								$('.linkedin-cresta-share a').after(linkedinvar)
+							}
+							$('#total-shares, #total-shares-content').attr('data-linkedInShares', linkedindata.count)
+						}
+					});	
+				} else {
+					$('#total-shares, #total-shares-content').attr('data-linkedInShares', 0)
+				}
+			}
+			*/
+			
+			// Pinterest Shares Count
+			function pinterestShares($URL) {
+				if ( $('#pinterest-cresta').hasClass('pinterest-cresta-share') || $('#pinterest-cresta-c').hasClass('pinterest-cresta-share') ) {
+					$.getJSON('https://api.pinterest.com/v1/urls/count.json?url=' + $URL + '&callback=?', function (pindata) {
+						var pinterestvar = $('<span class="cresta-the-count-content" id="pinterest-count-content"></span>').text(ReplaceNumberWithCommas(pindata.count));
+						if (pindata.count > 0 || $ismorezero == 'nomore') {
+							$('.pinterest-cresta-share a').after(pinterestvar)
+						}
+						$('#total-shares, #total-shares-content').attr('data-pinterestShares', pindata.count)
+					});
+				} else {
+					$('#total-shares, #total-shares-content').attr('data-pinterestShares', 0)
+				}
+			}
+			
+			// Vkontakte Shares Count
+			function vkShares($URL) {
+				if ( $('#vk-cresta').hasClass('vk-cresta-share') || $('#vk-cresta-c').hasClass('vk-cresta-share') ) {
+					if (!window.VK) window.VK = {};
+                        if (!VK.Share) {
+                            VK.Share = {
+                                count: function (index, count) {
+									var vkvar = $('<span class="cresta-the-count-content" id="vk-count-content"></span>').text(ReplaceNumberWithCommas(count));
+									if (count > 0 || $ismorezero == 'nomore') {
+										$('.vk-cresta-share a').after(vkvar)
+									}
+									$('#total-shares, #total-shares-content').attr('data-vkShares', count)
+                                }
+                            };
+                        }
+					$.getJSON('https://vk.com/share.php?act=count&index=1&url=' + $URL + '&format=json&callback=?',null);
+				} else {
+					$('#total-shares, #total-shares-content').attr('data-vkShares', 0)
+				}
+			}
+			
+			// Buffer Shares Count
+			function bufferShares($URL) {
+				if ( $('#buffer-cresta').hasClass('buffer-cresta-share') || $('#buffer-cresta-c').hasClass('buffer-cresta-share') ) {
+					$.getJSON('https://api.bufferapp.com/1/links/shares.json?url=' + $URL + '&callback=?', function (bufferdata) {
+						var buffervar = $('<span class="cresta-the-count-content" id="buffer-count-content"></span>').text(ReplaceNumberWithCommas(bufferdata.shares));
+						if (bufferdata.shares > 0 || $ismorezero == 'nomore') {
+							$('.buffer-cresta-share a').after(buffervar)
+						}
+						$('#total-shares, #total-shares-content').attr('data-bufferShares', bufferdata.shares)
+					});
+				} else {
+					$('#total-shares, #total-shares-content').attr('data-bufferShares', 0)
+				}
+			}
+			
+			// Reddit Shares Count
+			function redditShares($URL) {
+				if ( $('#reddit-cresta').hasClass('reddit-cresta-share') || $('#reddit-cresta-c').hasClass('reddit-cresta-share') ) {
+					$.getJSON('https://www.reddit.com/api/info.json?url=' + $URL, function (redditdata) {
+						if ($(redditdata.data.children[0]).length) {
+							var reddfirst_child = redditdata.data.children[0].data.score;
+						} else {
+							var reddfirst_child = 0;
+						}
+						var redditvar = $('<span class="cresta-the-count-content" id="reddit-count-content"></span>').text(ReplaceNumberWithCommas(reddfirst_child));
+						if (reddfirst_child > 0 || $ismorezero == 'nomore') {
+							$('.reddit-cresta-share a').after(redditvar)
+						}
+						$('#total-shares, #total-shares-content').attr('data-redditShares', reddfirst_child)
+					});
+				} else {
+					$('#total-shares, #total-shares-content').attr('data-redditShares', 0)
+				}
+			}
+			
+			// OK.ru Shares Count
+			function okShares($URL) {
+				if ( $('#ok-cresta').hasClass('ok-cresta-share') || $('#ok-cresta-c').hasClass('ok-cresta-share') ) {
+						if (!window.ODKL) window.ODKL = {};
+                            window.ODKL.updateCount = function(idx, number) {
+								var okvar = $('<span class="cresta-the-count-content" id="ok-count-content"></span>').text(ReplaceNumberWithCommas(number));
+								if (number > 0 || $ismorezero == 'nomore') {
+									$('.ok-cresta-share a').after(okvar)
+								}
+								$('#total-shares, #total-shares-content').attr('data-okShares', number)
+                            };
+						$.getJSON('https://connect.ok.ru/dk?st.cmd=extLike&uid=odklcnt0&ref=' + $URL + '&callback=?',null);
+				} else {
+					$('#total-shares, #total-shares-content').attr('data-okShares', 0)
+				}
+			}
+			
+			// Xing Shares Count
+			function xingShares($URL) {
+				if ( $('#xing-cresta').hasClass('xing-cresta-share') || $('#xing-cresta-c').hasClass('xing-cresta-share') ) {
+						$.getJSON('https://query.yahooapis.com/v1/public/yql?q='+ encodeURIComponent('select * from html where url="https://www.xing-share.com/app/share?op=get_share_button;counter=top;url=' + $URL + '" and xpath="*"') + '&format=json&callback=?', function(xingdata) {
+							var xingvar = $('<span class="cresta-the-count-content" id="xing-count-content"></span>').text(ReplaceNumberWithCommas(xingdata.query.results.html.body.div[0].div[0].span.content));
+							if (xingdata.query.results.html.body.div[0].div[0].span.content > 0 || $ismorezero == 'nomore') {
+								$('.xing-cresta-share a').after(xingvar)
+							}
+							$('#total-shares, #total-shares-content').attr('data-xingShares', xingdata.query.results.html.body.div[0].div[0].span.content)
+						});
+				} else {
+					$('#total-shares, #total-shares-content').attr('data-xingShares', 0)
+				}
+			}
+
+			// Check if all JSON calls are finished or not
+			function checkJSON_getSum() {
+				if ($('#total-shares, #total-shares-content').attr('data-facebookShares') != undefined && $('#total-shares, #total-shares-content').attr('data-twitterShares') != undefined &&
+				$('#total-shares, #total-shares-content').attr('data-linkedinShares') != undefined && $('#total-shares, #total-shares-content').attr('data-pinterestShares') != undefined &&
+				$('#total-shares, #total-shares-content').attr('data-stumbleuponShares') != undefined && $('#total-shares, #total-shares-content').attr('data-vkShares') != undefined &&
+				$('#total-shares, #total-shares-content').attr('data-bufferShares') != undefined && $('#total-shares, #total-shares-content').attr('data-googleplusShares') != undefined &&
+				$('#total-shares, #total-shares-content').attr('data-redditShares') != undefined && $('#total-shares, #total-shares-content').attr('data-okShares') != undefined &&
+				$('#total-shares, #total-shares-content').attr('data-xingShares') != undefined) {
+					if ( $('#facebook-cresta').hasClass('facebook-cresta-share') || $('#facebook-cresta-c').hasClass('facebook-cresta-share')) {
+						var fbShares = parseInt($('#total-shares, #total-shares-content').attr('data-facebookShares'));
+					} else {
+						var fbShares = 0;
+					}
+					if ( $('#twitter-cresta').hasClass('twitter-cresta-share') && $('#twitter-cresta').hasClass('withCount') || $('#twitter-cresta-c').hasClass('twitter-cresta-share') && $('#twitter-cresta-c').hasClass('withCount') ) {
+						var twitShares = parseInt($('#total-shares, #total-shares-content').attr('data-twitterShares'));
+					} else {
+						var twitShares = 0;
+					}
+					if ( $('#linkedin-cresta').hasClass('linkedin-cresta-share') || $('#linkedin-cresta-c').hasClass('linkedin-cresta-share')) {
+						var linkedInShares = parseInt($('#total-shares, #total-shares-content').attr('data-linkedinShares'));
+					} else {
+						var linkedInShares = 0;
+					}
+					if ( $('#pinterest-cresta').hasClass('pinterest-cresta-share') || $('#pinterest-cresta-c').hasClass('pinterest-cresta-share')) {
+						var pinterestShares = parseInt($('#total-shares, #total-shares-content').attr('data-pinterestShares'));
+					} else {
+						var pinterestShares = 0;
+					}
+					if ( $('#stumbleupon-cresta').hasClass('stumbleupon-cresta-share') || $('#stumbleupon-cresta-c').hasClass('stumbleupon-cresta-share')) {
+						var stumbleuponShares = parseInt($('#total-shares, #total-shares-content').attr('data-stumbleuponShares'));
+					} else {
+						var stumbleuponShares = 0;
+					}
+					if ( $('#vk-cresta').hasClass('vk-cresta-share') || $('#vk-cresta-c').hasClass('vk-cresta-share')) {
+						var vkShares = parseInt($('#total-shares, #total-shares-content').attr('data-vkShares'));
+					} else {
+						var vkShares = 0;
+					}
+					if ( $('#buffer-cresta').hasClass('buffer-cresta-share') || $('#buffer-cresta-c').hasClass('buffer-cresta-share')) {
+						var bufferShares = parseInt($('#total-shares, #total-shares-content').attr('data-bufferShares'));
+					} else {
+						var bufferShares = 0;
+					}
+					if ( $('#googleplus-cresta').hasClass('googleplus-cresta-share') || $('#googleplus-cresta-c').hasClass('googleplus-cresta-share')) {
+						var googleplusShares = parseInt($('#total-shares, #total-shares-content').attr('data-googleplusShares'));
+					} else {
+						var googleplusShares = 0;
+					}
+					if ( $('#reddit-cresta').hasClass('reddit-cresta-share') || $('#reddit-cresta-c').hasClass('reddit-cresta-share')) {
+						var redditShares = parseInt($('#total-shares, #total-shares-content').attr('data-redditShares'));
+					} else {
+						var redditShares = 0;
+					}
+					if ( $('#ok-cresta').hasClass('ok-cresta-share') || $('#ok-cresta-c').hasClass('ok-cresta-share')) {
+						var okShares = parseInt($('#total-shares, #total-shares-content').attr('data-okShares'));
+					} else {
+						var okShares = 0;
+					}
+					if ( $('#xing-cresta').hasClass('xing-cresta-share') || $('#xing-cresta-c').hasClass('xing-cresta-share')) {
+						var xingShares = parseInt($('#total-shares, #total-shares-content').attr('data-xingShares'));
+					} else {
+						var xingShares = 0;
+					}
+				} else {
+					setTimeout(function () {
+						checkJSON_getSum();
+					}, 200);
+				}
+				var totalShares = fbShares + linkedInShares + pinterestShares + googleplusShares + stumbleuponShares + vkShares + bufferShares + redditShares + okShares + xingShares + twitShares;
+				$('#total-count, #total-count-content').text( ReplaceNumberWithCommas(totalShares) || 0 )
+			}
+
+			function totalShares($URL) {
+				//linkedInShares($URL);
+				twitterShares($URL);
+				facebookShares($URL);
+				googleplusShares($URL);
+				pinterestShares($URL);
+				vkShares($URL);
+				bufferShares($URL);
+				redditShares($URL);
+				okShares($URL);
+				xingShares($URL);
+				checkJSON_getSum();
+			}
+	});
+	
+})(jQuery);

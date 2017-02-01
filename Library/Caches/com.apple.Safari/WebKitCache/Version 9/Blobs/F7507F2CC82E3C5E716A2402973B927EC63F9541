@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config type="Object">
+	<paths type="Object">
+		<player type="String">/wp-content/themes/infowars-sitegoals/vendor/amp.premier/</player>
+		<resources type="String">/wp-content/themes/infowars-sitegoals/vendor/amp.resources/</resources>
+	</paths>
+	<resources type="Array">
+		<resource type="Object">
+			<src type="String">#{paths.player}amp.premier.css</src>
+			<type type="String">text/css</type>
+		</resource>
+	</resources>
+	<autoplay type="Boolean">true</autoplay>
+	<feed type="Object">
+		<enabled type="Boolean">false</enabled>
+		<url type="String">#{paths.resources}feeds/vod-feed.json</url>
+	</feed>
+	<target type="String">_blank</target>
+	<fullscreen type="Object">
+		<enabled type="Boolean">true</enabled>
+		<native type="Boolean">false</native>
+	</fullscreen>
+	<controls type="Object"></controls>
+	<volumepanel type="Object">
+		<direction type="String">vertical</direction>
+	</volumepanel>
+	<captioning type="Object"></captioning>
+	<playoverlay type="Object"></playoverlay>
+	<share type="Object"></share>
+	<flash type="Object">
+		<swf type="String">#{paths.player}AkamaiPremierPlayer.swf</swf>
+		<debug type="String">#{paths.player}AkamaiPremierPlayer-debug.swf</debug>
+		<expressInstallSWF type="String">#{paths.player}playerProductInstall.swf</expressInstallSWF>
+		<static type="Object">
+			<enabled type="Boolean">false</enabled>
+			<swf type="String">#{paths.player}AkamaiPremierPlayer-static.swf</swf>
+			<debug type="String">#{paths.player}AkamaiPremierPlayer-static-debug.swf</debug>
+		<plugins type="Array"><plugin type="Object"><src type="String">http://players.edgesuite.net/flash/plugins/osmf/advanced-streaming-plugin/v3.6/osmf2.0/AkamaiAdvancedStreamingPlugin.swf</src><absolute type="String">true</absolute><host type="String">osmf</host><id type="String">AkamaiAdvancedStreamingPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">com.akamai.playeranalytics.osmf.OSMFCSMALoaderInfo</src><host type="String">osmf</host><id type="String">OSMFCSMALoader</id><type type="String">static</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/CaptioningPlugin.swf</src><blocking type="String">false</blocking><host type="String">osmf</host><id type="String">CaptioningPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/onCaptionInfoPlugin.swf</src><host type="String">osmf</host><id type="String">OSMFCCDecoderPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/CaptionSettingsPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">CaptionSettingsPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/GoogleIMAPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">GoogleIMAPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/IMAOverlayAdPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">IMAOverlayAdPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/FreewheelPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">FreewheelPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/VideoMetricsViewPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">VideoMetricsViewPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/VideoStatsInfoOverlayPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">VideoStatsInfoOverlayPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/ComscorePlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">ComscorePlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/ComscoreStreamSensePlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">ComscoreStreamSensePlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/NielsenPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">NielsenPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/NielsenSDKPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">NielsenSDKPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/OmniturePlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">OmniturePlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/RecommendationsPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">RecommendationsPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/ErrorMessagingPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">ErrorMessagingPlugin</id><type type="String">dynamic</type></plugin></plugins></static>
+	<plugins type="Array"><plugin type="Object"><src type="String">http://players.edgesuite.net/flash/plugins/osmf/advanced-streaming-plugin/v3.6/osmf2.0/AkamaiAdvancedStreamingPlugin.swf</src><absolute type="String">true</absolute><host type="String">osmf</host><id type="String">AkamaiAdvancedStreamingPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">com.akamai.playeranalytics.osmf.OSMFCSMALoaderInfo</src><host type="String">osmf</host><id type="String">OSMFCSMALoader</id><type type="String">static</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/CaptioningPlugin.swf</src><blocking type="String">false</blocking><host type="String">osmf</host><id type="String">CaptioningPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/onCaptionInfoPlugin.swf</src><host type="String">osmf</host><id type="String">OSMFCCDecoderPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/CaptionSettingsPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">CaptionSettingsPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/GoogleIMAPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">GoogleIMAPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/IMAOverlayAdPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">IMAOverlayAdPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/FreewheelPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">FreewheelPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/VideoMetricsViewPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">VideoMetricsViewPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/VideoStatsInfoOverlayPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">VideoStatsInfoOverlayPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/ComscorePlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">ComscorePlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/ComscoreStreamSensePlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">ComscoreStreamSensePlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/NielsenPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">NielsenPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/NielsenSDKPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">NielsenSDKPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/OmniturePlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">OmniturePlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/RecommendationsPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">RecommendationsPlugin</id><type type="String">dynamic</type></plugin><plugin type="Object"><src type="String">#{paths.resources}plugins/ErrorMessagingPlugin.swf</src><blocking type="String">false</blocking><host type="String">akamai</host><id type="String">ErrorMessagingPlugin</id><type type="String">dynamic</type></plugin></plugins><xml><![CDATA[<?xml version="1.0" encoding="UTF-8"?><application><player ad_control_enabled="true" ad_server_timeout="20" auto_play="true" auto_play_list="false" branding_preload="none" core_ads_enabled="false" core_player_name="amp-premier-player" domain="akamai.com" embed_domain="aep.com" eventmanagementstates_enabled="false" eventmanagementstates_status_interval="5" eventmanagementstates_status_url="../resources/eventmanagement/playerstate.txt" external_target="_blank" hds_fragment_retry_data_gap_threshold="20" locale_setting="en" next_video_timer="15" recommendations_partner="mrss" scale_view_to_fit="true" show_feature_bar="false" subply_time_method="encoder" use_last_known_bitrate="false" video_id="4168856" volume=".5"></player><view skin="#{paths.player}premier.assets.swf"><element id="infoOverlay" style="top: 0px;"></element><element id="recommendationSlate" items="5" viewMode="grid"></element><element id="adOptions" style="backgroundColor: 'rgba(0, 0, 0, 1)'"><element id="adChoices" target="http://www.akamai.com/"></element><element id="adCountdown"></element><element id="adCount"></element></element><element id="captionDisplay" initState="cookie" position="relative" settingsEnabled="true" style="bottom: 0px; windowColor:0x000000; windowOpacity:0; font:Arial; fontColor:0xffffff; fontOpacity:1; fontBGColor:0x000000; fontBGOpacity:0; edgeType:none; edgeColor:0x000000; edgeOpacity:1; scroll:popOut; fontSize:12;"></element><element id="logoOverlay" style="width: 71px; height: 14px; right: 15px; top: 15px; opacity: 0.5;"></element><element height="28" id="controls" itemMargin="5" scrubPosition="inline"><element id="replayBtn"></element><element id="playPauseBtn"></element><element exclude="live" id="streamTimeIndicator"><element id="streamTime"></element><element id="streamDuration"></element></element><element id="rewindBtn"></element><element id="scrubBar" style="height: 18px;"></element><element id="progressBar" style="background: linear-gradient(90deg, #FF0000, #1B1B1B);"></element><element id="loadedBar" style="background: linear-gradient(90deg, #00FF00, #1B1B1B);"></element><element id="liveIndicator"></element><element id="timeLocationIndicator"></element><element id="goLiveBtn"></element><element id="shareBtn"></element><element id="captionBtn"></element><element id="statsBtn"></element><element id="hdClientBtn"></element><element id="chromecastBtn"></element><element color="#CA2127" id="volumeBar"></element><element id="volumeBtn"></element><element id="fullscreenBtn"></element></element><element enabled="true" hideElements="brandingLogo|viewAll" id="endSlate"></element><element id="replayView"></element><element id="bufferingView"></element></view></application>]]></xml></flash>
+	<chromecast type="Object">
+		<messageBus type="String">urn:x-cast:com.akamai.amp.cast</messageBus>
+		<resources type="Array">
+			<resource type="Object">
+				<type type="String">text/javascript</type>
+				<src type="String">//www.gstatic.com/cv/js/sender/v1/cast_sender.js</src>
+			</resource>
+		</resources>
+		<sender type="Object">
+			<!-- chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID -->
+			<applicationID type="String">CC1AD845</applicationID>
+		</sender>
+	</chromecast>
+	<logo type="String"></logo>
+	<branding type="Object">
+		<title type="String"></title>
+		<link type="String"></link>
+		<logo type="String"></logo>
+	</branding>
+	<autoadvance type="Object">
+		<interval type="Number">10</interval>
+	</autoadvance>
+	<recommendations type="Object">
+		<url type="String">#{paths.resources}feeds/recommendations.xml</url>
+		<target type="String">_top</target>
+	</recommendations>
+	<recommendationsgrid type="Object">
+		<enabled type="Boolean">false</enabled>
+		<url type="String">#{paths.resources}feeds/recommendations.xml</url>
+		<target type="String">_top</target>
+	</recommendationsgrid>
+	<outbrain type="Object">
+		<enabled type="Boolean">false</enabled>
+		<url type="String">http://odb.outbrain.com/utils/get</url>
+		<apiKey type="String">AKAMAI2011</apiKey>
+		<jsWidgetId type="String">AR_2</jsWidgetId>
+	</outbrain>
+	<nielsensdk type="Object">
+		<enabled type="Boolean">false</enabled>
+		<resources type="Array">
+			<resource type="Object">
+				<type type="String">text/javascript</type>
+				<src type="String">http://secure-us.imrworldwide.com/novms/js/2/ggcmb400.js</src>
+			</resource>
+		</resources>
+		<data type="Object">
+			<apid type="String">TF8C657A0-BD7E-41A8-968B-C54365021262</apid>
+			<sfcode type="String">uat-cert</sfcode>
+			<apn type="String">Akamai Media Player</apn>
+		</data>
+		<events type="Object">
+			<video type="Array">
+				<event type="Object">
+					<type type="String">started</type>
+					<data type="Object">
+						<censusCategory type="String">#{media.category}</censusCategory>
+						<category type="String">#{media.category}</category>
+						<episodeTitle type="String">#{media.title}</episodeTitle>
+						<videoType type="String">content</videoType>
+						<length type="String">#{media.duration}</length>
+						<assetId type="String">#{media.guid}</assetId>
+						<dprFlag type="String">false</dprFlag>
+					</data>
+				</event>
+				<event type="Object">
+					<type type="String">resume</type>
+					<data type="Object">
+						<censusCategory type="String">#{media.category}</censusCategory>
+						<category type="String">#{media.category}</category>
+						<episodeTitle type="String">#{media.title}</episodeTitle>
+						<videoType type="String">content</videoType>
+						<length type="String">#{media.duration}</length>
+						<assetId type="String">#{media.guid}</assetId>
+						<dprFlag type="String">false</dprFlag>
+					</data>
+				</event>
+			</video>
+		</events>
+	</nielsensdk>
+	<nielsen type="Object">
+		<enabled type="Boolean">false</enabled>
+		<url type="String">http://secure-us.imrworldwide.com/cgi-bin/m</url>
+		<data type="Object">
+			<ci type="String">us-000000</ci>
+			<c6 type="String">c01</c6>
+			<cg type="String"></cg>
+			<tl type="String">dav0 - #{media.title}</tl>
+		</data>
+		<events type="Object">
+			<video type="Array">
+				<event type="Object">
+					<type type="String">started</type>
+				</event>
+				<event type="Object">
+					<type type="String">ended</type>
+					<data type="Object">
+						<tl type="String">dav2 - #{media.title}</tl>
+					</data>
+				</event>
+			</video>
+		</events>
+	</nielsen>
+	<comscore type="Object">
+		<url type="String">http://b.scorecardresearch.com/b</url>
+		<data type="Object">
+			<c1 type="String">1</c1>
+			<c2 type="String">9013181</c2>
+			<c3 type="String"></c3>
+			<c4 type="String"></c4>
+			<c5 type="String">02</c5>
+			<c6 type="String"></c6>
+			<c7 type="String"></c7>
+			<c8 type="String"></c8>
+			<c9 type="String"></c9>
+			<c10 type="String"></c10>
+			<c14 type="String"></c14>
+		</data>
+		<events type="Object">
+			<ads type="Array">
+				<event type="Object">
+					<type type="String">started</type>
+					<data type="Object">
+						<c5 type="String">09</c5>
+					</data>
+				</event>
+			</ads>
+			<video type="Array">
+				<event type="Object">
+					<type type="String">started</type>
+					<data type="Object">
+						<c5 type="String">02</c5>
+					</data>
+				</event>
+			</video>
+		</events>
+	</comscore>
+	<comscorestreamsense type="Object">
+		<enabled type="Boolean">false</enabled>
+		<resources type="Array">
+			<resource type="Object">
+				<type type="String">text/javascript</type>
+				<src type="String">#{paths.resources}js/streamsense.4.1412.05.min.js</src>
+			</resource>
+		</resources>
+		<data type="Object">
+			<clientId type="String">0000000</clientId>
+			<publisherSecret type="String">publisherSecretId</publisherSecret>
+			<appVersion type="String">0000000</appVersion>
+			<metadata type="Object">
+				<ns_st_ci type="String">#{media.guid}</ns_st_ci>
+				<c3 type="String">*null</c3>
+				<c4 type="String">*null</c4>
+				<c6 type="String">*null</c6>
+				<cb2 type="String">*null</cb2>
+				<cb3 type="String">*null</cb3>
+				<cb4 type="String">*null</cb4>
+				<cb6 type="String">*null</cb6>
+			</metadata>
+		</data>
+	</comscorestreamsense>
+	<omniture type="Object">
+		<enabled type="Boolean">false</enabled>
+		<resources type="Array">
+			<resource type="Object">
+				<type type="String">text/javascript</type>
+				<src type="String">#{paths.resources}js/AppMeasurement.js</src>
+			</resource>
+			<resource type="Object">
+				<type type="String">text/javascript</type>
+				<src type="String">#{paths.resources}js/VideoHeartbeat.min.js</src>
+			</resource>
+			<resource type="Object">
+				<type type="String">text/javascript</type>
+				<src type="String">#{paths.resources}js/AdobeAnalyticsPlugin.min.js</src>
+			</resource>
+		</resources>
+		<heartbeat type="Object">
+			<enabled type="Boolean">false</enabled>
+			<trackingServer type="String">heartbeats.omtrdc.net</trackingServer>
+			<publisher type="String">PUBLISHER_ID</publisher>
+			<channel type="String">sample-channel</channel>
+			<ovp type="String">sample-ovp</ovp>
+			<sdk type="String">sample-sdk</sdk>
+		</heartbeat>
+		<visitor type="Object">
+			<marketingCloudOrgId type="String">sample-id</marketingCloudOrgId>
+			<trackingServer type="String">sample.com</trackingServer>
+		</visitor>
+		<main>omni</main>
+		<account type="String">customer</account>
+		<playerName type="String">Player</playerName>
+		<debugTracking type="Boolean">false</debugTracking>
+		<autoTrack type="Boolean">false</autoTrack>
+		<trackLocal type="Boolean">false</trackLocal>
+		<trackingServer type="String">customer</trackingServer>
+		<trackingServerSecure type="String">customer</trackingServerSecure>
+		<trackWhilePlaying type="Boolean">false</trackWhilePlaying>
+		<visitorNamespace type="String">customer</visitorNamespace>
+		<currencyCode type="String">USD</currencyCode>
+		<Media type="Object">
+			<trackVars type="String">prop14,prop15,prop51,prop53,eVar27</trackVars>
+			<trackEvents type="String">event21,event22,event23,event24,event37</trackEvents>
+			<trackSecondIntervals type="String">60:300,300</trackSecondIntervals>
+			<trackMilestones type="Array">
+				<milestone type="Object">
+					<percent type="Number">25</percent>
+					<events type="String">event21</events>
+				</milestone>
+				<milestone type="Object">
+					<percent type="Number">50</percent>
+					<events type="String">event22</events>
+				</milestone>
+				<milestone type="Object">
+					<percent type="Number">75</percent>
+					<events type="String">event23</events>
+				</milestone>
+				<milestone type="Object">
+					<percent type="Number">100</percent>
+					<events type="String">event24</events>
+				</milestone>
+			</trackMilestones>
+			<segmentByMilestones type="Boolean">true</segmentByMilestones>
+			<trackUsingContextData type="Boolean">false</trackUsingContextData>
+			<contextDataMapping type="Object">
+				<a.media.name type="String">eVar19,prop14</a.media.name>
+				<a.media.segment type="String">eVar24</a.media.segment>
+				<a.contentType type="String">eVar61</a.contentType>
+				<a.media.timePlayed type="String">event16</a.media.timePlayed>
+				<a.media.view type="String">event37</a.media.view>
+				<a.media.segmentView type="String">event36</a.media.segmentView>
+				<a.media.complete type="String">event24</a.media.complete>
+				<a.media.milestones type="Array">
+					<milestone type="Object">
+						<percent type="Number">25</percent>
+						<events type="String">event21</events>
+					</milestone>
+					<milestone type="Object">
+						<percent type="Number">50</percent>
+						<events type="String">event22</events>
+					</milestone>
+					<milestone type="Object">
+						<percent type="Number">75</percent>
+						<events type="String">event23</events>
+					</milestone>
+				</a.media.milestones>
+			</contextDataMapping>
+		</Media>
+		<customLinkTracking type="Object">
+			<videoStart type="Object">
+				<linkName>video start</linkName>
+				<events>event4</events>
+				<eVar3>vidShow:vidSeason:vidTitle:vidFormat</eVar3>
+				<eVar15>vidType</eVar15>
+				<eVar28>vidPlaylist or vidSort</eVar28>
+				<eVar30>vidFormat</eVar30>
+				<eVar31>FSID</eVar31>
+				<eVar32>vidSource</eVar32>
+				<eVar33>vidNetworkName</eVar33>
+				<eVar34>vidPlayerID</eVar34>
+				<eVar36>vidID</eVar36>
+				<eVar41>vidTitle | vidTotalTime</eVar41>
+				<eVar47>vidShow</eVar47>
+				<eVar48>vidSeason</eVar48>
+				<eVar49>vidEpisodeNumber</eVar49>
+				<eVar50>vidEmbeddedHost</eVar50>
+				<eVar60>vidMVDP</eVar60>
+				<eVar61>vidContentSubscriptionType</eVar61>
+				<eVar62>vidSportsType</eVar62>
+				<eVar63>vidHomeClub</eVar63>
+				<eVar64>vidVisitingClub</eVar64>
+				<prop3>D=v3</prop3>
+				<prop15>D=v15</prop15>
+				<prop28>D=v28</prop28>
+				<prop30>D=v30</prop30>
+				<prop31>D=v31</prop31>
+				<prop32>D=v32</prop32>
+				<prop33>D=v33</prop33>
+				<prop34>D=v34</prop34>
+				<prop36>D=v36</prop36>
+				<prop41>D=v41</prop41>
+				<prop47>D=v47</prop47>
+				<prop48>D=v48</prop48>
+				<prop49>D=v49</prop49>
+				<prop50>D=v50</prop50>
+				<prop56>D=v56</prop56>
+				<prop60>D=v60</prop60>
+				<prop61>D=v61</prop61>
+				<prop62>D=v62</prop62>
+				<prop63>D=v63</prop63>
+				<prop64>D=v64</prop64>
+			</videoStart>
+			<videoComplete type="Object">
+				<linkName>video complete</linkName>
+				<events>event5,event72</events>
+				<eVar3>vidShow:vidSeason:vidTitle:vidFormat</eVar3>
+				<eVar15>vidType</eVar15>
+				<eVar28>vidPlaylist or vidSort</eVar28>
+				<eVar30>vidFormat</eVar30>
+				<eVar31>FSID</eVar31>
+				<eVar32>vidSource</eVar32>
+				<eVar33>vidNetworkName</eVar33>
+				<eVar34>vidPlayerID</eVar34>
+				<eVar36>vidID</eVar36>
+				<eVar41>vidTitle | vidTotalTime</eVar41>
+				<eVar47>vidShow</eVar47>
+				<eVar48>vidSeason</eVar48>
+				<eVar49>vidEpisodeNumber</eVar49>
+				<eVar50>vidEmbeddedHost</eVar50>
+				<eVar60>vidMVDP</eVar60>
+				<eVar61>vidContentSubscriptionType</eVar61>
+				<eVar62>vidSportsType</eVar62>
+				<eVar63>vidHomeClub</eVar63>
+				<eVar64>vidVisitingClub</eVar64>
+			</videoComplete>
+			<videoPause type="Object">
+				<linkName>video pause</linkName>
+				<events>event72</events>
+				<eVar3>vidShow:vidSeason:vidTitle:vidFormat</eVar3>
+				<eVar15>vidType</eVar15>
+				<eVar28>vidPlaylist or vidSort</eVar28>
+				<eVar30>vidFormat</eVar30>
+				<eVar31>FSID</eVar31>
+				<eVar32>vidSource</eVar32>
+				<eVar33>vidNetworkName</eVar33>
+				<eVar34>vidPlayerID</eVar34>
+				<eVar36>vidID</eVar36>
+				<eVar41>vidTitle | vidTotalTime</eVar41>
+				<eVar47>vidShow</eVar47>
+				<eVar48>vidSeason</eVar48>
+				<eVar49>vidEpisodeNumber</eVar49>
+				<eVar50>vidEmbeddedHost</eVar50>
+				<eVar60>vidMVDP</eVar60>
+				<eVar61>vidContentSubscriptionType</eVar61>
+				<eVar62>vidSportsType</eVar62>
+				<eVar63>vidHomeClub</eVar63>
+				<eVar64>vidVisitingClub</eVar64>
+			</videoPause>
+			<adStart type="Object">
+				<linkName>ad start</linkName>
+				<events>event6</events>
+				<eVar3>vidShow:vidSeason:vidTitle:vidFormat</eVar3>
+				<eVar15>vidType</eVar15>
+				<eVar28>vidPlaylist or vidSort</eVar28>
+				<eVar30>vidFormat</eVar30>
+				<eVar31>FSID</eVar31>
+				<eVar32>vidSource</eVar32>
+				<eVar33>vidNetworkName</eVar33>
+				<eVar34>vidPlayerID</eVar34>
+				<eVar36>vidID</eVar36>
+				<eVar41>vidTitle | vidTotalTime</eVar41>
+				<eVar47>vidShow</eVar47>
+				<eVar48>vidSeason</eVar48>
+				<eVar49>vidEpisodeNumber</eVar49>
+				<eVar50>vidEmbeddedHost</eVar50>
+				<eVar60>vidMVDP</eVar60>
+				<eVar61>vidContentSubscriptionType</eVar61>
+				<eVar62>vidSportsType</eVar62>
+				<eVar63>vidHomeClub</eVar63>
+				<eVar64>vidVisitingClub</eVar64>
+				<eVar29>vidAdvertiser</eVar29>
+				<eVar57>vidAdvertisementTitle</eVar57>
+				<eVar58>vidAdvertisementType</eVar58>
+				<eVar46>vidAdvertisementPositionInPod</eVar46>
+				<prop29>vidAdvertiser</prop29>
+				<prop57>vidAdvertisementTitle</prop57>
+				<prop58>vidAdvertisementPodPosition</prop58>
+				<prop46>vidAdvertisementPositionInPod</prop46>
+			</adStart>
+			<adComplete type="Object">
+				<linkName>ad complete</linkName>
+				<events>event7</events>
+				<eVar3>vidShow:vidSeason:vidTitle:vidFormat</eVar3>
+				<eVar15>vidType</eVar15>
+				<eVar28>vidPlaylist or vidSort</eVar28>
+				<eVar30>vidFormat</eVar30>
+				<eVar31>FSID</eVar31>
+				<eVar32>vidSource</eVar32>
+				<eVar33>vidNetworkName</eVar33>
+				<eVar34>vidPlayerID</eVar34>
+				<eVar36>vidID</eVar36>
+				<eVar41>vidTitle | vidTotalTime</eVar41>
+				<eVar47>vidShow</eVar47>
+				<eVar48>vidSeason</eVar48>
+				<eVar49>vidEpisodeNumber</eVar49>
+				<eVar50>vidEmbeddedHost</eVar50>
+				<eVar60>vidMVDP</eVar60>
+				<eVar61>vidContentSubscriptionType</eVar61>
+				<eVar62>vidSportsType</eVar62>
+				<eVar63>vidHomeClub</eVar63>
+				<eVar64>vidVisitingClub</eVar64>
+				<eVar29>vidAdvertiser</eVar29>
+				<eVar57>vidAdvertisementTitle</eVar57>
+				<eVar58>vidAdvertisementPodPosition</eVar58>
+				<eVar46>vidAdvertisementPositionInPod</eVar46>
+			</adComplete>
+			<intervalReached type="Array">
+				<intervals type="Object">
+					<interval>60</interval>
+					<linkName>video 1 min segment</linkName>
+					<events>event77,event72</events>
+					<eVar3>vidShow:vidSeason:vidTitle:vidFormat</eVar3>
+					<eVar15>vidType</eVar15>
+					<eVar28>vidPlaylist or vidSort</eVar28>
+					<eVar30>vidFormat</eVar30>
+					<eVar31>FSID</eVar31>
+					<eVar32>vidSource</eVar32>
+					<eVar33>vidNetworkName</eVar33>
+					<eVar34>vidPlayerID</eVar34>
+					<eVar36>vidID</eVar36>
+					<eVar41>vidTitle | vidTotalTime</eVar41>
+					<eVar47>vidShow</eVar47>
+					<eVar48>vidSeason</eVar48>
+					<eVar49>vidEpisodeNumber</eVar49>
+					<eVar50>vidEmbeddedHost</eVar50>
+					<eVar60>vidMVDP</eVar60>
+					<eVar61>vidContentSubscriptionType</eVar61>
+					<eVar62>vidSportsType</eVar62>
+					<eVar63>vidHomeClub</eVar63>
+					<eVar64>vidVisitingClub</eVar64>
+					<eVar29>vidAdvertiser</eVar29>
+					<eVar57>vidAdvertisementTitle</eVar57>
+					<eVar58>vidAdvertisementPodPosition</eVar58>
+					<eVar46>vidAdvertisementPositionInPod</eVar46>
+				</intervals>
+				<intervals type="Object">
+					<interval>300</interval>
+					<linkName>video 5 min segment</linkName>
+					<events>event78,event72</events>
+					<eVar3>vidShow:vidSeason:vidTitle:vidFormat</eVar3>
+					<eVar15>vidType</eVar15>
+					<eVar28>vidPlaylist or vidSort</eVar28>
+					<eVar30>vidFormat</eVar30>
+					<eVar31>FSID</eVar31>
+					<eVar32>vidSource</eVar32>
+					<eVar33>vidNetworkName</eVar33>
+					<eVar34>vidPlayerID</eVar34>
+					<eVar36>vidID</eVar36>
+					<eVar41>vidTitle | vidTotalTime</eVar41>
+					<eVar47>vidShow</eVar47>
+					<eVar48>vidSeason</eVar48>
+					<eVar49>vidEpisodeNumber</eVar49>
+					<eVar50>vidEmbeddedHost</eVar50>
+					<eVar60>vidMVDP</eVar60>
+					<eVar61>vidContentSubscriptionType</eVar61>
+					<eVar62>vidSportsType</eVar62>
+					<eVar63>vidHomeClub</eVar63>
+					<eVar64>vidVisitingClub</eVar64>
+					<eVar29>vidAdvertiser</eVar29>
+					<eVar57>vidAdvertisementTitle</eVar57>
+					<eVar58>vidAdvertisementPodPosition</eVar58>
+					<eVar46>vidAdvertisementPositionInPod</eVar46>
+				</intervals>
+			</intervalReached>
+		</customLinkTracking>
+		<events type="Object">
+			<video type="Array">
+				<event type="Object">
+				<type type="String">started</type>
+				<data type="Object">
+					<events type="String">event37</events>
+					<prop14 type="String">Esquire: #{media.title}</prop14>
+					<prop15 type="String">Esquire</prop15>
+					<prop51 type="String">#{media.link}</prop51>
+					<prop53 type="String">VDO: Esquire: #{media.itle}</prop53>
+					<eVar27 type="String">#{player.name}</eVar27>
+				</data>
+				</event>
+			</video>
+		</events>
+	</omniture>
+	<freewheel type="Object">
+		<enabled type="Boolean">false</enabled>
+		<resources type="Array">
+			<resource type="Object">
+				<type type="String">text/javascript</type>
+				<src type="String">http://adm.fwmrm.net/p/vitest-js/AdManager.js</src>
+			</resource>
+		</resources>
+		<plugin type="Object">
+			<swf type="String">http://adm.fwmrm.net/p/vitest-as3/AdManager.swf?logLevel=VERBOSE</swf>
+		</plugin>
+		<networkId type="Number">96749</networkId>
+		<serverUrl type="String">http://demo.v.fwmrm.net/ad/g/1</serverUrl>
+		<profileId type="String">global-js</profileId>
+		<siteSectionId type="String">DemoSiteGroup.01</siteSectionId>
+		<videoAssetId type="String">DemoVideoGroup.01</videoAssetId>
+		<prerollSlotId type="String">Preroll_1</prerollSlotId>
+		<midrollSlotId type="String">Midroll_1</midrollSlotId>
+		<postrollSlotId type="String">Postroll_1</postrollSlotId>
+		<!--<renderers type="Array">
+			<renderer type="Object">
+				<url type="String">akamai.amp.freewheel.ChromeCastRenderer.js</url>
+				<baseUnit type="String">video</baseUnit>
+				<contentType type="String">application/x-mpegURL</contentType>
+				<slotType type="String">preroll,midroll,postroll</slotType>
+			</renderer>
+	</renderers>-->
+	</freewheel>
+	<ima type="Object">
+		<resources type="Array">
+			<resource type="Object">
+				<type type="String">text/javascript</type>
+				<src type="String">http://imasdk.googleapis.com/js/sdkloader/ima3.js</src>
+			</resource>
+		</resources>
+		<enabled type="Boolean">false</enabled>
+		<version type="Number">3</version>
+		<!--//imasdk.googleapis.com/js/sdkloader/ima3.js-->
+		<!--//imasdk.googleapis.com/js/sdkloader/ima3_debug.js-->
+		<adTagUrl type="String"><![CDATA[http://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/6062/iab_vast_samples/skippable&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]]]></adTagUrl>
+		<disableCompanionAds type="Boolean">false</disableCompanionAds>
+		<ppid type="String">ABCDE123456789012345678901234567</ppid>
+		<vpaidAllowed type="Boolean">false</vpaidAllowed>
+		<companions type="Array">
+			<companion type="Object">
+				<id type="String">companion-container</id>
+				<width type="Number">300</width>
+				<height type="Number">250</height>
+			</companion>
+		</companions>
+	</ima>
+	<dash type="Object">
+		<resources type="Array">
+			<resource type="Object">
+				<type type="String">text/javascript</type>
+				<src type="String">//dashif.org/reference/players/javascript/1.4.0/dist/dash.all.js</src>
+			</resource>
+		</resources>
+		<buffer type="Number">1</buffer>
+	</dash>
+	<auditude type="Object">
+		<enabled type="Boolean">false</enabled>
+		<resources type="Array">
+			<resource type="Object">
+				<type type="String">text/javascript</type>
+				<src type="String">http://adunit.cdn.auditude.com/player/js/lib/plugin/1.3/aud.html5player.js</src>
+			</resource>
+		</resources>
+		<videoId type="String">default_asset</videoId>
+		<defaultId type="String">default_asset</defaultId>
+		<domain type="String">auditude.com</domain>
+		<zoneId type="Number">9797</zoneId>
+		<prerollId type="String">pre_</prerollId>
+		<midrollId type="String">mid_</midrollId>
+		<version type="String">1.0</version>
+		<audienceManagerURL type="String"></audienceManagerURL>
+		<companions type="Array">
+			<companion type="Object">
+				<id type="String">companion-container</id>
+				<width type="Number">300</width>
+				<height type="Number">250</height>
+			</companion>
+		</companions>
+		<userData type="Object">
+		</userData>
+	</auditude>
+	<mediaanalytics type="Object">
+		<resources type="Array">
+			<resource type="Object">
+				<type type="String">text/javascript</type>
+				<src type="String">http://79423.analytics.edgesuite.net/html5/akamaihtml5-min.js</src>
+			</resource>
+		</resources>
+		<plugin type="Object">
+			<swf type="String">http://79423.analytics.edgesuite.net/csma/plugin/csma.swf</swf>
+		</plugin>
+		<config type="String">http://ma1-r.analytics.edgesuite.net/config/beacon-3018.xml?setVideoObject=1</config>
+		<dimensions type="Object">
+			<title type="String">#{media.title}</title>
+			<playerId type="String">#{player.mode} Player</playerId>
+		</dimensions>
+	</mediaanalytics>
+	<locales type="Object">
+		<en type="Object">
+			<MSG_TIME_SEPARATOR> / </MSG_TIME_SEPARATOR>
+			<MSG_EMAIL_TO>To</MSG_EMAIL_TO>
+			<MSG_EMAIL_FROM>From</MSG_EMAIL_FROM>
+			<MSG_EMAIL_VIDEO>Email this video</MSG_EMAIL_VIDEO>
+			<MSG_EMAIL_MESSAGE_DEFAULT>Check out this video from xxx</MSG_EMAIL_MESSAGE_DEFAULT>
+			<MSG_EMAIL_MESSAGE>Message</MSG_EMAIL_MESSAGE>
+			<MSG_EMAIL_ADDRESS_INVALID>Invalid Email Address</MSG_EMAIL_ADDRESS_INVALID>
+			<MSG_EMAIL_MESSAGE_INVALID>Please limit your message to 500 characters or less.</MSG_EMAIL_MESSAGE_INVALID>
+			<MSG_EMAIL_CHARACTERS_REMAINING_TEXT> characters left</MSG_EMAIL_CHARACTERS_REMAINING_TEXT>
+			<MSG_EMAIL_SEND_FAILURE>Message could not be sent.</MSG_EMAIL_SEND_FAILURE>
+			<MSG_EMAIL_SEND_SUCCESS_MESSAGE>Your email has been sent!</MSG_EMAIL_SEND_SUCCESS_MESSAGE>
+			<MSG_SHARE_VIDEO_TEXT>Share this video...</MSG_SHARE_VIDEO_TEXT>
+			<MSG_POST_TEXT>Post</MSG_POST_TEXT>
+			<MSG_EMBED_TEXT>Embed</MSG_EMBED_TEXT>
+			<MSG_LINK_TEXT>Link</MSG_LINK_TEXT>
+			<MSG_SHARE_CONNECT_FAILURE>Unable to connect. Please try again.</MSG_SHARE_CONNECT_FAILURE>
+			<MSG_SHARE_CONTENT_DISABLED>Share and embed are disabled.</MSG_SHARE_CONTENT_DISABLED>
+			<MSG_VERSION_TEXT>Version</MSG_VERSION_TEXT>
+			<MSG_BUFFERING_TEXT>buffering</MSG_BUFFERING_TEXT>
+			<MSG_CUSTOMIZE_CLIP_POINTS>Customize the start and end point of the video.</MSG_CUSTOMIZE_CLIP_POINTS>
+			<MSG_PAUSE>Pause</MSG_PAUSE>
+			<MSG_PREVIEW>Preview</MSG_PREVIEW>
+			<MSG_CURRENT>Currrent</MSG_CURRENT>
+			<MSG_SEEK_TO>Seek to</MSG_SEEK_TO>
+			<MSG_LIVE>LIVE</MSG_LIVE>
+			<MSG_DEFAULT_ERROR_MESSAGE>Sorry, we were unable to play the media you selected. Please try again, or select alternate media.</MSG_DEFAULT_ERROR_MESSAGE>
+			<MSG_ERROR_PREFIX>Error encountered:</MSG_ERROR_PREFIX>
+			<MSG_STREAM_NOT_FOUND>Stream not found</MSG_STREAM_NOT_FOUND>
+			<MSG_CURRENT_WORKING_BANDWIDTH>Current working bandwidth</MSG_CURRENT_WORKING_BANDWIDTH>
+			<MSG_CURRENT_BITRATE_PLAYING>Current bitrate playing</MSG_CURRENT_BITRATE_PLAYING>
+			<MSG_MAX_BITRATE_AVAILABLE>Max bitrate available</MSG_MAX_BITRATE_AVAILABLE>
+			<MSG_NOT_AVAILABLE>Not Available</MSG_NOT_AVAILABLE>
+			<MSG_GO_LIVE>GO LIVE</MSG_GO_LIVE>
+			<MSG_REPLAY>Replay</MSG_REPLAY>
+			<MSG_NEXT_VIDEO>Next video starts in: </MSG_NEXT_VIDEO>
+			<MSG_RECOMMENDED>Recommended</MSG_RECOMMENDED>
+			<MSG_VIEW_ALL>View all </MSG_VIEW_ALL>
+			<MSG_VIDEO> videos</MSG_VIDEO>
+			<MSG_CC>CC</MSG_CC>
+			<MSG_CC_TITLE>Caption</MSG_CC_TITLE>
+			<MSG_CC_LANGUAGE>Track :</MSG_CC_LANGUAGE>
+			<MSG_CC_PRESETS>Presets :</MSG_CC_PRESETS>
+			<MSG_CC_FONT>Font :</MSG_CC_FONT>
+			<MSG_CC_EDGE>Edge :</MSG_CC_EDGE>
+			<MSG_CC_SIZE>Size :</MSG_CC_SIZE>
+			<MSG_CC_SCROLL>Scroll :</MSG_CC_SCROLL>
+			<MSG_CC_COLOR>Color :</MSG_CC_COLOR>
+			<MSG_CC_BACKGROUND>Background :</MSG_CC_BACKGROUND>
+			<MSG_CC_EDGE>Edge :</MSG_CC_EDGE>
+			<MSG_CC_WINDOW>Window :</MSG_CC_WINDOW>
+			<MSG_CC_OPACITY>Opacity :</MSG_CC_OPACITY>
+			<MSG_CC_SHOW_ADVANCED>Show Advanced Settings</MSG_CC_SHOW_ADVANCED>
+			<MSG_CC_HIDE_ADVANCED>Hide Advanced Settings</MSG_CC_HIDE_ADVANCED>
+			<MSG_NEXT_VIDEO>Video starts in: </MSG_NEXT_VIDEO>
+			<MSG_NEXT_AD>Next ad starts in: </MSG_NEXT_AD>
+			<!--<MSG_AD_POSITION_1> </MSG_AD_POSITION_1>
+			<MSG_AD_POSITION_2> </MSG_AD_POSITION_2>
+			<MSG_AD_COUNT> </MSG_AD_COUNT>-->
+			<MSG_CC_RESET>Default</MSG_CC_RESET>
+			<MSG_CC_CANCEL>Cancel</MSG_CC_CANCEL>
+			<MSG_CC_APPLY>Apply</MSG_CC_APPLY>
+			<MSG_EN>English</MSG_EN>
+			<MSG_ES>Spanish</MSG_ES>
+			<MSG_DE>German</MSG_DE>
+			<MSG_FR>French</MSG_FR>
+			<MSG_IT>Italian</MSG_IT>
+			<MSG_RU>Russian</MSG_RU>
+			<MSG_ZH>Chinese</MSG_ZH>
+			<MSG_CHROMECAST_MESSAGE>Video playing on another screen</MSG_CHROMECAST_MESSAGE>
+			<MSG_RETRY_MESSAGE>Content not yet available, retrying in</MSG_RETRY_MESSAGE>
+			<MSG_SECONDS>seconds</MSG_SECONDS>
+			<MSG_RETRY_FAILED>Retry failed</MSG_RETRY_FAILED>
+			<MSG_RECOMMENDATIONS_TITLE>Recommended</MSG_RECOMMENDATIONS_TITLE>
+		</en>
+		<es type="Object">
+			<MSG_TIME_SEPARATOR> / </MSG_TIME_SEPARATOR>
+			<MSG_EMAIL_TO>a</MSG_EMAIL_TO>
+			<MSG_EMAIL_FROM>de</MSG_EMAIL_FROM>
+			<MSG_EMAIL_VIDEO>Enviar este vídeo</MSG_EMAIL_VIDEO>
+			<MSG_EMAIL_MESSAGE_DEFAULT>Echa un vistazo a este video de xxx</MSG_EMAIL_MESSAGE_DEFAULT>
+			<MSG_EMAIL_MESSAGE>mensaje</MSG_EMAIL_MESSAGE>
+			<MSG_EMAIL_ADDRESS_INVALID>Dirección de correo electrónico no válida</MSG_EMAIL_ADDRESS_INVALID>
+			<MSG_EMAIL_MESSAGE_INVALID>Por favor limite su mensaje a 500 caracteres o menos.</MSG_EMAIL_MESSAGE_INVALID>
+			<MSG_EMAIL_CHARACTERS_REMAINING_TEXT>personajes de la izquierda</MSG_EMAIL_CHARACTERS_REMAINING_TEXT>
+			<MSG_EMAIL_SEND_FAILURE>El mensaje no pudo ser enviado.</MSG_EMAIL_SEND_FAILURE>
+			<MSG_EMAIL_SEND_SUCCESS_MESSAGE>Tu email ha sido enviado!</MSG_EMAIL_SEND_SUCCESS_MESSAGE>
+			<MSG_SHARE_VIDEO_TEXT>Comparte este vídeo...</MSG_SHARE_VIDEO_TEXT>
+			<MSG_POST_TEXT>enviar</MSG_POST_TEXT>
+			<MSG_EMBED_TEXT>incrustar</MSG_EMBED_TEXT>
+			<MSG_LINK_TEXT>enlace</MSG_LINK_TEXT>
+			<MSG_SHARE_CONNECT_FAILURE>No se puede conectar. Por favor, inténtelo de nuevo.</MSG_SHARE_CONNECT_FAILURE>
+			<MSG_SHARE_CONTENT_DISABLED>Compartir e incrustar están desactivados.</MSG_SHARE_CONTENT_DISABLED>
+			<MSG_VERSION_TEXT>versión</MSG_VERSION_TEXT>
+			<MSG_BUFFERING_TEXT>el almacenamiento en búfer</MSG_BUFFERING_TEXT>
+			<MSG_CUSTOMIZE_CLIP_POINTS>Personalizar el inicio y el punto final del video.</MSG_CUSTOMIZE_CLIP_POINTS>
+			<MSG_PAUSE>romper</MSG_PAUSE>
+			<MSG_PREVIEW>vista previa</MSG_PREVIEW>
+			<MSG_CURRENT>corriente</MSG_CURRENT>
+			<MSG_SEEK_TO>Tratar de</MSG_SEEK_TO>
+			<MSG_LIVE>EN VIVO</MSG_LIVE>
+			<MSG_DEFAULT_ERROR_MESSAGE>Lo sentimos, no hemos podido jugar los medios de comunicación seleccionados. Por favor, inténtelo de nuevo, o seleccionar los medios de comunicación alternativos.</MSG_DEFAULT_ERROR_MESSAGE>
+			<MSG_ERROR_PREFIX>Se produjo un error:</MSG_ERROR_PREFIX>
+			<MSG_STREAM_NOT_FOUND>Stream que no se encuentra</MSG_STREAM_NOT_FOUND>
+			<MSG_CURRENT_WORKING_BANDWIDTH>Ancho de banda actual de trabajo</MSG_CURRENT_WORKING_BANDWIDTH>
+			<MSG_CURRENT_BITRATE_PLAYING>Tasa de bits de reproducción actual</MSG_CURRENT_BITRATE_PLAYING>
+			<MSG_MAX_BITRATE_AVAILABLE>Tasa de bits máxima disponible</MSG_MAX_BITRATE_AVAILABLE>
+			<MSG_NOT_AVAILABLE>No está disponible</MSG_NOT_AVAILABLE>
+			<MSG_GO_LIVE>IR A VIVIR</MSG_GO_LIVE>
+			<MSG_REPLAY>Repetir</MSG_REPLAY>
+			<MSG_NEXT_VIDEO>El próximo video comienza en: </MSG_NEXT_VIDEO>
+			<MSG_RECOMMENDED>Recomendado</MSG_RECOMMENDED>
+			<MSG_CC>CC</MSG_CC>
+			<MSG_VIEW_ALL>ver todo </MSG_VIEW_ALL>
+			<MSG_VIDEO> vídeos.</MSG_VIDEO>
+			<MSG_EN>Inglés</MSG_EN>
+			<MSG_ES>Español</MSG_ES>
+			<MSG_DE>Alemán</MSG_DE>
+			<MSG_FR>Francés</MSG_FR>
+			<MSG_IT>Italiano</MSG_IT>
+			<MSG_RU>Ruso</MSG_RU>
+			<MSG_ZH>Chino</MSG_ZH>
+			<MSG_RETRY_MESSAGE>Content not yet available, retrying in</MSG_RETRY_MESSAGE>
+			<MSG_SECONDS>seconds</MSG_SECONDS>
+			<MSG_RETRY_FAILED>Retry failed</MSG_RETRY_FAILED>
+			<MSG_RECOMMENDATIONS_TITLE>Recomendado</MSG_RECOMMENDATIONS_TITLE>
+		</es>
+	</locales>
+</config>

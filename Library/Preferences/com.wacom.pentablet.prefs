@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root type="map">
+  <CPLLastApp type="integer">0</CPLLastApp>
+  <CPLLastPosition type="map">
+    <X type="integer">-1</X>
+    <Y type="integer">-1</Y>
+    <Z type="integer">0</Z>
+  </CPLLastPosition>
+  <CPLLastTabPane type="integer">0</CPLLastTabPane>
+  <CPLOpened type="string">Tue Aug 23 11:30:50 2016</CPLOpened>
+  <DisplayAsserts type="bool">false</DisplayAsserts>
+  <DisplayBrightness type="integer">6</DisplayBrightness>
+  <DriverOn1Off0 type="bool">true</DriverOn1Off0>
+  <ImportFileVersion type="integer">5</ImportFileVersion>
+  <LeftHandedMouse type="bool">false</LeftHandedMouse>
+  <NoStartWarnings type="integer">0</NoStartWarnings>
+  <OSInterface type="map">
+    <ApplicationMap type="map">
+      <AppID0 type="map">
+        <ApplicationLongName type="string"/>
+        <ApplicationName type="string">All Applications</ApplicationName>
+        <ApplicationSecondaryId type="string"/>
+      </AppID0>
+    </ApplicationMap>
+    <ClickSound type="bool">false</ClickSound>
+    <ShowOSFeedback type="bool">true</ShowOSFeedback>
+  </OSInterface>
+  <ShowSystemTrayIcon type="bool">true</ShowSystemTrayIcon>
+  <SideSwitchPressAndTap type="bool">false</SideSwitchPressAndTap>
+  <TabletArray type="array"/>
+  <TabletAwareApplicationInterface type="map">
+    <NormalizedMaxPressure type="integer">32767</NormalizedMaxPressure>
+  </TabletAwareApplicationInterface>
+  <WindowsInterface type="map">
+    <OnScreenInterface type="map">
+      <Panels type="array"/>
+    </OnScreenInterface>
+    <ScreenMacroInterface type="map">
+      <PopUpFontName type="string"/>
+      <PopUpFontSize type="integer">12</PopUpFontSize>
+      <PopUpUseAppMenu type="bool">false</PopUpUseAppMenu>
+      <RadialUseCenterRightClick type="bool">false</RadialUseCenterRightClick>
+    </ScreenMacroInterface>
+  </WindowsInterface>
+</root>
